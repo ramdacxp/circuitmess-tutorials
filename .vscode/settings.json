@@ -5,5 +5,8 @@
   "spellright.documentTypes": [
     "markdown",
     "plaintext"
-  ]
+  ],
+  "markdownlint.config": {
+    "MD026": false
+  }
 }

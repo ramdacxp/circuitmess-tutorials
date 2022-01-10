@@ -238,7 +238,7 @@ Für den Zusammenbau reicht ein einfacher Lötkolben aus.
 
 Wenn du allerdings vorhast, in die Welt der Heimwerkerprojekte einzutauchen, solltest du dir einen teureren Lötkolben mit mehr Funktionen zulegen.
 
-**Außerdem brauchst du einen Lötkolbenständer** und eine kleine Rolle mit kolophoniumhaltigem Lot bzw. Lötzinn.
+**Außerdem brauchst du einen Lötkolbenständer** und eine kleine Rolle mit Kolophonium haltigem Lot bzw. Lötzinn.
 
 ![Lötkolben](images/iron.png)
 
@@ -269,7 +269,7 @@ Hier sind die Links (englisch):
 * [Sparkfuns Video-Tutorial zum Löten](https://www.youtube.com/watch?v=f95i88OSWB4) - Ein weiteres gut gemachtes Video-Tutorial zum Thema Löten.
 * [Sparkfuns Standard Soldering Tutorial](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering) - Ein detailliertes Tutorial von Sparkfun.
 
-![Anlösten des Schalters](images/iron-bob.jpg)
+![Anlöten des Schalters](images/iron-bob.jpg)
 
 Hier ist ein großartiges Bild von Adafruit Industries, das dir beim Löten helfen kann (danke Adafruit!):
 
@@ -298,7 +298,7 @@ Dies sind die Regeln für das Löten, die Sie jedes Mal befolgen sollten:
 * **Lass keine Lot-Rests auf der Platine!**
   Das Lötzinn sollte sich nur auf den Teilen befinden, an denen die Stifte mit der Platine verbunden sind. Halte den Rest der Platine sauber!
 
-**Bitte lies dir diese Regeln jetzt noch ein paar Mal durch, damit du sie niocht vergisst!**
+**Bitte lies dir diese Regeln jetzt noch ein paar Mal durch, damit du sie nicht vergisst!**
 
 Wenn du diese Regeln befolgst, sollte das Löten für dich ein Kinderspiel sein.
 
@@ -333,3 +333,6 @@ Damit stellst du sicher, dass deine Unterlage oder die Platine nicht verbrennen.
 Achte darauf, nach dem Ausschalten die Spitze des Lötkolbens mindestens fünf Minuten lang nicht zu berühren.
 
 ![Schritt 3 - Ausschalten](images/step3.png)
+
+### Lass uns BOB zusammenbauen!
+
