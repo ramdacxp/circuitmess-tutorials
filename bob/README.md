@@ -171,3 +171,55 @@ Schalter werden in fast jedem elektronischen Gerät verwendet. Man findet sie in
 
 ![Schalter](images/switch.jpg)
 
+#### 6. Leuchtdioden (3mm RGB-LEDs) mit eingebautem Farbwechselchip
+
+Das Beste an BOB sind die RGB-LEDs, die ihm einen einzigartigen Look verleihen. Sobald du ihn einschaltest, leuchtet er in verschiedenen Farben.
+
+##### Was bewirken LEDs?
+
+LED steht für **Licht emittierende Dioden**.
+LEDs wandeln elektrische Energie in sichtbares Licht um.
+
+Dies ist ein elektronisches Symbol für eine Leuchtdiode:
+
+![Symbol einer LED](images/symbol-led.jpg)
+
+**RGB** im Namen steht für **Rot, Grün und Blau**.
+
+Das bedeutet, dass diese besonderen Leuchtdioden in drei verschiedenen Farben leuchten können.
+
+Unsere LEDs sind etwas ganz Besonderes, denn sie haben einen winzigen eingebauten Chip, der die Farbe der LED ändert. Wenn du genau in eine LED schaust, siehst du einen schwarzen Punkt - den Chip, der die Farben steuert.
+
+**Achte bitte darauf, dass du die LEDs richtig in die Platine einsetzt!**
+
+**Achtung - LEDs müssen richtig gepolt werden!**
+
+Leuchtdioden (LEDs) sind polarisiert. Das bedeutet, dass sie den Strom nur in eine Richtung fließen lassen.
+Aus diesem Grund musst du darauf achten, wie du deine LED in der elektronischen Schaltung platzierst.
+
+Die winzigen Metallbeine jeder LED **sind nicht gleich lang**. Dies kennzeichnet die Polarität!
+
+* Der positive Beinchen ist länger (wir nennen es Anode), und
+* das kürzere Beinchen ist negativ (er hat einen lustigen Namen - Kathode).
+
+**Die elektrische Energie fließt von der Anode zur Kathode und nicht in die entgegengesetzte Richtung.**
+
+Wenn du die LED falsch herum anbringst, wird sie nicht leuchten, weil die elektrische Energie nicht durch sie hindurchfließen kann.
+
+![LED mit langem und kurzen Beinchen](images/led.jpg)
+
+##### Widerstände und LEDs sind ein gutes Team!
+
+LEDs können beschädigt werden, wenn sie zu viel Energie erhalten.
+
+Oh nein! Die Knopfzellenbatterie, die mit deinem BOB geliefert wird, ist zu viel für die armen kleinen LEDs. Aber keine Sorge, **wir haben Widerstände zur Rettung geschickt!**
+
+**Historischer Fakt:** Der russische Erfinder Oleg Wladimirowitsch Losev stellte 1927 die erste LED her.
+
+![Oleg Wladimirowitsch Losev](images/oleg.jpg)
+
+##### Wusstest du schon?
+
+LED-Lampen sind die effizienteste Art von Lampen.
+
+Im Gegensatz zu normalen "alten" Glühbirnen, die 90% ihrer Energie in Form von Wärme abgeben, nutzen LEDs die Energie sehr viel effizienter und vergeuden nur sehr wenig Wärme.
