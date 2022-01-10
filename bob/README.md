@@ -31,7 +31,7 @@ Du musst keine besonderen Fähigkeiten haben, um dich an diesem Selbstbauprojekt
 
 Lass' uns alle Teile des Bausatzes kennen lernen!
 
-![alt](images\parts.jpg)
+![Teile des Bausatzes](images/parts.jpg)
 
 Falls etwas fehlen sollte, kontaktiere uns bitte über die Email Adresse [contact@circuitmess.com](mailto:contact@circuitmess.com). Bitte schicke uns ein Foto von allem, was im Karton war, und wir werden uns so schnell wie möglich bei dir zurück melden, um das Problem zu lösen.
 
@@ -55,7 +55,7 @@ Fachleute nennen es auch Platine oder PCB. Das ist die Abkürzung für die engli
 
 Eine Leiterplatte ist eine laminierte Sandwichstruktur aus leitenden und isolierenden Schichten.
 
-![leiterplatte](images/pcb.jpg)
+![Bobs Leiterplatte](images/pcb.jpg)
 
 ##### Was macht sie?
 
@@ -95,4 +95,4 @@ Ohne sie wäre es nicht möglich, in den Weltraum zu fliegen.
 
 Er erfand sie in den 1930er Jahren. Die Vorläufer der heutigen Leiterplatten gibt es aber schon seit dem Zeitalter der Grammophone und Röhrenradios, nur in einer etwas anderen Form.
 
-![Leiterplatte](images/green-pcb.png)
+![Industrieelle Leiterplatte](images/green-pcb.png)
