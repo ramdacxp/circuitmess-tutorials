@@ -130,3 +130,44 @@ Dies ist ein elektronisches Symbol für einen Widerstand:
 Das ist Georg Simon Ohm:
 
 ![Georg Simon Ohm](images/ohm.png)
+
+#### 3. Knopfzellenbatterie
+
+Eine Batterie ist eine elektrische Energiequelle, die aus elektrochemischen Zellen besteht. Jeder Batterie besteht aus Chemikalien. Diese Chemikalien verursachen chemische Reaktionen und erzeugen elektrische Energie.
+
+Unsere Batterie wurde aus einem Material namens Lithium hergestellt.
+
+Siehst du die kleine Aufschrift "3V" auf der Batterie? Das bedeutet "drei Volt".
+
+**Volt ist die Maßeinheit für die elektrische Spannung.**
+
+Die Volt-Zahl ist auf fast jeder Batterie angegeben, da sie eine der wichtigsten Informationen über die Batterie ist.
+
+Die Spannung ist eine Art "Druck", der die Ladung durch einen Stromkreis treibt.
+
+**Verschiedene elektronische Geräte haben unterschiedliche Batterien mit unterschiedlichen Spannungen.**
+
+Ein Mobiltelefon hat zum Beispiel eine Batterie mit 3,7 Volt, ein Auto hat eine Batterie mit einer Spannung von 12 Volt.
+
+**Nützlicher Tipp:** Die spezielle Batteriegröße und das Modell unserer Batterie wird als **CR2032-Knopfzelle** bezeichnet.
+
+![CR2032-Knopfzelle im Batteriehalter](images/battery.jpg)
+
+#### 4. Batteriehalter
+
+Der Batteriehalter ist ein elektronisches Bauteil aus Kunststoff mit zwei federnden Metallbeinen. Er dient dazu, die Knopfzellenbatterie an ihrem Platz zu halten und sie mit dem Rest der elektronischen Schaltung zu verbinden.
+
+![Batteriehalter](images/battery-holder.jpg)
+
+#### 5. Schalter
+
+Mit dem Schalter, den wir in unserem Bausatz haben, können wir das Gerät ein- und ausschalten. Hierfür muss einfach der Griff nach links oder rechts bewegt werden.
+
+Ein Schalter steuert den Stromfluss zu einem elektrischen Gerät - mit anderen Worten, er verbindet und trennt einen Stromkreis.
+
+Schalter werden in fast jedem elektronischen Gerät verwendet. Man findet sie in Mobiltelefonen, Computern, Klimaanlagen usw.
+
+**Historischer Fakt:** Ein elektrischer Schalter wurde 1884 von John Henry Holmes erfunden, der ihn zum Ein- und Ausschalten von Lampen verwendete.
+
+![Schalter](images/switch.jpg)
+
