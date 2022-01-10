@@ -96,3 +96,37 @@ Ohne sie wäre es nicht möglich, in den Weltraum zu fliegen.
 Er erfand sie in den 1930er Jahren. Die Vorläufer der heutigen Leiterplatten gibt es aber schon seit dem Zeitalter der Grammophone und Röhrenradios, nur in einer etwas anderen Form.
 
 ![Industrieelle Leiterplatte](images/green-pcb.png)
+
+#### 2. Widerstände
+
+Widerstände sind die grundlegendsten elektronischen Bauteile, die in fast jedem elektronischen Gerät zu finden sind. Sie gehören zur Kategorie der passiven elektronischen Bauteile.
+
+Passive elektronische Bauteile erzeugen keine elektrische Energie und benötigen keine elektrische Energie, um zu funktionieren. Sie verändern lediglich den Fluss der elektrischen Energie auf ihre eigene Art und Weise.
+
+Die Widerstände, die du im Bausatz erhalten hast, haben eine zylindrische Form und zwei winzige Metallbeine. Wir nennen diese Beinchen "**Bauteilanschlüsse**".
+
+![Widerstände](images/resistors.jpg)
+
+##### Ohmscher Widerstand
+
+Widerstände haben die Eigenschaft des **Ohmschen Widerstands** - sie verringern die Menge an elektrischer Energie, die durch den Stromkreis fließt. Sie "widerstehen" dem Fluss der elektrischen Energie.
+
+Die Einheit des Widerstands heißt Ohm und wurde nach dem deutschen Physiker **Georg Simon Ohm** benannt.
+
+Widerstände werden u. a. dazu verwendet, den Stromfluss durch einen elektronischen Schaltkreis zu regulieren.
+
+Der genaue Wert eines Widerstands wird mit einem Gerät namens Ohmmeter gemessen.
+
+##### Womit könnten wir das vergleichen?
+
+Wenn wir eine Analogie zu Wasser herstellen, das durch Rohre fließt, ist der Widerstand ein dünnes Rohr, das den Wasserdurchfluss reduziert.
+
+**Wissenschaftler und Ingenieure haben für jedes einzelne elektronische Bauteil verschiedene Symbole erfunden.**
+
+Dies ist ein elektronisches Symbol für einen Widerstand:
+
+![Symbol für einen Widerstand](images/symbol.png)
+
+Das ist Georg Simon Ohm:
+
+![Georg Simon Ohm](images/ohm.png)
