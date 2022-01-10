@@ -338,7 +338,7 @@ Achte darauf, nach dem Ausschalten die Spitze des Lötkolbens mindestens fünf M
 
 Jetzt kennst du die Grundlagen. Bereit für den Zusammenbau?
 
-#### Erster Teil - Widerstände
+#### Teil 1 - Widerstände
 
 Die ersten Bauteile, die du beim Zusammenbau von BOB benötigst, sind Widerstände.
 
@@ -366,4 +366,27 @@ Nimm die Zange und schneide die Beine der Widerstände ab. Achte darauf, dass du
 Die Beinchen der Widerstände sollten beim Abscheiden nicht nach oben zeigen. Sie könnten wegfliegen und jemanden verletzen! Drehe die Beine des elektronischen Bauteils beim Abschneiden immer in Richtung der Unterlage, etwa so:
 
 ![Abschneiden](images/resistor5.jpg)
+
+#### Teil 2 - Schalter
+
+Löte jetzt den Schalter an.
+
+![Platine und Schalter](images/sw1.jpg)
+
+Platziere den Schalter wie auf dem Foto unten gezeigt. Du musst dafür etwas Kraft aufwenden, da es etwas schwierig sein kann, den Schalter in die Platine zu drücken.
+
+![Schalter eindrücken](images/sw2.jpg)
+
+Jetzt ist es an der Zeit, den **Schalter an die Platine zu löten**.
+Vergewissere dich vorher, dass der Schalter senkrecht auf der Platine steht.
+
+Bitte reinige die Lötkolbenspitze mit dem Schwamm, bevor du den Schalter anlötest.
+
+**Das Einlöten der Kontaktstifte erfordert etwas mehr Präzision**, da sie sehr dicht beieinander liegen.
+
+![Schalter einlöten](images/sw3.jpg)
+
+So sollten die Lötstellen des Schalters aussehen, nachdem du sie erfolgreich gelötet hast:
+
+![Fertige Lötstellen](images/sw4.jpg)
 
