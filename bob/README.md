@@ -390,3 +390,59 @@ So sollten die Lötstellen des Schalters aussehen, nachdem du sie erfolgreich ge
 
 ![Fertige Lötstellen](images/sw4.jpg)
 
+#### Teil 3 - LEDs
+
+Wir müssen auf die Polarität der LEDs achten, sonst werden sie nicht funktionieren.
+
+Das **kürzere Bein** der LED sollte **zur Mitte von BOBs Kopf** zeigen:
+
+![LEDs und Platine](images/led1.jpg)
+
+![Kurzes Bein innen](images/led2.jpg)
+
+![LED Seitenansicht](images/led3.jpg)
+
+**Los geht's** mit dem Löten!
+
+![LED löten](images/led4.jpg)
+
+Vergewissere dich noch einmal, dass es keine kalten Verbindungen oder Überbrückungen gibt.
+
+Nimm dann die Zange und schneide die restlichen Beine der LED ab, so wie du es mit den Beinen des Widerstands gemacht hast.
+
+**Achtung!** Die Beine der LEDs müssen zum Tisch zeigen, wenn du sie abschneidest.
+So können sie nicht wegfliegen und dich verletzen!
+
+![Beine kürzen über Tisch](images/led5.jpg)
+
+![LED-Beine kürzen](images/led6.jpg)
+
+#### Teil 4 - Batteriehalter
+
+![Batteriehalter](images/bat1.jpg)
+
+Platziere den Batteriehalter wie folgt auf der Platine:
+
+![Batteriehalter auf Platine](images/bat2.jpg)
+
+Drehe BOB um und löte die beiden Stifte des Batteriehalters an.
+
+![Batteriehalter anlöten](images/bat3.jpg)
+
+**Juhu. Wir sind mit dem Löten fertig!**
+
+**Wichtig!**
+Bitte schalte jetzt gleich den Lötkolben aus, indem du den Stecker aus der Steckdose ziehst. Lass ihn mindestens fünf Minuten auf dem Lötkolbenständer liegen, damit er abkühlt, bevor du ihn weglegst.
+
+Jetzt kannst du **die Knopfzellenbatterie in den Batteriehalter einsetzen!**
+
+Pass auf, die Batterie muss mit der richtigen Seite eingesetzt werden.
+**Das kleine Pluszeichen (+) auf der Batterie muss nach oben zeigen!**
+
+Schau dir das Foto an:
+
+![Batteriehalter anlöten](images/bat4.jpg)
+
+**Du hast es geschafft!**
+
+BOB, der verrückte Roboter, ist zusammengebaut.
