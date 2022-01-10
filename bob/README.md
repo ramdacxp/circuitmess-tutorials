@@ -1,5 +1,9 @@
 # Bauanleitung - BOB, der verrückte Roboter
 
+* [Einführung](#einführung)
+* [Hier sind die Werkzeuge!](#hier-sind-die-werkzeuge)
+* [Zusammenbau](#zusammenbau)
+
 ## Einführung
 
 ### Aller Anfang ist leicht
@@ -223,3 +227,109 @@ Oh nein! Die Knopfzellenbatterie, die mit deinem BOB geliefert wird, ist zu viel
 LED-Lampen sind die effizienteste Art von Lampen.
 
 Im Gegensatz zu normalen "alten" Glühbirnen, die 90% ihrer Energie in Form von Wärme abgeben, nutzen LEDs die Energie sehr viel effizienter und vergeuden nur sehr wenig Wärme.
+
+## Hier sind die Werkzeuge!
+
+Lass uns deinen verrückten Roboter zusammenbauen! Zuerst brauchen wir ein paar Werkzeuge!
+
+### Lötkolben
+
+Für den Zusammenbau reicht ein einfacher Lötkolben aus.
+
+Wenn du allerdings vorhast, in die Welt der Heimwerkerprojekte einzutauchen, solltest du dir einen teureren Lötkolben mit mehr Funktionen zulegen.
+
+**Außerdem brauchst du einen Lötkolbenständer** und eine kleine Rolle mit kolophoniumhaltigem Lot bzw. Lötzinn.
+
+![Lötkolben](images/iron.png)
+
+### Lötschwamm
+
+Zu deinem Löt-Werkzeug sollte auch ein **Schwamm** gehören, mit dem du die Spitze deines Lötkolbens säubern kannst. Achte darauf, dass der Schwamm nicht tropfnass oder knochentrocken ist - er sollte feucht sein.
+
+### Seitenschneider
+
+Ein Seitenschneider dient zum Kürzen von Metallbeinchen oder Drähten.
+
+Wir bevorzugen die auf dem Bild gezeigte Zange (Plato, Modell 170), aber auch jedes andere Modell ist geeignet.
+
+![Seitenschneider/Zange](images/zange.png)
+
+## Zusammenbau
+
+### Wie löte ich richtig?
+
+Eines der Dinge, die du beim Zusammenbau von Bobs tun wirst, ist löten!
+
+Hast du das schon einmal gemacht? Wenn nicht, empfehlen wir, dir die folgenden Links anzusehen, die zu nützlichen Anleitungen und Blogs zum Thema Löten führen. Du wirst nur 10 Minuten brauchen, um dich in die Materie einzuarbeiten und zu verstehen, wie es gemacht wird.
+
+Hier sind die Links (englisch):
+
+* [Adafruits Video Tutorial mit Collin Cunningham](https://www.youtube.com/watch?v=QKbJxytERvg) - Ein Tutorial mit Collin Cunningham, einem super charismatischen Elektronik-Guru.
+* [Adafruits Löt Tutorial](https://learn.adafruit.com/adafruit-guide-excellent-soldering?view=all) - Ein großartiges und ausführliches Video-Tutorial. Ein absolutes Muss, auch wenn Du schon weißt, wie man lötet. Besonders zu empfehlen ist der Abschnitt "Häufige Fehler beim Löten" am Ende.
+* [Sparkfuns Video-Tutorial zum Löten](https://www.youtube.com/watch?v=f95i88OSWB4) - Ein weiteres gut gemachtes Video-Tutorial zum Thema Löten.
+* [Sparkfuns Standard Soldering Tutorial](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering) - Ein detailliertes Tutorial von Sparkfun.
+
+![Anlösten des Schalters](images/iron-bob.jpg)
+
+Hier ist ein großartiges Bild von Adafruit Industries, das dir beim Löten helfen kann (danke Adafruit!):
+
+![Verschiedene Lötpunkte](images/adafruit.jpg)
+
+* Cold Joint - Kalte Lötstelle
+* Insufficient Wetting - Unzureichende "Benetzung" des Lötstelle; zu wenig Lot
+* Too Much Solder - Zu viel Lot
+
+### Regeln
+
+Dies sind die Regeln für das Löten, die Sie jedes Mal befolgen sollten:
+
+* **Atme niemals die Dämpfe ein, die der Lötkolben produziert!**
+* **Der Lötkolben wird heiß! Berühre nicht die Spitze des Lötkolbens!**
+  Auch wenn der Lötkolben ausgeschaltet oder ganz von der Stromquelle getrennt ist, kann er noch sehr heiß sein und daher bei Berührung sehr unangenehme Schmerzen verursachen.
+  Halte den Lötkolben immer so, dass die Spitze von deinen Händen weg zeigt.
+  Wenn du mit dem Löten fertig bist, trenne den Lötkolben von der Stromquelle und lasse ihn mindestens fünf Minuten abkühlen, bevor du ihn wieder verstaust.
+* **Reinige den Lötkolben!**
+  Verwende den Schwamm häufig und reinige deinen Lötkolben, wenn du einfach und problemlos löten möchtest.
+  Halte dazu ein Ende des Schwamms vorsichtig mit einer Hand fest und wische die Spitze des Lötkolbens am anderen Ende des Schwamms ab, um das überschüssige Lot zu entfernen. Wiederhole dies so lange bis die Spitze des Lötkolbens schön sauber ist.
+* **Prüfe deine Lötstellen. Zweimal!** (mindestens)
+* **Bewahre den Lötkolben auf dem Ständer auf**, wenn du ihn nicht benutzt.
+* **Verwende die richtige Menge Lötzinn!**
+  Achte darauf, dass du gerade genug Lot verwendest. Nicht zu viel, aber auch nicht zu wenig, denn beides kann dazu führen, dass dein Bausatz dann nicht funktioniert.
+* **Lass keine Lot-Rests auf der Platine!**
+  Das Lötzinn sollte sich nur auf den Teilen befinden, an denen die Stifte mit der Platine verbunden sind. Halte den Rest der Platine sauber!
+
+**Bitte lies dir diese Regeln jetzt noch ein paar Mal durch, damit du sie niocht vergisst!**
+
+Wenn du diese Regeln befolgst, sollte das Löten für dich ein Kinderspiel sein.
+
+### Verwendung des Lötkolbens
+
+Der Lötkolben ist sehr einfach zu benutzen, wenn er richtig eingesetzt wird.
+
+![Lötkolben](images/iron.png)
+
+#### Schritt 1 - Einstecken
+
+Lege den Lötkolben auf einen Lötkolbenständer und schließen Sie ihn an eine Steckdose an.
+
+![Schritt 1 - Einstecken](images/step1.png)
+
+#### Schritt 2 - Wähle die richtige Temperatur
+
+Stelle die Temperatur auf 350 °C ein, indem du den Temperaturregler am Lötkolben drehst.
+Achte darauf, dass der kleine schwarze Pfeil auf die richtige Temperatur zeigt, wie auf dem Foto zu sehen.
+
+Dein Lötkolben ist jetzt einsatzbereit, aber lass ihm ein bis zwei Minuten Zeit, damit er sich aufheizen kann.
+
+![Schritt 2 - Die richtige Temperatur](images/step2.png)
+
+#### Schritt 3 - Vergiss nicht, ihn auszuschalten, wenn du fertig bist
+
+Wenn du mit dem Löten fertig bist, ziehe den Stecker aus der Steckdose, um den Lötkolben auszuschalten.
+
+Bitte benutze den Metallständer immer dann, wenn du den Lötkolben nicht benutzt.
+Damit stellst du sicher, dass deine Unterlage oder die Platine nicht verbrennen.
+
+Achte darauf, nach dem Ausschalten die Spitze des Lötkolbens mindestens fünf Minuten lang nicht zu berühren.
+
+![Schritt 3 - Ausschalten](images/step3.png)
