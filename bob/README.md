@@ -3,6 +3,7 @@
 * [Einführung](#einführung)
 * [Hier sind die Werkzeuge!](#hier-sind-die-werkzeuge)
 * [Zusammenbau](#zusammenbau)
+* [Einschalten!](#einschalten)
 
 ## Einführung
 
@@ -446,3 +447,15 @@ Schau dir das Foto an:
 **Du hast es geschafft!**
 
 BOB, der verrückte Roboter, ist zusammengebaut.
+
+## Einschalten!
+
+Dein BOB sollte nun so aussehen:
+
+![Fertiger BOB](images/final-bob.jpg)
+
+Du kannst deinen BOB mit dem Schalter an der Unterseite des Roboters einschalten.
+
+Sobald er eingeschaltet ist, werden BOBs LEDs sofort in verschiedenen Farben leuchten und allmählich ihre Farben wechseln.
+
+Wenn du Fragen hast, kannst du uns unter contact@circuitmess.com kontaktieren und wir werden dir helfen!
