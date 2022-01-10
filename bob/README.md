@@ -20,8 +20,9 @@ Mit BOB lernst du das Löten und die Leuchtdioden (LEDs) kennen.
 
 #### Altersgruppe
 
-Dieser Bausatz ist geeignet ab einem Alter von 9 Jahren.
-Achte darauf, dass dir ein Erwachsener beim Zusammenbau hilft.
+Dieser Bausatz ist geeignet ab einem Alter von **9 Jahren**.
+
+Achte darauf, dass dir ein Erwachsener beim Zusammenbau hilft.  
 Es ist in Ordnung, um um Hilfe bitten.
 
 #### Aufbauzeit
@@ -38,7 +39,7 @@ Lass' uns alle Teile des Bausatzes kennen lernen!
 
 ![Teile des Bausatzes](images/parts.jpg)
 
-Falls etwas fehlen sollte, kontaktiere uns bitte über die Email Adresse [contact@circuitmess.com](mailto:contact@circuitmess.com). Bitte schicke uns ein Foto von allem, was im Karton war, und wir werden uns so schnell wie möglich bei dir zurück melden, um das Problem zu lösen.
+Falls etwas fehlen sollte, kontaktiere uns bitte über contact@circuitmess.com. Bitte schicke uns ein Foto von allem, was im Karton war, und wir werden uns so schnell wie möglich bei dir melden, um das Problem zu lösen.
 
 Hier ist die Liste der Bauteile:
 
@@ -138,7 +139,7 @@ Das ist Georg Simon Ohm:
 
 #### 3. Knopfzellenbatterie
 
-Eine Batterie ist eine elektrische Energiequelle, die aus elektrochemischen Zellen besteht. Jeder Batterie besteht aus Chemikalien. Diese Chemikalien verursachen chemische Reaktionen und erzeugen elektrische Energie.
+Eine Batterie ist eine elektrische Energiequelle, die aus elektrochemischen Zellen besteht. Jede Batterie besteht aus Chemikalien. Diese Chemikalien verursachen chemische Reaktionen und erzeugen elektrische Energie.
 
 Unsere Batterie wurde aus einem Material namens Lithium hergestellt.
 
@@ -204,8 +205,8 @@ Aus diesem Grund musst du darauf achten, wie du deine LED in der elektronischen 
 
 Die winzigen Metallbeine jeder LED **sind nicht gleich lang**. Dies kennzeichnet die Polarität!
 
-* Der positive Beinchen ist länger (wir nennen es Anode), und
-* das kürzere Beinchen ist negativ (er hat einen lustigen Namen - Kathode).
+* Das positive Beinchen ist länger (wir nennen es Anode), und
+* das kürzere Beinchen kennzeichnet den negativen Pol (er hat einen lustigen Namen - Kathode).
 
 **Die elektrische Energie fließt von der Anode zur Kathode und nicht in die entgegengesetzte Richtung.**
 
@@ -237,7 +238,7 @@ Lass uns deinen verrückten Roboter zusammenbauen! Zuerst brauchen wir ein paar 
 
 Für den Zusammenbau reicht ein einfacher Lötkolben aus.
 
-Wenn du allerdings vorhast, in die Welt der Heimwerkerprojekte einzutauchen, solltest du dir einen teureren Lötkolben mit mehr Funktionen zulegen.
+Wenn du allerdings vor hast, in die Welt der Heimwerkerprojekte einzutauchen, solltest du dir einen teureren Lötkolben mit mehr Funktionen zulegen.
 
 **Außerdem brauchst du einen Lötkolbenständer** und eine kleine Rolle mit Kolophonium haltigem Lot bzw. Lötzinn.
 
@@ -245,7 +246,7 @@ Wenn du allerdings vorhast, in die Welt der Heimwerkerprojekte einzutauchen, sol
 
 ### Lötschwamm
 
-Zu deinem Löt-Werkzeug sollte auch ein **Schwamm** gehören, mit dem du die Spitze deines Lötkolbens säubern kannst. Achte darauf, dass der Schwamm nicht tropfnass oder knochentrocken ist - er sollte feucht sein.
+Zu deinem Löt-Werkzeug sollte auch ein **Schwamm** gehören, mit dem du die Spitze deines Lötkolbens säubern kannst. Achte darauf, dass der Schwamm nicht tropfnass oder staubtrocken ist - er sollte feucht sein.
 
 ### Seitenschneider
 
@@ -259,9 +260,9 @@ Wir bevorzugen die auf dem Bild gezeigte Zange (Plato, Modell 170), aber auch je
 
 ### Wie löte ich richtig?
 
-Eines der Dinge, die du beim Zusammenbau von Bobs tun wirst, ist löten!
+Eines der Dinge, die du beim Zusammenbau von BOB tun wirst, ist löten!
 
-Hast du das schon einmal gemacht? Wenn nicht, empfehlen wir, dir die folgenden Links anzusehen, die zu nützlichen Anleitungen und Blogs zum Thema Löten führen. Du wirst nur 10 Minuten brauchen, um dich in die Materie einzuarbeiten und zu verstehen, wie es gemacht wird.
+Hast du das schon einmal gemacht? Wenn nicht, empfehlen wir, dir die folgenden Links anzusehen, die zu nützlichen Anleitungen und Blogs zum Thema Löten führen. Du wirst nur 10 Minuten brauchen, um dich in die Materie einzuarbeiten und um zu verstehen, wie es gemacht wird.
 
 Hier sind die Links (englisch):
 
@@ -279,10 +280,11 @@ Hier ist ein großartiges Bild von Adafruit Industries, das dir beim Löten helf
 * Cold Joint - Kalte Lötstelle
 * Insufficient Wetting - Unzureichende "Benetzung" des Lötstelle; zu wenig Lot
 * Too Much Solder - Zu viel Lot
+* OK - Super. Alles richtig!
 
-### Regeln
+### Löt-Regeln
 
-Dies sind die Regeln für das Löten, die Sie jedes Mal befolgen sollten:
+Dies sind die Regeln für das Löten, die du jedes Mal befolgen solltest:
 
 * **Atme niemals die Dämpfe ein, die der Lötkolben produziert!**
 * **Der Lötkolben wird heiß! Berühre nicht die Spitze des Lötkolbens!**
@@ -296,7 +298,7 @@ Dies sind die Regeln für das Löten, die Sie jedes Mal befolgen sollten:
 * **Bewahre den Lötkolben auf dem Ständer auf**, wenn du ihn nicht benutzt.
 * **Verwende die richtige Menge Lötzinn!**
   Achte darauf, dass du gerade genug Lot verwendest. Nicht zu viel, aber auch nicht zu wenig, denn beides kann dazu führen, dass dein Bausatz dann nicht funktioniert.
-* **Lass keine Lot-Rests auf der Platine!**
+* **Lass keine Lot-Reste auf der Platine!**
   Das Lötzinn sollte sich nur auf den Teilen befinden, an denen die Stifte mit der Platine verbunden sind. Halte den Rest der Platine sauber!
 
 **Bitte lies dir diese Regeln jetzt noch ein paar Mal durch, damit du sie nicht vergisst!**
@@ -347,7 +349,7 @@ Entferne zunächst die Papierstreifen, die sich an beiden Enden der Widerstände
 
 ![Papierstreifen entfernen](images/resistor1.jpg)
 
-Nun solltest du sie vorsichtig in Form des **Buchstabens "U"** biegen, aber sei vorsichtig, denn sie könnten leicht brechen
+Nun solltest du sie vorsichtig in Form des **Buchstabens "U"** biegen, aber sei vorsichtig, denn sie könnten leicht brechen.
 
 ![Biegen](images/resistor2.jpg)
 
