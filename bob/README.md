@@ -8,7 +8,7 @@
 Wenn du dieser Bauanleitung folgst, lernst du, wie du deinen eigenen verrückten
 Roboter - **BOB!** - zusammenbauen kannst.
 
-![BOB](images\bob.png)
+![BOB](images/bob.png)
 
 BOB ist ein auch für Anfänger geeigneter 16-teiliger Bausatz.
 Mit BOB lernst du das Löten und die Leuchtdioden (LEDs) kennen.
