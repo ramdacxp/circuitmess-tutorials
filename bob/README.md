@@ -336,3 +336,34 @@ Achte darauf, nach dem Ausschalten die Spitze des Lötkolbens mindestens fünf M
 
 ### Lass uns BOB zusammenbauen!
 
+Jetzt kennst du die Grundlagen. Bereit für den Zusammenbau?
+
+#### Erster Teil - Widerstände
+
+Die ersten Bauteile, die du beim Zusammenbau von BOB benötigst, sind Widerstände.
+
+Entferne zunächst die Papierstreifen, die sich an beiden Enden der Widerstände befinden.
+
+![Papierstreifen entfernen](images/resistor1.jpg)
+
+Nun solltest du sie vorsichtig in Form des **Buchstabens "U"** biegen, aber sei vorsichtig, denn sie könnten leicht brechen
+
+![Biegen](images/resistor2.jpg)
+
+Nimm die Widerstände einen nach dem anderen und lege sie wie auf dem Foto gezeigt auf die Platine:
+
+![Widerstände in Platine](images/resistor3.jpg)
+
+**Drehe die Platine um** und **löte alle Widerstände** auf BOBs Rückseite.
+
+![Anlöten](images/resistor4.jpg)
+
+Nachdem du alle Widerstände verlötet hast, **sieh dir die Lötstellen noch einmal an**, um sicherzustellen, dass es keine kalten Stellen gibt.
+
+Nimm die Zange und schneide die Beine der Widerstände ab. Achte darauf, dass du die Lötstelle nicht berührst.
+
+**Sei vorsichtig:**
+Die Beinchen der Widerstände sollten beim Abscheiden nicht nach oben zeigen. Sie könnten wegfliegen und jemanden verletzen! Drehe die Beine des elektronischen Bauteils beim Abschneiden immer in Richtung der Unterlage, etwa so:
+
+![Abschneiden](images/resistor5.jpg)
+
