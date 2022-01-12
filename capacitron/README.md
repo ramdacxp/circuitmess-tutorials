@@ -490,3 +490,54 @@ Nachdem du dich vergewissert hast, dass es keine Überbrückungen zwischen den L
 
 Vergewissere dich noch einmal, dass es keine kalten Verbindungen oder Überbrückungen gibt.
 
+#### Teil 5 - Kondensatoren
+
+![Kondensatoren und Platine](images/cap1.jpg)
+
+Die Kondensatoren werden in CAPACITRONs Ohren gesteckt.
+
+Es gibt einen weißen Teil und einen schwarzen Teil des Kondensators. Diese Farben stehen für die Polarität. Der weiße Teil hat ein kürzeres Bein und der schwarze Teil ein längeres.
+
+Du hast vielleicht bemerkt, dass die Kreise von CAPACITRONs Ohren mit Pluszeichen (+) versehen sind. **Das längere Beinchen des Kondensators muss in das mit dem Pluszeichen (+) markierte Loch gesteckt werden.**
+
+Achte darauf, dass die Kondensatoren **richtig** eingesetzt werden. Schau dir das Foto an:
+
+![Polarität der Kondensatoren](images/cap2.jpg)
+
+Nimm deinen Lötkolben und löte die Beine der Kondensatoren an die Platine.
+
+![Löten des ersten Kondensators](images/cap3.jpg)
+
+![Löten des zweiten Kondensators](images/cap4.jpg)
+
+#### Teil 6 - Der Batteriehalter
+
+Der Batteriehalter wird so auf CAPACITRONs **Rückseite** angebracht:
+
+![Batteriehalter](images/bat1.jpg)
+
+Drehe CAPACITRON um und löte die beiden Stifte des Batteriehalters an.
+
+![Batteriehalter auf Platine](images/bat2.jpg)
+
+**Vergewissere dich noch einmal**, dass alle Lötstellen gut aussehen!
+
+**Juhu. Wir sind mit dem Löten fertig!**
+
+**Wichtig!**
+Bitte schalte jetzt gleich den Lötkolben aus, indem du den Stecker aus der Steckdose ziehst. Lass ihn mindestens fünf Minuten auf dem Lötkolbenständer liegen, damit er abkühlt, bevor du ihn weglegst.
+
+#### Batterien zuerst!!
+
+Jetzt kannst du **die Knopfzellenbatterie in den Batteriehalter einsetzen!**
+
+Pass auf, die Batterie muss mit der richtigen Seite eingesetzt werden.
+**Das kleine Pluszeichen (+) auf der Batterie muss nach oben zeigen!**
+
+![Batterie einsetzen](images/bat3.jpg)
+
+**Du hast es geschafft!**
+
+![Fertiger CAPACITRON](images/final.jpg)
+
+Dein eigener CAPACITRON ist zusammengebaut. **Sehr gut gemacht!**
