@@ -3,7 +3,7 @@
 * [Einführung](#einführung)
 * [Hier sind die Werkzeuge!](#hier-sind-die-werkzeuge)
 * [CAPACITRON, triff deinen Erbauer!](#capacitron-triff-deinen-erbauer)
-* [Einschalten!](#einschalten)
+* [Batterien zuerst](#batterien-zuerst)
 
 ## Einführung
 
@@ -16,14 +16,14 @@ Roboter zusammenbauen kannst - **CAPACITRON!**
 
 ![CAPACITRON](images/capacitron.jpg)
 
-CAPACITRON ist ein auch für Anfänger geeigneter 12-teiliger Bausatz, mit dem du etwas über Elektronik und elektronische Bauelemente lernen wirst.
+CAPACITRON ist ein auch für Anfänger geeigneter **12-teiliger Bausatz**, mit dem du etwas über Elektronik und elektronische Bauelemente lernen kannst.
 
 #### Altersgruppe
 
 Dieser Bausatz ist geeignet ab einem Alter von **9 Jahren**.
 
 **Achte darauf, dass dir ein Erwachsener beim Zusammenbau hilft.**  
-Es ist in Ordnung, um um Hilfe bitten.
+Es ist in Ordnung, um um Hilfe bitten!
 
 #### Aufbauzeit
 
@@ -31,9 +31,7 @@ Für den vollständigen Zusammenbau deines CAPACITRON solltest du etwa **1 Stund
 
 #### Benötigte Fertigkeiten
 
-Du musst keine besonderen Fähigkeiten haben, um dich an diesem Selbstbauprojekt zu versuchen. Das Hauptziel ist es, Spaß zu haben und etwas Neues zu lernen.
-
-Du musst keine besonderen Fähigkeiten haben, um dich an diesem Selbstbauprojekt zu versuchen. Das Hauptziel ist es, Spaß zu haben und etwas Neues zu lernen.
+Du musst keine besonderen Fertigkeiten haben, um dich an diesem Selbstbauprojekt zu versuchen. Das Hauptziel ist es, Spaß zu haben und etwas Neues zu lernen.
 
 ### Woraus besteht der Bausatz?
 
@@ -185,17 +183,17 @@ Schalter werden in fast jedem elektronischen Gerät verwendet. Man findet sie in
 
 #### 6. Taster
 
-Ein Drucktaster ist ein kleiner, verschlossener Mechanismus, der einen Stromkreis schließt, wenn man ihn drückt.
+Ein Drucktaster ist ein Mechanismus, der einen Stromkreis schließt, wenn man ihn drückt.
 
 **Wenn der Druckknopf gedrückt wird, stellt eine kleine Metallfeder im Inneren Kontakt zu zwei Drähten her, wodurch elektrische Energie fließen kann.**
 
-Wenn Du den Finger vom Druckknopf herunter nimmst, zieht sich die Feder zurück, der elektrische Kontakt wird unterbrochen und es fließt keine elektrische Energie mehr durch den Schalter.
+Wenn Du den Finger vom Druckknopf herunter nimmst, zieht sich die Feder zurück, der elektrische Kontakt wird unterbrochen und es fließt keine elektrische Energie mehr durch den Taster.
 
 ![Taster](images/pushbuttons.jpg)
 
 **Was ist der Unterschied zwischen einem Schalter und einem Taster?**
 
-Schalter haben einen Ein- und einen Aus-Zustand, zwischen denen durch Drücken oder verschieben des Schalters mit dem Finger umgeschaltet werden kann.
+Schalter haben einen Ein- und einen Aus-Zustand, zwischen denen durch Drücken oder Verschieben des Schalters mit dem Finger umgeschaltet werden kann.
 
 Ein Taster hat ebenfalls zwei Zustände - ein und aus. Ein Drucktaster ändert seinen Zustand, wenn du ihn mit dem Finger drückst, aber er kehrt automatisch in seinen ursprünglichen Zustand zurück, wenn du den Finger wegnimmst.
 
@@ -258,7 +256,7 @@ Ein Kondensator kann Energie aus einem Schaltkreis aufnehmen und vorübergehend 
 
 Wir können die Fähigkeit eines Kondensators, elektrische Energie zu speichern, messen. Wir nennen diese Eigenschaft **Kapazität**.
 
-Die Einheit der Kapazität heißt **Farad** (wir verwenden den Buchstaben F als Abkürzung für Farad). Diese Einheit wurde nach dem Physiker **Michael Faraday** benannt.
+Die Einheit der Kapazität heißt **Farad** (wir verwenden den Buchstaben **F** als Abkürzung für Farad). Diese Einheit wurde nach dem Physiker **Michael Faraday** benannt.
 
 **Historische Fakten:**
 
@@ -371,6 +369,8 @@ Achte darauf, nach dem Ausschalten die Spitze des Lötkolbens **mindestens fünf
 
 ### CAPACITRON, triff deinen Erbauer!
 
+Los geht's!
+
 #### Teil 1 - Widerstände
 
 Die ersten Bauteile, die du beim Zusammenbau von CAPACITRON benötigst, sind Widerstände.
@@ -397,13 +397,13 @@ Wir werden die Widerstände **auf der Rückseite von CAPACITRON anlöten**.
 
 ![Fertig gelötet](images/resistor5.jpg)
 
-Nachdem du alle Widerstände verlötet hast, **sieh dir die Lötstellen noch einmal an**, um sicherzustellen, dass es keine kalten Stellen gibt.
+Nachdem du alle Widerstände verlötet hast, **sieh dir die Lötstellen noch einmal an**, um sicherzustellen, dass es keine kalten Lötstellen gibt.
 
 **Aufpassen! Das Abschneiden der Widerstandsbeinchen muss mit Vorsicht geschehen!**
 
 Nimm jetzt deine Zange heraus. Du wirst sie zum Abschneiden der überstehenden Beinchen verwenden.
 
-**Sei vorsichtig!**
+**Bitte sei vorsichtig!**
 
 **Richte die Beine beim Schneiden nicht nach oben!**  
 **Sie könnten wegfliegen und jemanden verletzen!**
@@ -414,7 +414,7 @@ Nimm jetzt deine Zange heraus. Du wirst sie zum Abschneiden der überstehenden B
 
 Wenn du die Beinchen der Widerstände abschneidest, drehe die Beinchen des Bauteils immer in Richtung des Tisches oder der Unterlage, wie auf dem letzten Foto gezeigt.
 
-So sollte die Platine aussehen, nachdem du die Widerstände eingelötet und die überschüssigen Beinchen abgeschnitten hast:
+So sollte die Platine aussehen, nachdem du die Widerstände eingelötet und die überstehenden Beinchen abgeschnitten hast:
 
 ![Fertig abgeschnitten](images/resistor8.jpg)
 
@@ -422,7 +422,7 @@ So sollte die Platine aussehen, nachdem du die Widerstände eingelötet und die 
 
 ![Platine und Schalter](images/sw1.jpg)
 
-Platzier den Schalter auf der Vorderseite von CAPACITRONs Kopf.
+Platziere den Schalter auf der Vorderseite von CAPACITRONs Kopf.
 
 Du musst dafür etwas Kraft aufwenden, da es etwas schwierig sein kann, den Schalter in die Platine zu drücken.
 
