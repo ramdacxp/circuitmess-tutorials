@@ -461,3 +461,32 @@ Nach erfolgreichem Anlöten der Taster sollte CAPACITRONs Rückseite so aussehen
 
 ![Taster fertig gelötet](images/pb4.jpg)
 
+#### Teil 4 - Die LEDs
+
+Nimm nun die LEDs und setze sie als CAPACITRONs Augen ein.
+
+![LEDs und Platine](images/led1.jpg)
+
+Wir müssen auf die Polarität der LEDs achten, sonst werden sie nicht funktionieren.
+
+Das **kürzere Bein** der LED sollte **zu den Tastern** zeigen:
+
+![Kurzes Bein zum Taster](images/led2.jpg)
+
+Dreh deinen CAPACITRON um und löte die LEDs ein.
+
+![LED löten](images/led3.jpg)
+
+Nachdem du dich vergewissert hast, dass es keine Überbrückungen zwischen den Lötstellen gibt, nimm deine Zange und schneide den Rest der LED-Beine, den wir nicht mehr benötigen, ab.
+
+**Achtung!** 
+**Die Beine der LEDs müssen zum Tisch zeigen, wenn du sie abschneidest.**
+
+**So können sie nicht wegfliegen und dich verletzen!**
+
+![Beine kürzen über Tisch](images/led4.jpg)
+
+![LED-Beine kürzen](images/led5.jpg)
+
+Vergewissere dich noch einmal, dass es keine kalten Verbindungen oder Überbrückungen gibt.
+
