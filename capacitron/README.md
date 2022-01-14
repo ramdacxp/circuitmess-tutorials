@@ -294,7 +294,7 @@ Wir bevorzugen die auf dem Bild gezeigte Zange (Plato, Modell 170), aber auch je
 
 ### Wie löte ich richtig?
 
-Eines der Dinge, die du beim Zusammenbau von BOB tun wirst, ist löten!
+Eines der Dinge, die du beim Zusammenbau von CAPACITRON tun wirst, ist löten!
 
 Hast du das schon einmal gemacht? Wenn nicht, empfehlen wir, dir die folgenden Links anzusehen, die zu nützlichen Anleitungen und Blogs zum Thema Löten führen. Du wirst nur 10 Minuten brauchen, um dich in die Materie einzuarbeiten und um zu verstehen, wie es gemacht wird.
 

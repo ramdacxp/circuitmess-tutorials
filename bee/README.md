@@ -182,12 +182,15 @@ Durch dieses Bauteil kann MR. BEE vibrieren und sich bewegen.
 Dieser spezielle Motortyp hat einen besonderen Namen - **ERM-Motor**.
 
 Ein ERM-Motor besitzt auf seiner Motorenachse ein nicht zentriertes Gewicht.
-Wenn die Achse sich dreht, bewirkt die Zentripetalkraft (eine Kraft, die einen Körper dazu bringt, einer gekrümmten Bahn zu folgen), dass sich der ganze Motor bewegt.
+Wenn sich die Achse dreht, bewirkt die Zentripetalkraft (eine Kraft, die einen Körper dazu bringt, einer gekrümmten Bahn zu folgen), dass sich der ganze Motor bewegt.
 
 Aus dem Motor kommen zwei Drähte heraus.
-Die Farben der Drähte (rot und blau) stehen für ihre Polarität: blau ist negativ (-) und rot ist positiv (+).
+Die Farben der Drähte (rot und blau) stehen für ihre Polarität:
 
-Diese Drähte werden für den Anschluss des Motors an die Stromquelle (Batterie) verwendet und versorgen den Motor mit Strom.
+* blau ist negativ (-) und
+* rot ist positiv (+).
+
+Diese Drähte werden für den Anschluss des Motors an die Stromquelle (die Batterie) verwendet und versorgen den Motor mit Strom.
 
 Dies ist ein elektronisches Symbol für einen Motor:
 
@@ -235,7 +238,7 @@ Wir bevorzugen die auf dem Bild gezeigte Zange (Plato, Modell 170), aber auch je
 
 ### Wie löte ich richtig?
 
-Eines der Dinge, die du beim Zusammenbau von BOB tun wirst, ist löten!
+Eines der Dinge, die du beim Zusammenbau von MR. BEE tun wirst, ist löten!
 
 Hast du das schon einmal gemacht? Wenn nicht, empfehlen wir, dir die folgenden Links anzusehen, die zu nützlichen Anleitungen und Blogs zum Thema Löten führen. Du wirst nur 10 Minuten brauchen, um dich in die Materie einzuarbeiten und um zu verstehen, wie es gemacht wird.
 
