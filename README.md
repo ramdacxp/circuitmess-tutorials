@@ -9,7 +9,7 @@ Dieses GitHub Repository enthält deutsche Übersetzungen der Bauanleitungen fü
 | [CAPACITRON](capacitron/README.md) | [PDF](CAPACITRON.pdf) | [CAPACITRON, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/capacitron-build-guide) |
 | [MR. BEE](bee/README.md)           | [PDF](BEE.pdf)        | [MR. BEE, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/mrbee-build-guide)         |
 | [BOB](bob/README.md)               | [PDF](BOB.pdf)        | [BOB, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/bob-build-guide)               |
-| RESISTRON                          |                       | [RESISTRON, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/resistron-build-guide)   |
+| [RESISTRON](resistron/README.md)   | [PDF](RESISTRON.pdf)  | [RESISTRON, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/resistron-build-guide)   |
 | [MARV](marv/README.md)             | [PDF](MARV.pdf)       | [MARV, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/marv-build-guide)             |
 
 **Hinweis:**
