@@ -2,8 +2,10 @@
 
 * [Einführung](#einführung)
 * [Hier sind die Werkzeuge!](#hier-sind-die-werkzeuge)
-* [Lass uns MARV bauen!](#lass-uns-marv-bauen)
-* [Batterien zuerst](#batterien-zuerst)
+* [Zusammenbau](#zusammenbau)
+  * [Wie löte ich richtig?](#wie-löte-ich-richtig)
+  * [Lass uns MARV bauen!](#lass-uns-marv-bauen)
+* [Schalten wir ihn ein!](#schalten-wir-ihn-ein)
 
 ## Einführung
 
@@ -486,3 +488,21 @@ Pass auf, die Batterie muss mit der richtigen Seite eingesetzt werden.
 **Du hast es geschafft!**
 
 MARV, der verrückte Roboter, ist zusammengebaut.
+
+## Schalten wir ihn ein!
+
+### Der Unterschied zwischen einem Schalter und einem Taster
+
+Nun, da du deinen verrückten Roboter zusammengebaut hast, ist es an der Zeit zu sehen, wie er funktioniert!
+
+Wenn er vollständig zusammengebaut ist, sollte dein MARV wie folgt aussehen:
+
+![Fertig zusammengebaut](images/final.jpg)
+
+MARV wird dir den **Unterschied zwischen einem Taster und einem Schalter** auf praktische Weise zeigen:
+
+* Wenn du den Druckknopf drückst, leuchten MARVs Augen nur kurz auf und erlöschen dann wieder.
+
+* Sobald du aber den Schalter einschaltest, leuchten seine Augen so lange, bis du den Schalter wieder in die Ausgangsposition zurückschiebst.
+
+Falls du Fragen hast, kannst du uns unter contact@circuitmess.com erreichen und wir werden dir helfen!
