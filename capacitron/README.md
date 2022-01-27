@@ -2,8 +2,8 @@
 
 * [Einführung](#einführung)
 * [Hier sind die Werkzeuge!](#hier-sind-die-werkzeuge)
-* [CAPACITRON, triff deinen Erbauer!](#capacitron-triff-deinen-erbauer)
-* [Batterien zuerst](#batterien-zuerst)
+* [Zusammenbau](#zusammenbau)
+* [Schalten wir ihn ein!](#schalten-wir-ihn-ein)
 
 ## Einführung
 
@@ -541,3 +541,46 @@ Pass auf, die Batterie muss mit der richtigen Seite eingesetzt werden.
 ![Fertiger CAPACITRON](images/final.jpg)
 
 Dein eigener CAPACITRON ist zusammengebaut. **Sehr gut gemacht!**
+
+## Schalten wir ihn ein!
+
+### Was kann CAPACITRON?
+
+Nun, da du deinen verrückten Roboter zusammengebaut hast, ist es an der Zeit zu sehen, wie er funktioniert!
+
+Dein CAPACITRON sollte so aussehen:
+
+![CAPACITRON](images/test1.jpg)
+
+Die **Leiterplatte** verbindet nun alle Komponenten und hilft ihnen, als Team zusammenzuarbeiten.
+
+Die **Batterie** versorgt die **LEDs** mit Energie, damit sie die Augen von CAPACITRON zum Leuchten bringen können.
+
+Zu Beginn dieser Anleitung haben wir darüber gesprochen, dass wir Widerstände brauchen, um die LEDs vor zu viel elektrischer Energie zu schützen - das kannst du jetzt in Aktion sehen.
+
+**Die CAPACITRONs Augen können mit dem Schalter (*englisch: On/Off Switch*) auf der linken Seite ein- und ausgeschaltet werden.**
+
+![CAPACITRONs Ein/Aus-Schalter](images/test2.jpg)
+
+Wenn du deinen CAPACITRON ausschaltest, kannst du mit den beiden Tastern seine Kondensatoren laden (*englisch: charge*) und entladen (*discharge*):
+
+![CAPACITRONs Ein/Aus-Schalter](images/test3.jpg)
+
+Drücke den linken Taster für einige Sekunden.
+
+Lass' ihn wieder los.
+
+Drücke nun den rechten Taster und halte ihn gedrückt.
+
+Du wirst sehen, wie CAPACITRONs Augen aufleuchten und langsam wieder verblassen.
+
+#### Wie ist das passiert?
+
+Sobald du den linken Knopf drückst, werden die Kondensatoren aufgeladen.
+Nach ein paar Sekunden sind sie voll aufgeladen.
+
+Wenn du den rechten Knopf drückst, entlädst du die Kondensatoren, und du wirst sehen, wie die LEDs langsam verblassen, während die Kondensatoren entladen werden.
+
+Wenn du beide Tasten gleichzeitig drückst, werden die LEDs direkt von der Batterie gespeist und leuchten konstant.
+
+Falls du Fragen hast, kannst du uns unter **contact@circuitmess.com** erreichen und wir werden dir helfen!
