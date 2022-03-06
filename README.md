@@ -25,10 +25,10 @@ offiziellen [CircuitMess Guides Homepage](https://learn.circuitmess.com/resource
 
 In Arbeit
 
-| Markdown (DE)                                   | PDF (DE) | CircuitMess Guides (EN)                                                                      |
-|-------------------------------------------------|----------|----------------------------------------------------------------------------------------------|
-| [Chatter Bauanleitung](chatter/build/README.md) | -        | [Chatter Build Guide](https://learn.circuitmess.com/resources/guides/en/chatter-build-guide) |
-| -                                               | -        | [Chatter Usage Guide](https://learn.circuitmess.com/resources/guides/en/chatter-usage-guide) |
+| Markdown (DE)                                   | PDF (DE)                 | CircuitMess Guides (EN)                                                                      |
+|-------------------------------------------------|--------------------------|----------------------------------------------------------------------------------------------|
+| [Chatter Bauanleitung](chatter/build/README.md) | [PDF](CHATTER-Build.pdf) | [Chatter Build Guide](https://learn.circuitmess.com/resources/guides/en/chatter-build-guide) |
+| -                                               | -                        | [Chatter Usage Guide](https://learn.circuitmess.com/resources/guides/en/chatter-usage-guide) |
 
 ## Copyright
 
