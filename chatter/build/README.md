@@ -3,6 +3,7 @@
 * [Einführung](#einführung)
 * [Hier sind die Werkzeuge!](#hier-sind-die-werkzeuge)
 * [Zusammenbau](#zusammenbau)
+* [Der erste Test](#der-erste-test)
 * [Wie geht's weiter?](#)
 
 ## Einführung
@@ -72,7 +73,7 @@ Hier ist die Liste der Komponenten:
 3. Platine mit eingebautem Kommunikationsmodul
 4. USB-C-Kabel für die Programmierung
 5. Batterien
-6. Display-Platine
+6. Bildschirm-Platine
 7. Taster
 8. Tastenkappen
 9. Piezo-Summer
@@ -426,4 +427,211 @@ Hier ist noch einmal das Foto von Adafruit; sieh es dir genau an und vergleiche 
 ![Lötstellen](images/adafruit.jpg)
 
 ### Teil 2 - Gehäuse
+
+Willkommen zum nächsten Schritt, in dem du sehen wirst, wie du das Gehäuse für deinen Chatter zusammenbauen kannst!
+
+Wie du wahrscheinlich schon bemerkt hast, hast du sechs Acrylgehäuse in deinem Karton - drei für jeden Chatter.
+
+Diese Teile solltest du haben:
+
+![Gehäuseteile](images/case1.jpg)
+
+Als Erstes musst du **die blauen Schutzfolien abziehen**.
+
+Wie du sehen kannst, hat jedes der Acrylgehäuseteile auf beiden Seiten eine Schutzfolie, die abgezogen werden muss. Aktuell sind die Gehäuseteile noch nicht vollständig durchsichtig, aber sie sollten es sein, sobald du diesen Schritt beendet hast!
+
+![Gehäuseteile mit Folie](images/case2.jpg)
+
+![Gehäuseteile ohne Folie](images/case3.jpg)
+
+#### Gehäuserückseite
+
+Als erstes werden wir ein Acrylgehäuse auf der Rückseite deines Chatters anbringen.
+
+Die Acrylplatte, die du jetzt brauchst, ist leicht zu finden - es ist jene mit den vielen Löchern darin.
+Bitte nimm das auf dem Foto unten abgebildete Gehäuse und lege es auf die Platine.
+
+![Gehäuse Rückseite](images/case4.jpg)
+
+Nimm nun die **vier goldenen Abstandshalter** und **vier kleine Schrauben**.
+
+![Abstandshalter und kleine Schrauben](images/case5.jpg)
+
+**Es gibt zwei verschiedene Größen von Schrauben. Achte darauf, die richtigen zu verwenden!**
+
+Die goldenen Abstandshalter werden auf der Vorderseite angebracht, während die Schrauben auf der Rückseite angebracht werden.
+
+![Schrauben anbringen](images/case6.jpg)
+
+Dieser Teil kann ein wenig knifflig sein.
+
+Um es etwas zu leichter zu machen, kannst du die Schrauben und Abstandshalter gleichzeitig einsetzen. Wie bereits erwähnt, gehen die Schrauben durch die vier Löcher auf der Rückseite, während die Abstandshalter auf der Vorderseite angebracht werden.
+
+Folge den Fotos:
+
+![Abstandshalter anbringen](images/case7.jpg)
+
+Sobald sie verbunden sind, nimm einen Schraubenzieher und ziehe jede kleinen Schraube an, um die Gehäuserückseite an der Leiterplatte zu befestigen.
+
+![Schrauben anziehen](images/case8.jpg)
+
+![Schrauben anziehen](images/case9.jpg)
+
+Wiederhole diesen Vorgang für alle vier Löcher auf der Rückseite des Chatters, bis es so aussieht:
+
+![Rückseite fertig](images/case10.jpg)
+
+#### Vorderseite und Anzeige
+
+Nimm nun das größte Gehäuseteil und den Bildschirm.
+
+![Vorderseite und Bildschirm](images/front1.jpg)
+
+Auf der linken und rechten Seite des Bildschirms befinden sich zwei Aufkleber. Von diesen muss die Schutzfolie abgezogen werden.
+
+![Schutzfolie abziehen](images/front2.jpg)
+
+![Bildschirm ohne Schutzfolie](images/front3.jpg)
+
+Nimm nun das große Gehäuse und stecke das orangefarbene Anschlusskabel, das mit dem Bildschirm verbunden ist, durch das Gehäuse, wie auf dem Foto unten gezeigt:
+
+![Anschlusskabel](images/front4.jpg)
+
+Achte darauf, dass sich der Bildschirm auf der richtigen Seite befindet, denn er wird gleich auf das Gehäuse geklebt.
+
+![Bildschirm auf Gehäuse](images/front5.jpg)
+
+Du kannst nun den Bildschirm und das Gehäuse zur Seite legen.
+
+**Nimm die Leiterplatte und folge den nächsten Schritten sorgfältig.**
+
+Es gibt ein **kleines graues Teil**, das sich an der Stelle befindet, wo der Bildschirm hingehört. Du musst das graue Teil langsam aus dem Schlitz herausziehen, aber nicht ganz. Ziehe es gerade so weit heraus, dass das orangefarbene Anschlusskabel, das mit dem Bildschirm verbunden ist, hineingesteckt werden kann.
+
+![Bildschirm-Stecker öffnen](images/front6.jpg)
+
+Nimm danach das Gehäuse mit dem Bildschirm und stecke das orangefarbene Anschlusskabel zwischen den grauen Verschluss und den Schlitz.
+
+![Anschlusskabel einstecken](images/front7.jpg)
+
+Schließe den grauen Verschluss indem du ihn an die Stelle zurück drückst, an der er sich vorher befand. Vergewissere dich, dass er wieder einrastet.
+
+![Verbindung einrasten](images/front8.jpg)
+
+![Verbindung von der Seite](images/front9.jpg)
+
+Platziere das Gehäuse so auf dem Chatter wie unten gezeigt:
+
+![Gehäuse aufsetzen](images/front10.jpg)
+
+Wieder einmal ist es Zeit für kleine Schrauben. Nimm zwei davon und stecke sie in die beiden Löcher unten an der Vorderseite.
+
+![Gehäuse verschrauben](images/front11.jpg)
+
+Nimm den Schraubenzieher und zieh alles fest an.
+
+![Schrauben anziehen](images/front12.jpg)
+
+Die Chatter sollten jetzt so aussehen:
+
+![Gehäuse verschraubt](images/front13.jpg)
+
+Jetzt ist es an der Zeit, die **Schutzfolie vom Bildschirm abzuziehen**.
+
+![Schutzfolie abzuziehen](images/front14.jpg)
+
+#### Tasten
+
+Wir haben **Aufkleber** vorbereitet, damit du weißt, welcher Knopf für welchen Buchstaben oder welche Zahl steht.
+
+![Aufkleber](images/sticker1.jpg)
+
+Ziehe die Aufkleber vom Papier ab und platziere sie so auf dem Chatter:
+
+![Aufkleber anziehen](images/sticker2.jpg)
+
+![Aufkleber auf dem Chatter](images/sticker3.jpg)
+
+Es ist Zeit für das letzte Gehäuse.
+
+Du solltest nur noch dieses eine Gehäuse und große Schrauben haben. Du wirst zwei große Schrauben pro Chatter verwenden.
+
+![Gehäuse für Bildschirm und Schrauben](images/cover1.jpg)
+
+Stülpe das Gehäuse so über den Bildschirm:
+
+![Gehäuse für Bildschirm anbringen](images/cover2.jpg)
+
+Nimm zwei große Schrauben und stecke sie in die Löcher ganz links und ganz rechts.
+
+![Bildschirm-Gehäuse verschrauben](images/cover3.jpg)
+
+Ziehe die Schrauben wieder mit dem Schraubenzieher an.
+
+![Schrauben anziehen](images/cover4.jpg)
+
+**Herzlichen Glückwunsch, du bist zum letzten Teil des Zusammenbaus von Chatter gekommen.**
+
+Bringe nun die **Tastenkappen** an.
+Dieser Teil ist nicht so notwendig wie die anderen Teile, aber er wird dir das Leben leichter machen.
+
+Es sollten **17 Tastenkappen** pro Chatter sein, aber eine hiervon ist ein zusätzliches Ersatzteil, falls du eine von ihnen verlierst.
+
+![Tastenkappen](images/cap1.jpg)
+
+Lege je eine Kappe oben auf jeden Taster und achte darauf, dass sie mit einem "Klick" einrasten!
+
+![Tastenkappen aufsetzen](images/cap2.jpg)
+
+**Herzlichen Glückwunsch! Wir sind am Ende angelangt.**
+**Du hast deine Chatter zusammengebaut!**
+
+Sie sollten so aussehen, wenn du alle Regeln befolgst hast:
+
+![Chatter fertig zusammengebaut](images/final.jpg)
+
+#### Batterie
+
+**Jetzt kannst Du die Batterien einlegen und die Chatter einschalten!**
+
+![Batterien einlegen](images/bat.jpg)
+
+**Aufpassen! Achte auf die Polarität der Batterien!**
+
+Die Batterien sind mit zwei Symbolen gekennzeichnet, die die Polarität der Batterie angeben: **Plus (+) und Minus (-)**.
+
+Der Plus-Teil (+) hat am Ende eine kleine Metallwölbung, während der Minus-Teil (-) eine kleine Delle hat. Das ist sehr wichtig, denn beim Einsetzen der Batterien musst du darauf achten, welche Seite wohin gehört.
+
+**Dieser Teil ist wirklich wichtig:**
+Nimm eine Batterie und lege sie so in einen der beiden äußeren Schlitze, dass das Minus-Symbol (-) näher an der kleinen Feder liegt und das Plus-Symbol (+) von ihr wegschaut. Achte beim Einsetzen darauf, zuerst den Minus (-) -Teil einzuführen, so dass du die Feder mit der Batterie zusammendrücken und dann den anderen Teil leicht in die Halterung einführen kannst.
+
+## Der erste Test
+
+Nachdem wir nun alles gelötet und zusammengebaut haben, ist es an der Zeit zu überprüfen, ob alles richtig funktioniert.
+
+### Schalte deinen Chatter ein!
+
+Du kannst ihn einschalten, indem du den Ein-Aus-Knopf auf der linken Seite verschiebst.
+
+Nachdem dein Chatter eingeschaltet ist, wird ein erster Test angezeigt.
+
+Dieser Test sieht so aus und dient dazu, die Tasten zu überprüfen:
+
+![Tastentest](images/test1.jpg)
+
+Du musst nun jede einzelne der Tasten drücken. Wenn eine Taste richtig funktioniert, wird der Kreis auf deinem Bildschirm grün. Auf den folgenden Fotos kannst du sehen, wie alles aussehen sollte.
+
+![Alle Tasten überprüfen](images/test2.jpg)
+
+Wenn du erfolgreich überprüft hast, dass alle Tasten funktionieren, wird der Summer einen Ton abspielen.
+Wenn du diesen Ton hörst, kannst du eine beliebige Taste drücken, um den Test zu beenden und das Gerät zu starten.
+
+![Tastentest erfolgreich](images/test3.jpg)
+
+Wenn alles in Ordnung ist, sollte das Menü von Chatter wie folgt aussehen:
+
+![Menü von Chatter](images/inbox.jpg)
+
+Herzlichen Glückwunsch! Du hast es bis zum Ende der Bauanleitung geschafft!
+
+Im folgenden Kapitel erfährst du, was als Nächstes auf dich wartet.
 
