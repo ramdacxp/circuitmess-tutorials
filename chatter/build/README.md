@@ -364,3 +364,66 @@ So sollten deine Chatter im Moment aussehen:
 
 ![Leiterplatte von hinten](images/buzz5.jpg)
 
+#### Antenne
+
+Es ist Zeit für die Antenne!
+
+Du hast dich wahrscheinlich gefragt, was dieses **spiralförmige goldene Ding** ist - die Antwort ist: **die Antenne**.
+
+![Antenne und Leiterplatte](images/ant1.jpg)
+
+Es könnte einige Probleme mit dem Löten dieses Teils auf Ihrem Chatter geben, also bitte lies die folgenden Anweisungen sorgfältig.
+
+Als erstes musst du **ein wenig Lötzinn auf die Vorderseite der Platine auftragen**, wie auf dem Foto gezeigt.
+
+![Lötzinn auf Leiterplatte auftragen](images/ant2.jpg)
+
+**Während das Lötzinn noch warm ist, musst du den abgerundeten Teil der Antenne durch das kleine Loch stecken**, auf das wir vorher das Lötzinn aufgetragen haben.
+
+Wie du wahrscheinlich schon weißt, sollte der Stift auf der Rückseite des Chatters herauskommen.
+
+![Antenne und Leiterplatte](images/ant3.jpg)
+
+Der knifflige Teil hierbei ist, dass du auf der Vorderseite der Platine löten musst.
+
+![Antenne auf Vorderseite anlöten](images/ant4.jpg)
+
+**Bitte beachte, dass du die Antenne und den ersten Teil des Chips verlöten musst.** Schaue dir das Foto unten an, um zu sehen, wie es aussehen soll.
+
+![Antenne und Lora-Chip](images/ant5.jpg)
+
+**Aufpassen! Du darfst die Antenne nur mit dem ersten Teil des Chips verbinden, wie auf dem Foto gezeigt!**
+
+![Richtiger Pin für die Antenne](images/ant6.jpg)
+
+Deine Chatter sollten so aussehen, wenn du die Schritte richtig ausgeführt hast:
+
+![Antennen verlötet](images/ant7.jpg)
+
+#### Batteriehalter
+
+Das letzte Teil, das wir anlöten werden, ist der **Batteriehalter**. Hier siehst du den Batteriehalter für drei AAA-Batterien.
+
+![Batteriehalter](images/bat1.jpg)
+
+**Im Gegensatz zu allen anderen Teilen wird dieses Teil auf der Rückseite der Leiterplatte angebracht.** Die Stifte sollten durch die Löcher gehen und von der Vorderseite zu sehen sein.
+
+![Batteriehalter von der Seite](images/bat2.jpg)
+
+Nimm wieder den Lötkolben zur Hand und löte die beiden Stifte ein. Einfacher geht's nicht!
+
+![Batteriehalter einlöten](images/bat3.jpg)
+
+**Herzlichen Glückwunsch!** Du hast alle Lötarbeiten gemeistert!
+
+Das bedeutet, dass der schwierige Teil des Zusammenbaus vorbei ist!
+Reinige den Lötkolben, ziehe den Stecker und lege ihn auf den Metallständer, weg vom Chatter.
+
+Das Wichtigste ist jetzt, sicherzustellen, dass es keine Überbrückungen gibt.
+
+Hier ist noch einmal das Foto von Adafruit; sieh es dir genau an und vergleiche die Lötstellen mit denen, die du angefertigt hast.
+
+![Lötstellen](images/adafruit.jpg)
+
+### Teil 2 - Gehäuse
+
