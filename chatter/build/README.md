@@ -4,7 +4,7 @@
 * [Hier sind die Werkzeuge!](#hier-sind-die-werkzeuge)
 * [Zusammenbau](#zusammenbau)
 * [Der erste Test](#der-erste-test)
-* [Wie geht's weiter?](#)
+* [Wie geht's weiter?](#wie-gehts-weiter)
 
 ## Einführung
 
@@ -635,3 +635,22 @@ Herzlichen Glückwunsch! Du hast es bis zum Ende der Bauanleitung geschafft!
 
 Im folgenden Kapitel erfährst du, was als Nächstes auf dich wartet.
 
+## Wie geht's weiter?
+
+**Herzlichen Glückwunsch!
+Du hast gerade deinen eigenen verschlüsselten, drahtlosen Kommunikator gebaut - Chatter!**
+
+Wir hoffen sehr, dass dir das Projekt bisher gefallen hat, denn es kommt noch mehr.
+
+Jetzt kannst du lernen, wie man die Funktionen von Chatter nutzt und wie man coole Memes schreibt.
+
+![Chat mit Memes](images/memes.jpg)
+
+Der nächste Schritt ist, sich das Benutzerhandbuch anzusehen um zu erfahren, was man mit Chatter alles machen kann.
+
+Du kannst das Benutzerhandbuch hier finden:
+[Chatter Benutzerhandbuch](https://learn.circuitmess.com/resources/guides/en/chatter-usage-guide) (englisch)
+
+Falls du unterwegs Probleme hast oder der Bildschirm nichts anzeigt, überprüfe bitte noch einmal alle Lötverbindungen und stelle sicher, dass alle Komponenten richtig zusammengebaut wurden.
+
+Wenn das Problem weiterhin besteht, schicke uns eine E-Mail an contact@circuitmess.com mit ein paar Fotos von Chatter im Anhang, damit wir dir helfen können!
