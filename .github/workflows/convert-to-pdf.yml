@@ -1,60 +1,42 @@
+# https://github.com/shrink/actions-document-publish
+# https://github.com/marketplace/actions/publish-markdown-as-pdf
+
 name: Convert Markdown to PDF
 
-# Controls when the workflow will run
 # ------------------------------------------------------------------------------
+
 on:
   push:
     paths:
-    - 'tutorials/**.md'
+    - '/tutorials/**.md'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # ------------------------------------------------------------------------------
+
+env:
+  GITHUB_TOKEN: ${{ github.token }}
+
+# ------------------------------------------------------------------------------
+
 jobs:
-  converttopdf:
-    name: Convert to PDF
+  publish:
     runs-on: ubuntu-latest
+    name: Publish Document
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
 
-      - uses: baileyjm02/markdown-to-pdf@v1
+      - name: Publish PDF Document
+        uses: shrink/actions-document-publish@v1
+        id: publish-document
         with:
-          input_dir: tutorials
-          output_dir: pdfs
-          #images_dir: docs/images
-          # for example <img src="./images/file-name.png">
-          #image_import: ./images
-          # Default is true, can set to false to only get PDF files
-          #build_html: false
+          sources: 'tutorials/test/*.md'
 
-      - uses: actions/upload-artifact@v1
+      - name: Upload Document
+        uses: actions/upload-artifact@v2
+        id: upload-document
         with:
-          name: docs
-          path: pdfs
-
-  # convert_md:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #   # We must checkout the latest version of the code to get a copy of all .md files
-  #   - name: Checkout Code
-  #     uses: actions/checkout@v2.0.0
-  #     with:
-  #       fetch-depth: 1
-
-  #   - name: Create .pdfs
-  #     uses: scottypate/md-to-pdf@v0.1.1
-  #     env:
-  #       # Use this parameter to determine where the generated .pdf(s) will be stored.
-  #       PDF_DIR: './pdfs'
-
-  #   - name: Create Pull Request
-  #     uses: peter-evans/create-pull-request@v1.6.1
-  #     env:
-  #       # The token is built in to actions. No config required.
-  #       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  #       COMMIT_MESSAGE: Add PDF files.
-  #       PULL_REQUEST_TITLE: Add PDF files.
-  #       PULL_REQUEST_BRANCH: pdf-add
-  #       PULL_REQUEST_BODY: Here are the generated PDF files.
-  #       PULL_REQUEST_REVIEWERS: ramdacxp
+          name: 'Test.pdf'
+          path: ${{ steps.publish-document.outputs.pdf }}
