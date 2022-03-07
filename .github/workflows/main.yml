@@ -33,8 +33,8 @@ jobs:
       env:
         # The token is built in to actions. No config required.
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        COMMIT_MESSAGE: Add .pdf files.
-        PULL_REQUEST_TITLE: Add .pdf files.
+        COMMIT_MESSAGE: Add PDF files.
+        PULL_REQUEST_TITLE: Add PDF files.
         PULL_REQUEST_BRANCH: pdf-add
-        PULL_REQUEST_BODY: :wave: Here are the generated .pdf files.
+        PULL_REQUEST_BODY: Here are the generated PDF files.
         PULL_REQUEST_REVIEWERS: ramdacxp
