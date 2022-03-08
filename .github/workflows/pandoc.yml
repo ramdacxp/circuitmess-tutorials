@@ -1,0 +1,26 @@
+# https://github.com/pandoc/pandoc-action-example/blob/master/.github/workflows/long.yml
+
+name: PanDoc PDF Conversion
+
+# ------------------------------------------------------------------------------
+
+on:
+  push:
+    paths:
+    - '/tutorials/**.md'
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# ------------------------------------------------------------------------------
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: docker://pandoc/core:2.9
+        with:
+          args: >- # allows you to break string into multiple lines
+            --standalone
+            --output=pandoc.pdf
+            /tutorials/test/README.md
