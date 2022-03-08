@@ -1,11 +1,11 @@
-name: Node.JS md-to-pdf
+name: Create Chatter PDFs
 
 # ------------------------------------------------------------------------------
 
 on:
   push:
     paths:
-    - '/tutorials/**.md'
+    - '/chatter'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,14 +22,7 @@ jobs:
 
       - name: Create PDF output dirs
         run: |
-          mkdir -p pdf/test
           mkdir -p pdf/chatter
-          mkdir -p pdf/robots
-
-      - name: Create Test PDF
-        run: |
-          npx -y md-to-pdf tutorials/test/README.md
-          mv tutorials/test/README.pdf pdf/test/Test.pdf
 
       - name: Create Chatter PDF
         run: |
@@ -38,13 +31,7 @@ jobs:
 
       - name: List PDFs
         run: |
-          ls -R pdf
-
-      - name: Upload Test Artifacts
-        uses: actions/upload-artifact@v2
-        with:
-          name: 'Test PDFs'
-          path: 'pdf/test'
+          ls -R pdf/chatter
 
       - name: Upload Chatter Artifacts
         uses: actions/upload-artifact@v2
