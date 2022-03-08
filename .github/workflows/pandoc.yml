@@ -19,9 +19,16 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
     steps:
-      - uses: docker://pandoc/core:2.9
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: List files
+        run: ls -R
+
+      - name: Create PDF
+        uses: docker://pandoc/latex:2.9
         with:
           args: >- # allows you to break string into multiple lines
             --standalone
             --output=pandoc.pdf
-            /github/workspace/tutorials/test/README.md
+            tutorials/test/README.md
