@@ -24,8 +24,8 @@ jobs:
 
       - name: Create output directories
         run: |
-          mkdir -r pdf/test
-          mkdir -r pdf/chatter
+          mkdir -p pdf/test
+          mkdir -p pdf/chatter
 
       - name: Create Test PDF
         uses: docker://pandoc/latex:2.9
