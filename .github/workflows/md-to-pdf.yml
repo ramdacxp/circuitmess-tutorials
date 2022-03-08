@@ -29,7 +29,12 @@ jobs:
       - name: Create Test PDF
         run: |
           npx -y md-to-pdf tutorials/test/README.md
-          mv tutorials/test/README.pdf pdf/Test.pdf
+          mv tutorials/test/README.pdf pdf/test/Test.pdf
+
+      - name: Create Chatter PDF
+        run: |
+          npx -y md-to-pdf chatter/build/README.md
+          mv chatter/build/README.pdf pdf/chatter/Chatter-Buildguide.pdf
 
       - name: List PDFs
         run: |
@@ -39,4 +44,10 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: 'Test PDFs'
-          path: 'pdf'
+          path: 'pdf/test'
+
+      - name: Upload Chatter Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: 'Chatter Tutorials'
+          path: 'pdf/chatter'
