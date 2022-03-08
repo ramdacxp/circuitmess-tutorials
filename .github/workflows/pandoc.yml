@@ -22,9 +22,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: List files
+      - name: Create output directories
         run: |
-          ls -R
+          mkdir -r pdf/test
+          mkdir -r pdf/chatter
 
       - name: Create Test PDF
         uses: docker://pandoc/latex:2.9
@@ -48,6 +49,6 @@ jobs:
       - name: Archive PDFs as artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: Tutorial-PDF
+          name: PDF-Tutorials-Test
           path: |
-            pdf/*.pdf
+            pdf/test/*.pdf
