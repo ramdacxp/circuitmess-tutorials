@@ -6,9 +6,9 @@ name: PanDoc PDF Conversion
 # ------------------------------------------------------------------------------
 
 on:
-  push:
-    paths:
-    - '/tutorials/**.md'
+  # push:
+  #   paths:
+  #   - '/tutorials/**.md'
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

@@ -1,7 +1,8 @@
 # https://github.com/shrink/actions-document-publish
 # https://github.com/marketplace/actions/publish-markdown-as-pdf
+# https://github.com/BaileyJM02/markdown-to-pdf
 
-name: Convert Markdown to PDF
+name: Markdown to PDF
 
 # ------------------------------------------------------------------------------
 
@@ -28,15 +29,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Publish PDF Document
+      - name: Create Test PDF
         uses: shrink/actions-document-publish@v1
-        id: publish-document
+        id: pdf-test
         with:
           sources: 'tutorials/test/*.md'
+          images_dir: 'tutorials/test/images'
+          image_import: 'images'
+          table_of_contents: true
 
-      - name: Upload Document
+      - name: Upload Test PDF
         uses: actions/upload-artifact@v2
-        id: upload-document
+        id: upload-test
         with:
-          name: 'Test.pdf'
-          path: ${{ steps.publish-document.outputs.pdf }}
+          name: 'PDF-Test'
+          path: ${{ steps.pdf-test.outputs.pdf }}
