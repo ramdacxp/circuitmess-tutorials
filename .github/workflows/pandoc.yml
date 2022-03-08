@@ -26,20 +26,28 @@ jobs:
         run: |
           ls -R
 
-      - name: Create PDF
+      - name: Create Test PDF
         uses: docker://pandoc/latex:2.9
         with:
           args: >- # allows you to break string into multiple lines
             --standalone
-            --output=pandoc.pdf
+            --output=pdf/test/Test.pdf
             tutorials/test/README.md
 
+      - name: Create Chatter PDF
+        uses: docker://pandoc/latex:2.9
+        with:
+          args: >-
+            --standalone
+            --output=pdf/test/Chatter-Build.pdf
+            chatter/build/README.md
+
       - name: List PDFs
-        run: ls *.pdf
+        run: ls -R pdf
 
       - name: Archive PDFs as artifacts
         uses: actions/upload-artifact@v3
         with:
           name: Tutorial-PDF
           path: |
-            *.pdf
+            pdf/*.pdf
