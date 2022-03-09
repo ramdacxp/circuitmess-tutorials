@@ -1,0 +1,20 @@
+# https://gist.github.com/riggaroo/d828c5ffecf261d3ccc7bde89817dba5
+
+name: Create Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      versionName:
+        description: 'Version  (e.g. 1.0)'
+        required: true
+
+jobs:
+  createrelease:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+    - name: Print Version
+      run: echo "Version: v${{ github.event.inputs.versionName }}"
