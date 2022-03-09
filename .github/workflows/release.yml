@@ -14,7 +14,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Print Version
+      run: echo Version = ${{ github.event.inputs.versionName }}
+
     - name: Check out code
       uses: actions/checkout@v2
-    - name: Print Version
-      run: echo ${{ github.event.inputs.versionName }}
+
+    - name: Create Release
+      uses: actions/create-release@v1
+      id: create_release
+      with:
+        draft: false
+        prerelease: false
+        release_name: ${{ github.event.inputs.versionName }}
+        tag_name: ${{ github.ref }}
+        body_path: CHANGELOG.md
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
