@@ -28,6 +28,25 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
 
+    - name: Create PDF output dirs
+      run: |
+        mkdir -p pdf/test
+
+    - name: Create Test PDF
+      run: |
+        npx -y md-to-pdf tutorials/test/README.md
+        mv tutorials/test/README.pdf pdf/test/Test.pdf
+
+    - name: List PDFs
+      run: |
+        ls -R pdf/test
+
+    # - name: Upload Test Artifacts
+    #   uses: actions/upload-artifact@v2
+    #   with:
+    #     name: 'Test PDFs'
+    #     path: 'pdf/test'
+
     - name: Create release
       uses: actions/create-release@v1
       id: create_release
@@ -39,3 +58,13 @@ jobs:
         body: "This is release ${{ env.VERSION }} of the PDF tutorials, created on ${{ env.DATE }} at ${{ env.TIME }}."
       env:
         GITHUB_TOKEN: ${{ github.token }}
+
+    - name: upload Test.pdf to release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: pdf/test/Test.pdf
+          asset_name: Test.pdf
+          # asset_content_type: application/zip
