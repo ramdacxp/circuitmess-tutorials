@@ -28,9 +28,9 @@ jobs:
 
     - name: Print tokens
       run: |
-        echo "Version:: ${{ github.create_token.outputs.version }}
-        echo "Date::    ${{ github.create_token.outputs.date }}
-        echo "Time::    ${{ github.create_token.outputs.time }}
+        echo "Version:: ${{ github.create_token.outputs.version }}"
+        echo "Date::    ${{ github.create_token.outputs.date }}"
+        echo "Time::    ${{ github.create_token.outputs.time }}"
 
     - name: Check out code
       uses: actions/checkout@v2
@@ -43,6 +43,6 @@ jobs:
         prerelease: false
         release_name: ${{ github.create_token.outputs.version }}
         tag_name: ${{ github.create_token.outputs.version }}
-        body_path: Release ${{ github.create_token.outputs.version }} erstellt am ${{ github.create_token.outputs.date }} um ${{ github.create_token.outputs.time }}
+        body_path: "Release ${{ github.create_token.outputs.version }} erstellt am ${{ github.create_token.outputs.date }} um ${{ github.create_token.outputs.time }}"
       env:
         GITHUB_TOKEN: ${{ github.token }}
