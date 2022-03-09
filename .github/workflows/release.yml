@@ -1,21 +1,36 @@
 # https://gist.github.com/riggaroo/d828c5ffecf261d3ccc7bde89817dba5
+# https://trstringer.com/github-actions-create-release-upload-artifacts/
 
 name: Create Release
 
 on:
   workflow_dispatch:
-    inputs:
-      versionName:
-        description: 'Version  (e.g. 1.0)'
-        required: true
+    # inputs:
+    #   versionName:
+    #     description: 'Version  (e.g. 1.0)'
+    #     required: true
 
 jobs:
   createrelease:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Print Version
-      run: echo Version = ${{ github.event.inputs.versionName }}
+
+    # - name: Print Input Version
+    #   run: echo Version = ${{ github.event.inputs.versionName }}
+
+    - name: Create date based tokens
+      id: create_token
+      run: |
+        echo "::set-output name=version::$(date +v%Y.%m%d.%H%M%S)"
+        echo "::set-output name=date::$(date +%d.%m.%Y)"
+        echo "::set-output name=time::$(date +%H:%M:%S)"
+
+    - name: Print tokens
+      run: |
+        echo "Version:: ${{ github.create_token.outputs.version }}
+        echo "Date::    ${{ github.create_token.outputs.date }}
+        echo "Time::    ${{ github.create_token.outputs.time }}
 
     - name: Check out code
       uses: actions/checkout@v2
@@ -26,8 +41,8 @@ jobs:
       with:
         draft: false
         prerelease: false
-        release_name: ${{ github.event.inputs.versionName }}
-        tag_name: ${{ github.ref }}
-        body_path: CHANGELOG.md
+        release_name: ${{ github.create_token.outputs.version }}
+        tag_name: ${{ github.create_token.outputs.version }}
+        body_path: Release ${{ github.create_token.outputs.version }} erstellt am ${{ github.create_token.outputs.date }} um ${{ github.create_token.outputs.time }}
       env:
         GITHUB_TOKEN: ${{ github.token }}
