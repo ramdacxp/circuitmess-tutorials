@@ -35,7 +35,7 @@ jobs:
         mv tutorials/test/README.pdf pdf/Test.pdf
         npx -y md-to-pdf chatter/build/README.md
         mv chatter/build/README.pdf pdf/Chatter-Buildguide.pdf
-        ls -R pdf/test
+        ls -R pdf
 
     - name: Create release
       uses: actions/create-release@v1
