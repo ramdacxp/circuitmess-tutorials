@@ -20,17 +20,15 @@ jobs:
     #   run: echo Version = ${{ github.event.inputs.versionName }}
 
     - name: Create date based tokens
-      id: create_token
-      run: |
-        echo "::set-output name=version::$(date +'v%Y.%m%d.%H%M%S')"
-        echo "::set-output name=date::$(date +'%d.%m.%Y')"
-        echo "::set-output name=time::$(date +'%H:%M:%S')"
+      id: versiontoken
+      run: echo "::set-output name=version::$(date +'v%Y.%m%d.%H%M%S')"
+        # echo "::set-output name=date::$(date +'%d.%m.%Y')"
+        # echo "::set-output name=time::$(date +'%H:%M:%S')"
 
-    - name: Print tokens
-      run: |
-        echo "Version: ${{ github.create_token.outputs.version }}"
-        echo "Date:    ${{ github.create_token.outputs.date }}"
-        echo "Time:    ${{ github.create_token.outputs.time }}"
+    - name: Print version
+      run: echo "Version = ${{ github.versiontoken.outputs.version }}"
+        # echo "Date:    ${{ github.versiontoken.outputs.date }}"
+        # echo "Time:    ${{ github.versiontoken.outputs.time }}"
 
     - name: Check out code
       uses: actions/checkout@v2
@@ -41,8 +39,8 @@ jobs:
       with:
         draft: false
         prerelease: false
-        release_name: ${{ github.create_token.outputs.version }}
-        tag_name: ${{ github.create_token.outputs.version }}
-        body_path: "Release ${{ github.create_token.outputs.version }} erstellt am ${{ github.create_token.outputs.date }} um ${{ github.create_token.outputs.time }}"
+        release_name: ${{ github.versiontoken.outputs.version }}
+        tag_name: ${{ github.versiontoken.outputs.version }}
+        body_path: "This is release ${{ github.versiontoken.outputs.version }}"
       env:
         GITHUB_TOKEN: ${{ github.token }}
