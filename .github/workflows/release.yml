@@ -67,4 +67,4 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: pdf/test/Test.pdf
         asset_name: Test.pdf
-        # asset_content_type: application/zip
+        asset_content_type: application/pdf
