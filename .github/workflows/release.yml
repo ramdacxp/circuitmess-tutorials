@@ -22,15 +22,15 @@ jobs:
     - name: Create date based tokens
       id: create_token
       run: |
-        echo "::set-output name=version::`date +v%Y.%m%d.%H%M%S`"
-        echo "::set-output name=date::`date +%d.%m.%Y`"
-        echo "::set-output name=time::`date +%H:%M:%S`"
+        echo "::set-output name=version::$(date +'v%Y.%m%d.%H%M%S')"
+        echo "::set-output name=date::$(date +'%d.%m.%Y')"
+        echo "::set-output name=time::$(date +'%H:%M:%S')"
 
     - name: Print tokens
       run: |
-        echo "Version:: ${{ github.create_token.outputs.version }}"
-        echo "Date::    ${{ github.create_token.outputs.date }}"
-        echo "Time::    ${{ github.create_token.outputs.time }}"
+        echo "Version: ${{ github.create_token.outputs.version }}"
+        echo "Date:    ${{ github.create_token.outputs.date }}"
+        echo "Time:    ${{ github.create_token.outputs.time }}"
 
     - name: Check out code
       uses: actions/checkout@v2
