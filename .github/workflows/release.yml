@@ -17,4 +17,4 @@ jobs:
     - name: Check out code
       uses: actions/checkout@v2
     - name: Print Version
-      run: echo "Version: v${{ github.event.inputs.versionName }}"
+      run: echo ${{ github.event.inputs.versionName }}
