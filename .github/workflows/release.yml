@@ -25,10 +25,19 @@ jobs:
         # echo "::set-output name=date::$(date +'%d.%m.%Y')"
         # echo "::set-output name=time::$(date +'%H:%M:%S')"
 
+    - name: Set Time
+      run: |
+        echo "VERTAG=$(date +'v%Y.%m%d.%H%M%S')" >> $GITHUB_ENV
+
+
+
+
+
     - name: Print version
-      run: echo "Version = ${{ github.versiontoken.outputs.version }}"
-        # echo "Date:    ${{ github.versiontoken.outputs.date }}"
-        # echo "Time:    ${{ github.versiontoken.outputs.time }}"
+      run: |
+        echo "Version = ${{ github.versiontoken.outputs.version }}"
+        echo "Env = ${{ env.VERTAG }}"
+
 
     - name: Check out code
       uses: actions/checkout@v2
