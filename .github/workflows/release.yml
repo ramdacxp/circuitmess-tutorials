@@ -36,6 +36,6 @@ jobs:
         prerelease: false
         release_name: ${{ env.VERSION }}
         tag_name: ${{ env.VERSION }}
-        body_path: "This is release ${{ env.VERSION }}, created on ${{ env.DATE }} at ${{ env.TIME }}."
+        body: "This is release ${{ env.VERSION }} of the PDF tutorials, created on ${{ env.DATE }} at ${{ env.TIME }}."
       env:
         GITHUB_TOKEN: ${{ github.token }}
