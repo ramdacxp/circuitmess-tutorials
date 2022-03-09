@@ -22,9 +22,9 @@ jobs:
     - name: Create date based tokens
       id: create_token
       run: |
-        echo "::set-output name=version::$(date +v%Y.%m%d.%H%M%S)"
-        echo "::set-output name=date::$(date +%d.%m.%Y)"
-        echo "::set-output name=time::$(date +%H:%M:%S)"
+        echo "::set-output name=version::`date +v%Y.%m%d.%H%M%S`"
+        echo "::set-output name=date::`date +%d.%m.%Y`"
+        echo "::set-output name=time::`date +%H:%M:%S`"
 
     - name: Print tokens
       run: |
