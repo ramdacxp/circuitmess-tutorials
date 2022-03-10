@@ -8,11 +8,11 @@
 
 ### Willkommen beim Leitfaden zum inneren Aufbau von Chatter!
 
-Unabhängig davon, ob du deinen Chatter bereits zusammengebaut hast oder nicht, wird dies hier ein hilfreicher Leitfaden sein, in welchem du etwas mehr über die verlöteten Komponenten, kleine Verbindungen und Treiberbausteine erfahren wirst.
+Unabhängig davon, ob du deinen Chatter bereits zusammengebaut hast oder nicht, wird dies hier ein hilfreicher Leitfaden für dich sein, in welchem du etwas mehr über die verwendeten Komponenten, deren Verbindungen und Treiberbausteine erfahren wirst.
 
 Wir beginnen mit den größeren Bauteilen und gehen später auf die kleineren Bauteile ein.
 
-### Erkundung der Hauptplatine
+### Erkunde die Hauptplatine
 
 Es wäre falsch, mit etwas anderem zu beginnen als mit der Hauptplatine selbst. Deshalb präsentieren wir dir den Star des Abends...
 
@@ -27,7 +27,7 @@ Genau wie bei anderen CircuitMess-Geräten wie Nibble oder Spencer wollen wir, d
 
 ### ESP-WROOM-32
 
-Dieser Mikrocontroller steuert alles, und man könnte sagen, dass er das Gehirn von Chatter ist. ESP-WROOM-32 ist ein leistungsfähiges Modul, das hauptsächlich für Toncodierung und Musik-Streaming verwendet wird. In Anbetracht seiner Fähigkeiten ist es preisgünstig.
+Dieser Mikrocontroller steuert alles, und man könnte sagen, dass er das Gehirn von Chatter ist. ESP-WROOM-32 ist ein leistungsfähiges Modul, das hauptsächlich für Tonkodierung und Musik-Streaming verwendet wird. In Anbetracht seiner Fähigkeiten ist er sehr preisgünstig.
 
 ![ESP-WROOM-32](images/esp.jpg)
 
@@ -53,7 +53,7 @@ Sobald du Chatter an deinen PC angeschlossen hast, kannst du ihn in CircuitBlock
 
 Der Bildschirm von Chatter ist mit einer eigenen kleinen Platine verbunden, die an die Hauptplatine gelötet ist. Es gibt keine Pins, die gelötet werden müssen (anders als bei unseren anderen Geräten), sondern nur ein kleines orangefarbenes Kabel, das mit der Hauptplatine verbunden werden muss.
 
-Aber keine Sorge! Die Anleitungen, die diesen Schritt erklären, sind recht einfach, so dass wir hoffen, dass du den Zusammenbau genießen wirst.
+Aber keine Sorge! Die Anleitungen, die diesen Schritt erklären, sind recht einfach, so dass wir hoffen, dass du am Zusammenbau Freude haben wirst.
 
 ![Bildschirm](images/display.jpg)
 
@@ -97,7 +97,7 @@ Mit diesem Chip kann Chatter zwischen dem Arbeitsmodus (*Run Mode*) und dem Prog
 
 Die übrigen kleinen Bauteile sind Kondensatoren und Widerstände.
 Sie sind die Hauptbestandteile von so ziemlich jedem elektronischen Gerät auf der Welt.
-Sie werden verwendet, um den Stromfluss in einem Kreis zu steuern.
+Sie werden verwendet, um den Stromfluss zu steuern.
 
 Es gibt einige Stellen auf der Platine, an denen sich diese Bauteile befinden, hauptsächlich um das ESP-WROOM-32-Modul herum, beim Bildschirm und bei den wichtigen Chips.
 
@@ -107,7 +107,7 @@ Dies ist das Blockdiagramm von Chatter.
 
 Wirf einen Blick auf die schematische Darstellung unten und untersuche sie im Detail.
 
-Es zeigt, wie die Komponenten wie EPS-WROOM-32, Bildschirm, Summer und Taster angeschlossen sind. Es wird auch erklärt, wie die Signal der verschiedenen Eingänge von den verschiedenen Treibern angenommen und verarbeitet werden und wie sie die Ausgänge beeinflussen.
+Sie zeigt, wie die Komponenten wie EPS-WROOM-32, Bildschirm, Summer und Taster angeschlossen sind. Es wird auch erklärt, wie die Signale der verschiedenen Eingänge von den verschiedenen Treibern angenommen und verarbeitet werden und wie sie die Ausgänge beeinflussen.
 
 ![Blockschaltbild](images/block.jpg)
 

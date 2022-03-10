@@ -10,7 +10,7 @@ Außerdem stehen automatisch generierte [PDFs zum Download](https://github.com/r
 
 ## Wacky Robot Bausätze
 
-![Alle verrückten Roboter](robots.jpg)
+![Alle verrückten Roboter](images/robots.jpg)
 
 Die deutschen Übersetzungen der **Wacky Robot Bausätze** sind inzwischen auch auf der offiziellen [CircuitMess Guides Homepage](https://learn.circuitmess.com/resources/guides) verfügbar.
 
@@ -32,7 +32,7 @@ Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
 
 ## Chatter
 
-![Chatter](chatter.jpg)
+![Chatter](images/chatter.jpg)
 
 Deutsche Übersetzungen:
 
