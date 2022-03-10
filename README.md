@@ -6,7 +6,6 @@ ausgewählter Bastelkits von [CircuitMess](https://circuitmess.com/).
 Die Anleitungen können über die unten angegebenen Links online gelesen werden.
 Außerdem stehen automatisch generierte PDFs zum Download zur Verfügung.
 
-
 ## Wacky Robot Bausätze
 
 ![Alle verrückten Roboter](robots.jpg)

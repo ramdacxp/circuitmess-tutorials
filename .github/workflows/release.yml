@@ -31,13 +31,16 @@ jobs:
     - name: Generate PDFs
       run: |
         mkdir -p pdf
-        npx -y md-to-pdf tutorials/test/README.md
-        mv tutorials/test/README.pdf pdf/Test.pdf
-        npx -y md-to-pdf chatter/build/README.md
-        mv chatter/build/README.pdf pdf/Chatter-Buildguide.pdf
+        npx -y md-to-pdf tutorials/test/README.md              && mv tutorials/test/README.pdf              pdf/Test.pdf
+        npx -y md-to-pdf tutorials/robots/bee/README.md        && mv tutorials/robots/bee/README.pdf        pdf/WackyRobot-Bee.pdf
+        npx -y md-to-pdf tutorials/robots/bob/README.md        && mv tutorials/robots/bob/README.pdf        pdf/WackyRobot-Bob.pdf
+        npx -y md-to-pdf tutorials/robots/capacitron/README.md && mv tutorials/robots/capacitron/README.pdf pdf/WackyRobot-Capacitron.pdf
+        npx -y md-to-pdf tutorials/robots/marv/README.md       && mv tutorials/robots/marv/README.pdf       pdf/WackyRobot-Marv.pdf
+        npx -y md-to-pdf tutorials/robots/resistron/README.md  && mv tutorials/robots/resistron/README.pdf  pdf/WackyRobot-Resistron.pdf
+        npx -y md-to-pdf tutorials/chatter/build/README.md     && mv tutorials/chatter/build/README.pdf     pdf/Chatter-Buildguide.pdf
         ls -R pdf
 
-    - name: Create release
+    - name: Create Release
       uses: actions/create-release@v1
       id: create_release
       with:
@@ -49,7 +52,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ github.token }}
 
-    - name: Upload release asset Test.pdf
+    - name: Upload Test.pdf
       uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ github.token }}
@@ -59,7 +62,57 @@ jobs:
         asset_name: Test.pdf
         asset_content_type: application/pdf
 
-    - name: Upload release asset Chatter-Buildguide.pdf
+    - name: Upload WackyRobot-Bee.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/WackyRobot-Bee.pdf
+        asset_name: WackyRobot-Bee.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload WackyRobot-Bob.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/WackyRobot-Bob.pdf
+        asset_name: WackyRobot-Bob.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload WackyRobot-Capacitron.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/WackyRobot-Capacitron.pdf
+        asset_name: WackyRobot-Capacitron.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload WackyRobot-Marv.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/WackyRobot-Marv.pdf
+        asset_name: WackyRobot-Marv.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload WackyRobot-Resistron.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/WackyRobot-Resistron.pdf
+        asset_name: WackyRobot-Resistron.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload Chatter-Buildguide.pdf
       uses: actions/upload-release-asset@v1
       env:
         GITHUB_TOKEN: ${{ github.token }}
