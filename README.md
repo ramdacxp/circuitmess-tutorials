@@ -3,14 +3,16 @@
 Dieses GitHub Repository enthält deutsche Übersetzungen von Bauanleitungen und Nutzerhandbüchern
 ausgewählter Bastelkits von [CircuitMess](https://circuitmess.com/).
 
-Die Anleitungen können über die unten angegebenen Links online gelesen werden.
-Außerdem stehen automatisch generierte PDFs zum Download zur Verfügung.
+Die Anleitungen können über die unten angegebenen Links online gelesen werden.  
+Außerdem stehen automatisch generierte [PDFs zum Download](https://github.com/ramdacxp/circuitmess-tutorials/releases) zur Verfügung.
+
+[![Download der aktuellen PDF Tutorials)](https://img.shields.io/github/v/release/ramdacxp/circuitmess-tutorials?color=%2300cc00&label=PDF%20Tutorials&style=plastic)](https://github.com/ramdacxp/circuitmess-tutorials/releases/latest)
 
 ## Wacky Robot Bausätze
 
 ![Alle verrückten Roboter](robots.jpg)
 
-Die deutschen Übersetzungen für die **Wacky Robot Bausätze** sind inzwischen auch auf der offiziellen [CircuitMess Guides Homepage](https://learn.circuitmess.com/resources/guides) verfügbar.
+Die deutschen Übersetzungen der **Wacky Robot Bausätze** sind inzwischen auch auf der offiziellen [CircuitMess Guides Homepage](https://learn.circuitmess.com/resources/guides) verfügbar.
 
 Deutsche Übersetzungen:
 
@@ -36,11 +38,13 @@ Deutsche Übersetzungen:
 
 * [Chatter Bauanleitung](tutorials/chatter/build/README.md)
 * Chatter Benutzerhandbuch *(in Arbeit)*
+* [Chatter's Aufbau und Komponentenübersicht](tutorials/chatter/anatomy/README.md)
 
 Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
 
 * [Chatter Build Guide](https://learn.circuitmess.com/resources/guides/en/chatter-build-guide)
 * [Usage Guide](https://learn.circuitmess.com/resources/guides/en/chatter-usage-guide)
+* [Chatter Anatomy Guide](https://learn.circuitmess.com/resources/guides/en/chatter-anatomy-guide)
 
 ## Copyright
 
