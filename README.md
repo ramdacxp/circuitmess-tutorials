@@ -3,32 +3,48 @@
 Dieses GitHub Repository enthält deutsche Übersetzungen von Bauanleitungen und Nutzerhandbüchern
 ausgewählter Bastelkits von [CircuitMess](https://circuitmess.com/).
 
-Die deutschen Übersetzungen für die **Wacky Robot Bausätze** sind inzwischen auch auf der
-offiziellen [CircuitMess Guides Homepage](https://learn.circuitmess.com/resources/guides) verfügbar
-(Links siehe Tabelle).
+Die Anleitungen können über die unten angegebenen Links online gelesen werden.  
+Außerdem stehen automatisch generierte [PDFs zum Download](https://github.com/ramdacxp/circuitmess-tutorials/releases) zur Verfügung.
+
+[![Download der aktuellen PDF Tutorials)](https://img.shields.io/github/v/release/ramdacxp/circuitmess-tutorials?color=%2300cc00&label=PDF%20Tutorials&style=plastic)](https://github.com/ramdacxp/circuitmess-tutorials/releases/latest)
 
 ## Wacky Robot Bausätze
 
-![Alle verrückten Roboter](wacky_bg2.jpg)
+![Alle verrückten Roboter](robots.jpg)
 
-| Markdown (DE)                      | PDF (DE)              | CircuitMess Guides (EN)                                                                                             | CircuitMess Guides (DE)                                                                                                      |
-|------------------------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| [CAPACITRON](capacitron/README.md) | [PDF](CAPACITRON.pdf) | [CAPACITRON, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/capacitron-build-guide) | [Bauanleitung - CAPACITRON, der verrückte Roboter](https://learn.circuitmess.com/resources/guides/de/capacitron-build-guide) |
-| [MR. BEE](bee/README.md)           | [PDF](BEE.pdf)        | [MR. BEE, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/mrbee-build-guide)         | [Bauanleitung - MR. BEE, der verrückte Roboter](https://learn.circuitmess.com/resources/guides/de/mrbee-build-guide)         |
-| [BOB](bob/README.md)               | [PDF](BOB.pdf)        | [BOB, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/bob-build-guide)               | [Bauanleitung - BOB, der verrückte Roboter](https://learn.circuitmess.com/resources/guides/de/bob-build-guide)               |
-| [RESISTRON](resistron/README.md)   | [PDF](RESISTRON.pdf)  | [RESISTRON, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/resistron-build-guide)   | [Bauanleitung - RESISTRON, der verrückte Roboter](https://learn.circuitmess.com/resources/guides/de/resistron-build-guide)   |
-| [MARV](marv/README.md)             | [PDF](MARV.pdf)       | [MARV, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/marv-build-guide)             | [Bauanleitung - MARV, der verrückte Roboter](https://learn.circuitmess.com/resources/guides/de/marv-build-guide)             |
+Die deutschen Übersetzungen der **Wacky Robot Bausätze** sind inzwischen auch auf der offiziellen [CircuitMess Guides Homepage](https://learn.circuitmess.com/resources/guides) verfügbar.
+
+Deutsche Übersetzungen:
+
+* [CAPACITRON](tutorials/robots/capacitron/README.md)
+* [MR. BEE](tutorials/robots/bee/README.md)
+* [BOB](tutorials/robots/bob/README.md)
+* [RESISTRON](tutorials/robots/resistron/README.md)
+* [MARV](tutorials/robots/marv/README.md)
+
+Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
+
+* [CAPACITRON, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/capacitron-build-guide)
+* [MR. BEE, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/mrbee-build-guide)
+* [BOB, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/bob-build-guide)
+* [RESISTRON, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/resistron-build-guide)
+* [MARV, The Wacky Robot Build Guide](https://learn.circuitmess.com/resources/guides/en/marv-build-guide)
 
 ## Chatter
 
 ![Chatter](chatter.jpg)
 
-In Arbeit
+Deutsche Übersetzungen:
 
-| Markdown (DE)                                   | PDF (DE)                 | CircuitMess Guides (EN)                                                                      |
-|-------------------------------------------------|--------------------------|----------------------------------------------------------------------------------------------|
-| [Chatter Bauanleitung](chatter/build/README.md) | [PDF](CHATTER-Build.pdf) | [Chatter Build Guide](https://learn.circuitmess.com/resources/guides/en/chatter-build-guide) |
-| -                                               | -                        | [Chatter Usage Guide](https://learn.circuitmess.com/resources/guides/en/chatter-usage-guide) |
+* [Chatter Bauanleitung](tutorials/chatter/build/README.md)
+* Chatter Benutzerhandbuch *(in Arbeit)*
+* [Chatter's Aufbau und Komponentenübersicht](tutorials/chatter/anatomy/README.md)
+
+Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
+
+* [Chatter Build Guide](https://learn.circuitmess.com/resources/guides/en/chatter-build-guide)
+* [Usage Guide](https://learn.circuitmess.com/resources/guides/en/chatter-usage-guide)
+* [Chatter Anatomy Guide](https://learn.circuitmess.com/resources/guides/en/chatter-anatomy-guide)
 
 ## Copyright
 
