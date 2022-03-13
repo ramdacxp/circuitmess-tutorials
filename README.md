@@ -37,7 +37,7 @@ Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
 Deutsche Übersetzungen:
 
 * [Chatter Bauanleitung](tutorials/chatter/build/README.md)
-* Chatter Benutzerhandbuch *(in Arbeit)*
+* [Chatter Benutzerhandbuch](tutorials/chatter/usage/README.md)
 * [Chatter's Aufbau und Komponentenübersicht](tutorials/chatter/anatomy/README.md)
 
 Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
