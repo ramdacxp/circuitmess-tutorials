@@ -13,11 +13,11 @@
 
 Willkommen zum Chatter-Benutzerhandbuch!
 
-Hoffentlich hattest du Spaß beim Zusammenbauen deines Chatters.
+Hoffentlich hattest du Spaß beim Zusammenbauen deiner Chatter.
 Bist du bereit, ein bisschen mehr zu erfahren?
-Wir zeigen dir in diesem Benutzerhandbuch, wie du Chatter benutzen kannst.
+Wir zeigen dir in diesem Benutzerhandbuch, wie du deine Chatter benutzen kannst.
 
-#### Lass uns Chatter einschalten!
+#### Chatter einschalten
 
 Benutze den Schalter auf der linken Seite von Chatter und schalte ihn ein, indem du den Schalter nach oben schiebst.
 
@@ -35,7 +35,7 @@ Wenn du deinen Chatter zum ersten Mal einschaltest, solltest du den Hardware-Tes
 
 Das ist eine coole Software, mit der du sicherstellen kannst, dass du deinen Chatter richtig zusammengebaut hast! Folge einfach bei jedem Schritt den Anweisungen auf dem Bildschirm und überprüfe im Zweifelsfall deine Lötstellen!
 
-Dies ist das erste, was du sehen wirst, wenn du den Chatter einschaltest. Dieser Test soll sicherstellen, dass alle Knöpfe richtig verlötet sind.
+Dies ist das Erste, was du sehen wirst, wenn du den Chatter einschaltest. Dieser Test soll sicherstellen, dass alle Knöpfe richtig verlötet sind.
 
 ![Test der Tasten](images/test1.jpg)
 
@@ -53,7 +53,7 @@ Wenn alle Kreise grün sind und du die Töne hörst - drücke einen beliebigen K
 
 #### Batterie leer? Lass uns die Batterien wechseln!
 
-Wie du wahrscheinlich schon weißt, hat Chatter keine wiederaufladbare Batterie, sondern 3 AAA-Batterien, die gewechselt werden müssen, wenn du die Meldung "Achtung! Batterien schwach!" erscheint (auf englisch: *"Warning! Batteries low!"*).
+Wie du wahrscheinlich schon weißt, hat Chatter keine wiederaufladbare Batterie, sondern 3 AAA-Batterien, die gewechselt werden müssen, wenn die Meldung "Achtung! Batterien schwach!" erscheint (auf englisch: *"Warning! Batteries low!"*).
 
 ![Achtung! Batterien schwach!](images/batt-low.jpg)
 
@@ -67,11 +67,11 @@ In der ersten Reihe siehst du vier Knöpfe, während jede weitere Reihe aus drei
 
 Die erste Taste links dient zum Beispiel dazu, nach oben oder links zu gehen, die zweite nach unten oder rechts, die dritte entspricht der Eingabetaste auf Ihrem PC (zum Eingeben und Bestätigen von Aktionen), und die vierte wird zum Verlassen des Menüs verwendet.
 
-Die nächsten drei Reihen bestehen aus Schaltflächen, die zum **Schreiben von Nachrichten** verwendet werden.
+Die nächsten drei Reihen bestehen aus Testeb, die zum **Schreiben von Nachrichten** verwendet werden.
 
 Und zu guter Letzt besteht die letzte Reihe aus der **Löschtaste** (ganz links), der **Leertaste/0-Taste** (in der Mitte) und der **Großbuchstaben-/Memes-Taste** (ganz rechts).
 
-Es ist wirklich einfach, alle diese Tasten zu benutzen. Wenn du den ersten Buchstaben der Taste verwenden möchtest drücke sie nur einmal; wenn du den zweiten Buchstaben verwenden möchtest, drücke zwei mal auf die Taste, und wenn du den dritten Buchstaben verwenden möchten, drücke drei mal.
+Es ist wirklich einfach, alle diese Tasten zu benutzen. Wenn du den ersten Buchstaben der Taste verwenden möchtest, drücke sie nur einmal; wenn du den zweiten Buchstaben verwenden möchtest, drücke zwei mal auf die Taste, und wenn du den dritten Buchstaben verwenden möchten, drücke drei mal.
 
 Wenn du die **letzte Schaltfläche** in der letzten Reihe (**die mit dem Smiley**) lange gedrückt hältst, erhältst du Zugang zu einem geheimen **Meme-Menü**.
 
@@ -121,7 +121,7 @@ Das sind das **Erstellen deines Profils** und das **Hinzufügen von Freunden**.
 
 Klicke auf diese coole Funktion, um dein Profil zu erstellen.
 
-Nach dem Öffnen sollte es so aussehen (bis auf den Namen und den Statistiken!):
+Nach dem Öffnen sollte es so aussehen (bis auf den Namen und die Statistiken!):
 
 ![Benutzerprofil](images/profile2.jpg)
 
@@ -148,13 +148,13 @@ Der rechte Chatter zeigt, wie der Bildschirm aussieht, wenn du bereits einige Fr
 
 ![Ohne und mit Freunden](images/friends2.jpg)
 
-Nach Auswahl von "+ Freund hinzufügen" (*"+ Add friend"*), suchen die Chatter schnell andere Geräte und finden den nächsten Freund!
+Nach Auswahl von "+ Freund hinzufügen" (*"+ Add friend"*), suchen die Chatter andere Geräte und finden schnell den nächsten Freund!
 
 ![Freunde suchen](images/friends3.jpg)
 
 ![Suche und Hinzufügen](images/friends4.gif)
 
-Bevor ihr Freunde werdet, müsst ihr euch gegenseitig hinzufügen (wie bei Facebook).
+Bevor ihr Freunde werdet, müsst ihr euch gegenseitig hinzufügen und die Freundschaftsanfrage bestätigen (ganz ähnlich wie bei Facebook).
 
 ![Anfrage bestätigen](images/friends5.jpg)
 
