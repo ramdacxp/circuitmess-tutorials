@@ -3,6 +3,9 @@
 * [Finde dich zurecht...](#finde-dich-zurecht)
   * [Einrichtung](#einrichtung)
   * [Einstellungen](#einstellungen)
+* [Lass uns Nachrichten schicken!](#lass-uns-nachrichten-schicken)
+  * [Freunde hinzufügen](#freunde-hinzufügen)
+  * [Nachrichten verschicken](#nachrichten-verschicken)
 
 ## Finde dich zurecht...
 
@@ -104,3 +107,111 @@ So sieht das Einstellungsmenü aus:
 
 6. *Hardware test* / **Hardwaretest** - Führe diesen Test durch, wenn du den Verdacht hast, dass eine Komponente nicht so funktioniert, wie sie sollte. Falls du den Test nicht erfolgreich zu Ende durchführen kannst solltest du deine Lötstellen überprüfen. Wenn du Hilfe benötigst um deinen Chatter wieder zum Laufen zu bringen, kontaktiere uns einfach über contact@circuitmess.com.
 
+## Lass uns Nachrichten schicken!
+
+### Freunde hinzufügen
+
+Schauen wir uns zwei sehr coole Funktionen an, die Chatter bietet!
+
+Das sind das **Erstellen deines Profils** und das **Hinzufügen von Freunden**.
+
+#### Benutzerprofil
+
+![Menü Profile](images/profile.jpg)
+
+Klicke auf diese coole Funktion, um dein Profil zu erstellen.
+
+Nach dem Öffnen sollte es so aussehen (bis auf den Namen und den Statistiken!):
+
+![Benutzerprofil](images/profile2.jpg)
+
+Wie du sehen kannst, kannst Du deinen Namen eintragen sowie die Chat-Farbe und dein Avatar-Foto anpassen.
+
+Hier sind alle verfügbaren Avatar-Fotos, aus dehnen du wählen kannst!
+
+![Avatar-Fotos](images/avatar.png)
+
+Du kannst die genannten Dinge ändern, indem du sie anklickst und dann änderst. Nachdem du den Avatar und die gewünschte Farbe ausgewählt hast, klicke noch einmal auf die Schaltfläche mit dem Häkchen.
+
+Hast du dein Profil angepasst? Sehr gut!
+
+#### Lass uns ein paar Freunde hinzufügen!
+
+Verwende die Taste **[x]**, um das Profil-Menü zu verlassen, und du findest dich im Hauptmenü wieder. Suche den Menüpunkt "Freunde" (englisch *"Friends"*) und öffne ihn.
+
+![Menü Freunde](images/friends.jpg)
+
+Sobald der Menüpunkt ausgewählt wurde, sieht der Bildschirm wie folgt aus:
+
+Das linke Chatter zeigt, was du siehst, wenn du noch keine Freunde hinzugefügt hast.
+Der rechte Chatter zeigt, wie der Bildschirm aussieht, wenn du bereits einige Freunde hinzugefügt hast.
+
+![Ohne und mit Freunden](images/friends2.jpg)
+
+Nach Auswahl von "+ Freund hinzufügen" (*"+ Add friend"*), suchen die Chatter schnell andere Geräte und finden den nächsten Freund!
+
+![Freunde suchen](images/friends3.jpg)
+
+![Suche und Hinzufügen](images/friends4.gif)
+
+Bevor ihr Freunde werdet, müsst ihr euch gegenseitig hinzufügen (wie bei Facebook).
+
+![Anfrage bestätigen](images/friends5.jpg)
+
+Sobald ihr euch gegenseitig hinzugefügt habt, werden die Chatter eine Kopplung (englisch *Pairing*) durchführen.
+
+![Kopplung](images/pairing.jpg)
+
+Es erscheint eine Meldung "Kopplung erfolgreich" (*"Pairing successful"*) und voila!
+
+**Du hast jetzt einen Freund!**
+
+Bereite dich auf all die lustigen Texte und Memes vor, die du gleich verschicken wirst!
+
+### Nachrichten verschicken
+
+Zu guter Letzt sehen wir uns an, was wir im **Posteingang** (englisch *Inbox*) tun können!
+
+![Menü Inbox](images/inbox.png)
+
+Wenn du bereits Nachrichten mit einem Freund ausgetauscht hast, siehst du sofort die Themen.
+
+Falls das noch nicht der Fall ist, kannst du einen Chat mit deinem neu hinzugefügten Freund beginnen.
+
+Sobald du einen Chat begonnen hast, sieht er so aus:
+
+![Nachrichtenverlauf](images/chat.jpg)
+
+Wie du sehen kannst, gibt es neben der Nachricht einen **gefüllten und einen ungefüllten Kreis**. Der ausgefüllte Kreis bedeutet, dass die Nachricht zugestellt wurde, der nicht ausgefüllte Kreis bedeutet, dass sie noch nicht zugestellt wurde.
+
+Wenn die Nachricht nicht zugestellt wurde, liegt das wahrscheinlich daran, dass der andere Chatter zu weit entfernt oder ausgeschaltet ist.
+
+Du kannst dies jedoch beheben, indem du auf die nicht zugestellte Nachricht klickst und die Option "**Nachricht erneut senden**" (englisch *"Resend message"*) auswählst!
+
+![Nachricht erneut senden](images/resend.jpg)
+
+Wie du auf dem Foto sehen kannst, gibt es auch eine Option zum **Löschen** der Nachricht (englisch "*Delete message*").
+
+Wir haben unsere nicht zugestellte Nachricht erneut gesendet, und jetzt sieht unser Chat so aus:
+
+![Nachricht erneut gesendet](images/resend2.jpg)
+
+Und als Letztes möchten wir dir erklären, wie du **Memes** zum Chat hinzufügen kannst.
+
+Siehst du die letzte Taste in der letzten Reihe? Die mit dem Smiley-Gesicht? Sehr gut!
+
+Klicke darauf (aber halte die Taste ein paar Sekunden lang gedrückt).
+
+Jetzt solltest du ein geheimes Meme-Menü vor dir sehen.
+Viel Spaß beim Benutzen!
+
+### Jetzt sollte alles bereit sein!
+
+Wenn du Fragen oder Anmerkungen hast, kontaktiere uns bitte unter contact@circuitmess.com.
+Wir werden dir so schnell wie möglich helfen.
+
+Da du nun weißt, wie du deine Chatter nutzen kannst, ist der nächste Schritt die **Programmierung einiger benutzerdefinierter Funktionen**.
+
+Die Programmieranleitung ist noch nicht hochgeladen, aber wir arbeiten daran!
+
+![USB Verbindung zum PC](images/usb.jpg)
