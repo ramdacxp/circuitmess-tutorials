@@ -23,7 +23,7 @@ CircuitBlocks läuft derzeit auf Windows-, Linux- und Mac OS-Computern.
 
 1. **Gehe auf die [CircuitBlocks-Download-Seite](https://circuitmess.com/pages/download)**
 
-2. **Lade die neueste Version für Windows herunter** - Prüfe dabei, ob du eine 32- oder 64-Version hast. Öffne dazu die "Einstellungen" App, klicke auf die Option "System" und suche Sie den Abschnitt "Info". Hier siehst du den Systemtyp.
+2. **Lade die neueste Version für Windows herunter** - Prüfe dabei, ob du eine 32- oder 64-Version hast. Öffne dazu die "Einstellungen" App, klicke auf die Option "System" und suche den Abschnitt "Info". Hier siehst du den Systemtyp.
 
 3. Starte die heruntergeladene Datei mit dem Namen "CircuitBlocks" durch einen Doppelklick.
 
