@@ -39,12 +39,14 @@ Deutsche Übersetzungen:
 * [Chatter Bauanleitung](tutorials/chatter/build/README.md)
 * [Chatter Benutzerhandbuch](tutorials/chatter/usage/README.md)
 * [Chatter's Aufbau und Komponentenübersicht](tutorials/chatter/anatomy/README.md)
+* [Chatter Programmierung - Erste Schritte](tutorials/chatter/coding/README.md)
 
 Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
 
 * [Chatter Build Guide](https://learn.circuitmess.com/resources/guides/en/chatter-build-guide)
 * [Usage Guide](https://learn.circuitmess.com/resources/guides/en/chatter-usage-guide)
 * [Chatter Anatomy Guide](https://learn.circuitmess.com/resources/guides/en/chatter-anatomy-guide)
+* [Chatter coding - first steps](https://learn.circuitmess.com/resources/guides/en/chatter-coding)
 
 ## Copyright
 
