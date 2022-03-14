@@ -31,7 +31,6 @@ jobs:
     - name: Generate PDFs
       run: |
         mkdir -p pdf
-        npx -y md-to-pdf tutorials/test/README.md              && mv tutorials/test/README.pdf              pdf/Test.pdf
         npx -y md-to-pdf tutorials/robots/bee/README.md        && mv tutorials/robots/bee/README.pdf        pdf/WackyRobot-Bee.pdf
         npx -y md-to-pdf tutorials/robots/bob/README.md        && mv tutorials/robots/bob/README.pdf        pdf/WackyRobot-Bob.pdf
         npx -y md-to-pdf tutorials/robots/capacitron/README.md && mv tutorials/robots/capacitron/README.pdf pdf/WackyRobot-Capacitron.pdf
@@ -59,16 +58,6 @@ jobs:
           Die Anleitungen wurden am ${{ env.DATE }} um ${{ env.TIME }} Uhr generiert.
       env:
         GITHUB_TOKEN: ${{ github.token }}
-
-    - name: Upload Test.pdf
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: pdf/Test.pdf
-        asset_name: Test.pdf
-        asset_content_type: application/pdf
 
     - name: Upload WackyRobot-Bee.pdf
       uses: actions/upload-release-asset@v1

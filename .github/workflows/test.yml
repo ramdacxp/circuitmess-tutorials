@@ -1,0 +1,63 @@
+# https://gist.github.com/riggaroo/d828c5ffecf261d3ccc7bde89817dba5
+# https://trstringer.com/github-actions-create-release-upload-artifacts/
+
+name: Create Test Release
+
+on:
+  workflow_dispatch:
+    # inputs:
+    #   versionName:
+    #     description: 'Version  (e.g. 1.0)'
+    #     required: true
+
+jobs:
+  createrelease:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    # - name: Print Input Version
+    #   run: echo Version = ${{ github.event.inputs.versionName }}
+
+    - name: Set date based environments
+      run: |
+        echo "VERSION=$(date +'v0.%Y%m%d.%H%M%S')" >> $GITHUB_ENV
+        echo "DATE=$(date +'%d.%m.%Y')" >> $GITHUB_ENV
+        echo "TIME=$(date +'%H:%M:%S')" >> $GITHUB_ENV
+
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Generate PDFs
+      run: |
+        mkdir -p pdf
+        npx -y md-to-pdf tutorials/test/README.md
+        mv tutorials/test/README.pdf pdf/Test.pdf
+        ls -R pdf
+
+    - name: Create Release
+      uses: actions/create-release@v1
+      id: create_release
+      with:
+        draft: false
+        prerelease: false
+        release_name: ${{ env.VERSION }}
+        tag_name: ${{ env.VERSION }}
+        body: |
+          # PDF Test Tutorial ${{ env.VERSION }}
+          This release contains a test PDF tutorial in order to check the GitHub release workflow.
+          It was created on ${{ env.DATE }} at ${{ env.TIME }}.
+
+          As an end user you may ignore this release. :)
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+
+    - name: Upload Test.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/Test.pdf
+        asset_name: Test.pdf
+        asset_content_type: application/pdf
