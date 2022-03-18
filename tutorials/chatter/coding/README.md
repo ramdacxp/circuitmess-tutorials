@@ -92,13 +92,186 @@ Solltest du Probleme mit der Installation haben, wende dich bitte per E-Mail an 
 
 ### Die Grundlagen
 
+#### Benutzeroberfläche
+
+![Benutzeroberfläche](images/ui.png)
+
+Wenn du CircuitBlocks öffnest, siehst du ein Fenster, das wie oben gezeigt aussieht.
+
+Es ist ziemlich einfach - Du kannst ein **neues Projekt (wir nennen Projekte auf englisch auch "Sketches")** beginnen, indem Sie auf die Schaltfläche "Neues Projekt" (englisch "New project") klickst.
+
+**Gespeicherte Projekte** werden direkt neben dieser Schaltfläche angezeigt und du kannst jederzeit darauf zugreifen.
+
+Wenn du auf ein Problem mit CircuitBlocks stößt, klicke bitte auf den Link "**Fehlerbericht senden**" (auf englisch "Send error report") am unteren Rand des Hauptbildschirms. Hierbei erhältst du dann eine Fehlermeldungsnummer. Bitte kontaktiere uns über contact@circuitmess.com und gib diese Fehlermeldungsnummer an, damit wir dir weiterhelfen können.
+
+#### Erstellen eines neuen Projekts (Sketch)
+
+Klicke auf die große Schaltfläche "Neues Projekt" (englisch "New project").
+
+Nun bekommst du die Möglichkeit, das Gerät und den Projekttyp auszuwählen.
+
+* Für das Gerät wähle bitte: **Chatter**.
+* Für den Typ des Sketches wähle bitte: **Block**.
+
+Drücke die Schaltfläche "Erstellen" (englisch "**Create**").
+
+![Neues Projekt erstellen](images/new-prj.jpg)
+
+Es erscheint ein Bildschirm, der wie folgt aussieht:
+
+![Neues Projekt](images/new-prj2.jpg)
+
+Am oberen Rand des Bildschirms befindet sich eine **Symbolleiste** mit einigen Schaltflächen.
+
+Die **Blockauswahlleiste** befindet sich ganz links - Du kannst Blöcke von dort nehmen und sie in den "Zeichenbereich" in der Mitte des Bildschirms ziehen.
+
+In der Mitte des Bildschirms wirst du deinen Programmcode mit bunten Blöcken "zeichnen".
+
+Auf der rechten Seite des Bildschirms siehst du, wie der in der **Programmiersprache C++** geschriebene Code auf magische Weise von selbst erscheint, wenn du die bunten Blöcke in die Mitte ziehst.
+
+**C++** ist eine der beliebtesten Programmiersprachen, aber sie ist ziemlich komplex, wenn du noch nie programmiert hast.
+
+Deshalb haben wir CircuitBlocks entwickelt - hier kannst du bunte Blöcke, die Teile des Codes darstellen, mit der Maus verschieben und ablegen und sehen, wie dein Programm in C++ aussehen würde. Wenn du erfahren genug bist, kannst du direkt zur textuellen Programmierung in C++ wechseln, ohne dass du bunte Blöcke benötigst.
+
+#### Symbolleiste
+
+![Symbolleiste](images/toolbar.jpg)
+
+Im Folgenden wird kurz erklärt, was die Schaltflächen in der Symbolleiste des Fensters bewirken:
+
+1. **Zurück zum Hauptmenü** - bringt dich zum Startbildschirm zurück, ohne zu speichern.
+
+2. **Speichern/Speichern unter** - speichert dein Projekt. Achte darauf, diese Schaltfläche von Zeit zu Zeit und vor dem Schließen von CircuitBlocks zu drücken.
+
+3. **Chatter-Verbindungsanzeige** - Der rote Punkt wird grün, wenn dein Chatter über ein USB-Kabel mit deinem Computer verbunden ist.
+
+4. **Sprite-Editor** - zum Zeichnen von Bildern, die du auf deinem Chatter verwenden  möchtest.
+
+5. **Exportieren in Binärform** - speichert eine Binärdatei deines Programmcodes auf deinem Computer. Dies ist eine fortgeschrittene Funktion, die du vorerst nicht brauchen wirst.
+
+6. **Serieller Monitor** - Diese Schaltfläche öffnet ein Fenster, das wir den "Seriellen Monitor" nennen. "Seriell" ist ein Spitzname für eine Art der Kommunikation, die zwischen Chatter und deinem Computer stattfindet. In diesem Fenster kannst du später die Nachrichten sehen, die von Chatter an deinen Computer über den USB-Anschluss gesendet werden.
+
+7. **Code schließen** - Mit dieser Schaltfläche kannst du das Code-Fenster auf der rechten Seite des Bildschirms schließen oder wieder öffnen. Dies ist nützlich, wenn du mehr Platz auf dem Bildschirm benötigst, um deine farbigen Blöcke zu sehen.
+
+8. **Ausführen** (englisch "Run") - Diese Schaltfläche übersetzt den in CircuitBlocks erstellten Code in Maschinencode, den Chatter versteht (beep boop beep boop 1011100101) und sendet den Code über den USB-Anschluss an deinen Chatter.
+
+#### Code-Fenster
+
+![Code-Fenster](images/code.jpg)
+
+Das so genannte "Code-Fenster" besteht aus den folgenden Teilen:
+
+1. **Haupt-Code-Bildschirm** - in C++ geschriebener (Programm-)Code erscheint hier, wenn du bunte Blöcke auf der linken Seite des Bildschirms einfügst.
+  Du wirst sehen, dass einige Teile des Codes in lustigen Farben eingefärbt sind.
+  Programmierer nennen dies *Syntaxhervorhebung*. Im Grunde werden verschiedene Kategorien von Codebefehlen unterschiedlich eingefärbt, damit Programmierer den Code leichter verstehen können.
+
+2. **Umschalter für helles/dunkles Farmschema** - mit dieser Schaltfläche kannst du die Hintergrund- und Textfarbe des Codefensters umschalten.
+
+3. **Erweitern** - dehnt das Codefenster auf den gesamten Bildschirm aus. Drücke die Taste erneut, um es wieder auf den halben Bildschirm zu verkleinern.
+
+4. **Schließen** - schließt das Code-Fenster, dieselbe Funktion wie die Schaltfläche "Code schließen" in der Symbolleiste.
+
+#### Zeichenbereich
+
+Auf dem Zeichenbereich geschieht die Magie.
+
+![Zeichenbereich](images/draw.jpg)
+
+Er besteht aus den folgenden Teilen:
+
+1. **Suchleiste** - gib hier den Namen einer Komponente (in englisch) ein, nach der du suchst.
+
+2. **Komponentenauswahl** - die Blöcke sind hier in verschiedene Kategorien unterteilt.
+  Jeder Kategorie ist eine bestimmte Farbe zugewiesen.
+
+3. **Zeichenfläche** - ziehe die Blöcke aus der Komponentenauswahl und legen sie in der Zeichenfläche ab. Auf diese Weise wird der Code erstellt. Kinderleicht!
+
+4. **Zentrierwerkzeug** - wenn du dich beim Scrollen durch die Zeichenfläche verirrst, drücke diese Taste. Dadurch wird die Anzeige auf die Blöcke zentriert, die du auf der Zeichenfläche abgelegt hast.
+
+5. **Zoom-Tasten** - zum Vergrößern und Verkleinern der Zeichenfläche.
+
+### Arten von Blöcken
+
+In CircuitBlocks gibt es insgesamt **neun** Blocktypen. Jeder von ihnen wird durch seine Farbe dargestellt. Jeder Block wird in Code übersetzt, der dann kompiliert und auf deinen Chatter hochgeladen wird, genau wie auf jeder Arduino-basierten Plattform.  
+
+Jeden Blocktyp kannst du anklicken um einen Bereich zu öffnen, auf dem du die zugehörigen Blöcke per Drag & Drop in die Zeichenfläche ziehen kannst.
+
+Wenn du auf "Mehr" (englisch: "More") drückst, werden noch mehr Blöcke sichtbar, die nicht so häufig verwendet werden.
+
+Es gibt zwei Hauptfunktionen in jedem Arduino-Code - `void setup()` und `void loop()`.
+
+Alles, was in der Funktion `void setup()` enthalten ist, wird **nur einmal** ausgeführt. Sie wird hauptsächlich dazu verwendet, die Software zu starten, Variablen zu initialisieren und zu deklarieren und Funktionen auszuführen, die nur einmal ausgeführt werden müssen (z.B. der Intro-Bildschirm in einem Videospiel).
+
+Die **Schleife** `void loop()` ist der Ort, an dem sich alles andere abspielt. Sie führt im Grunde jedes Stückchen Code darin wiederholt aus (die Geschwindigkeit hängt vom Gerät ab - stellen dir einfach vor, sie wäre ultraschnell!)
+
+Jeder Block, den du einfügst, wird automatisch in die Funktion `void loop()` eingefügt.
+
+Wenn du etwas in die Funktion `void setup()` einfügen möchtest, musst du den Hauptblock aus **Functions** herausziehen und deine Blöcke nach Belieben darin platzieren, aber dazu etwas später mehr.  
+
+#### Elliptische Blöcke
+
+Elliptische Blöcke stellen Variablen dar. Ob es sich nun um ganze Zahlen, Zeichenketten oder andere Variablentypen (außer Boolesche) handelt, sie alle sind an der gleichen Form zu erkennen.
+
+Außerdem geben größere Blöcke mit elliptischer Form entweder Integer- oder Float-Werte zurück.
+
+![Elliptische Blöcke](images/block1.png)
+
+Wann immer du kreisförmige "Löcher" in einigen Blöcken findest, kannst du Variablen einfügen. Dies ist am häufigsten in Vergleichs- oder Aktionsblöcken zu finden.
+
+![Löcher in den Blöcken](images/block2.png)
+
+#### Dreieckige Blöcke
+
+Dreieckige Blöcke stellen boolesche Variablen dar.
+
+Sowohl Variablen (wahr und falsch) als auch Funktionen, die boolesche Werte zurückgeben, haben die gleiche Form.
+
+![Dreieckige Blöcke](images/block3.png)
+
+Unabhängig von der Farbe gibt jeder dieser Blöcke entweder `true` (wahr) oder `false` (falsch) zurück.
+
+Für dreieckige "Löcher" müssen boolesche Blöcke eingefügt werden.
+
+![Dreieckige Blöcke mit Löchern](images/block4.png)
+
+#### Programmbausteine
+
+Alles andere ist im Grunde ein Programmbausteine (englisch "building block").
+Das sind Funktionen, die keinen Rückgabewert haben (sie geben null zurück).
+Sowohl elliptische als auch dreieckige Blöcke müssen zunächst innerhalb der Programmbausteine platziert werden, um als Teil des Programms zu fungieren.
+
+Sie haben eine bestimmte "Puzzle"-Form und können ineinander gestapelt werden.
+
+![Programmbausteine](images/block5.png)
+
+Der **Hauptbaustein** befindet sich im Abschnitt "Funktionen" (englisch "Functions").
+
+Es gibt im Grunde zwei Hauptbausteinabschnitte:
+
+* "**Arduino run first**" für alles, was zuerst ausgeführt werden soll (der Code landet in `void setup()`) und
+* "**Arduino loop forever**" für die Anteile, die innerhalb der Arduino-Schleife immer wieder wiederholt werden sollen (in `void loop()`).
+
+![Hauptbaustein](images/block6.png)
+
+#### Blöcke einfügen
+
+Dies ist nun der wichtigste Teil.
+
+Der ganze Sinn der blockähnlichen IDE ist das Verbinden von Blöcken und deren Platzierung in einem anderen Block.
+
+Das alles geschieht durch einfaches **Drag-and-Drop**, also das Verschieben der Blöcke mit der Maus.
+
+Hier ist ein Beispiel für ein Programm, welches die Variable `Var` auf `1` setzt und dann erhöht, solange sie kleiner als `10` ist.
+
+Am Ende des Programms wird `Var`den Wert `10`haben.
+
+![Verwendung des Hauptbausteins](images/block7.png)
+
+Dies ist nur ein einfaches Beispiel, und die Blockbildung wird in den folgenden Kapiteln näher erläutert.
+
+### Blockabschnitte
+
 Todo
-
-
-
-
-
-
 
 ## Los geht's! Schritt für Schritt
 
