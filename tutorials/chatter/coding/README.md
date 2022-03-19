@@ -269,9 +269,93 @@ Am Ende des Programms wird `Var`den Wert `10`haben.
 
 Dies ist nur ein einfaches Beispiel, und die Blockbildung wird in den folgenden Kapiteln näher erläutert.
 
-### Blockabschnitte
+### Blocktypen
 
-Todo
+![Blocktypen](images/blocktypes.png)
+
+CircuitBlocks bietet insgesamt neun Blocktypen.
+Wir haben sie so organisiert, dass du alles mit maximal zwei Klicks finden kannst.
+
+Die Typen selbst sind ziemlich selbsterklärend, aber wir werden sie alle durchgehen, um ein besseres Verständnis für das ganze Konzept zu bekommen.
+
+Einige der Typen bieten **zusätzliche Blöcke** (im Menü "Mehr", englisch "More"), mit Funktionen, die nicht so häufig verwendet werden, aber dennoch nützlich sein können.
+
+#### Logik (Logic)
+
+Hier befindet sich die Basis für jeden Code.
+
+Jede **Wenn/Dann**-Funktion (if, if-else, else), Vergleiche, Und/Oder/Nicht, Wahr/Falsch und andere logische Operatoren.  
+
+![Blocktyp Logik](images/logic.jpg)
+
+#### Schleifen (Loops)
+
+Schleifen sind Funktionen, die alles, was sie enthalten, eine bestimmte Zeit lang wiederholen.
+
+Sie können an Bedingungen geknüpft sein und so lange wiederholt werden, wie die Bedingung erfüllt ist, oder eine vorher festgelegte Anzahl von Wiederholungen haben.
+
+![Blocktyp Schleifen](images/loops.jpg)
+
+#### Mathematik (Math)
+
+So ziemlich jede mathematische Funktion ist hier zu finden. Von grundlegenden Operationen bis hin zum Runden von Zahlen und der Arbeit mit Winkeln wirst du in sekundenschnelle deinen inneren Einstein oder Pythagoras wecken!
+
+![Blocktyp Mathematik](images/math.jpg)
+
+![Blocktyp Mathematik - Mehr](images/math2.jpg)
+
+#### Text
+
+Zeichenketten, Zeichen und Zeichenkettenmanipulation. Ein großartiger Ort, um neuen Text zu erstellen und ihn in deinen Programme zu implementieren.
+
+![Blocktyp Text](images/text.jpg)
+
+![Blocktyp Text - Mehr](images/text2.jpg)
+
+#### Variablen (Variables)
+
+Erstelle eine Variable beliebigen Typs und lege ihren Namen und den gewünschten Wert fest. CircuitBlocks erkennt den Variablentyp (`int, double, string, boolean`) automatisch, so dass du dir darüber keine Gedanken machen musst.
+
+![Blocktyp Variablen](images/var.jpg)
+
+#### Funktionen (Functions)
+
+Die Arduino-Hauptfunktion (die wir im vorherigen Kapitel erklärt hatten) befindet sich hier.
+
+Du kannst auch eigene Funktionen erstellen, die dann als einer der Hauptbestandteile deines Programms eingefügt werden können.
+
+![Blocktyp Funktionen](images/func.jpg)
+
+#### Eingabe/Ausgabe (Input/Output)
+
+Alles, was die Komponenten von Chatter betrifft, befindet sich hier.
+
+![Blocktyp Eingabe/Ausgabe](images/inout.jpg)
+
+#### Bildschirm (Display)
+
+Nun, all diese Blöcke sind wirklich nutzlos, solange man auf dem Bildschirm nichts sieht!
+
+Hier wird die ganze Magie in farbige Pixel übersetzt. Mit diesen Blöcken kannst du so viel gestalten.
+
+![Blocktyp Bildschirm](images/display.jpg)
+
+#### Zeit (Time)
+
+Verzögerungen, Timer und andere zeitbezogene Dinge, ideal für die Erstellung cooler Animationen und Videospiele.
+
+![Blocktyp Zeit](images/time.jpg)
+
+#### Suchleiste
+
+Über den Blocktypen befindet sich eine **Suchleiste**, die dir die Suche nach einem bestimmten Block erleichtert, den du einfach nicht finden kannst.
+
+Gib einfach (in englisch) ein, was dir in den Sinn kommt, und alle Blöcke, die etwas mit dem Suchbegriff zu tun haben, werden auf der rechten Seite angezeigt.
+
+Nun kann man wirklich nicht sagen, dass es unmöglich ist, etwas zu finden.
+
+Du hast alles über die Blöcke gelernt!
+Es ist an der Zeit, zur nächsten Lektion überzugehen...
 
 ## Los geht's! Schritt für Schritt
 
