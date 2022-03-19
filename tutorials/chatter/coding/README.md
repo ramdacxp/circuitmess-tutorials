@@ -320,7 +320,7 @@ Erstelle eine Variable beliebigen Typs und lege ihren Namen und den gewünschten
 
 #### Funktionen (Functions)
 
-Die Arduino-Hauptfunktion (die wir im vorherigen Kapitel erklärt hatten) befindet sich hier.
+Die Arduino-Hauptfunktion (die wir [im vorherigen Kapitel](#programmbausteine) erklärt hatten) befindet sich hier.
 
 Du kannst auch eigene Funktionen erstellen, die dann als einer der Hauptbestandteile deines Programms eingefügt werden können.
 
