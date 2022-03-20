@@ -459,6 +459,75 @@ So wie auf dem Foto unten sollte es aussehen:
 
 ![Hello World](images/step15.jpg)
 
+### Klick, klick ...
+
+Nun, da du bereits ein oder zwei Dinge über CircuitBlocks weißt, ist es Zeit für **einen etwas fortgeschritteneren Sketch** bzw. Programm.
+
+Die ersten paar Dinge, die wir tun müssen, sind die gleichen wie im vorherigen Sketch.
+
+Gehe zum Abschnitt "**Anzeige**" und klicken Sie auf den Block "**Schriftgröße einstellen auf**".
+
+![Schriftgröße setzen](images/click1.jpg)
+
+Auch hier setzen wir die **Schriftgröße auf 1**.
+
+![Schriftgröße auf 1 setzen](images/click2.jpg)
+
+Als Nächstes muss eine **Schriftart** festgelegt werden.
+
+Wie du bereits weißt, findest du diesen Block ebenfalls im Abschnitt Anzeige.
+
+![Schriftart](images/click3.jpg)
+
+Klicke auf den Block und ziehen ihn auf den Zeichenbereich.
+
+![Block im Zeichenbereich](images/click4.jpg)
+
+Und jetzt legen wir die **Schriftfarbe** fest.
+
+![Schriftfarbe](images/click5.jpg)
+
+Du kannst jede beliebige Farbe wählen, aber wir haben uns für Rot entschieden.
+
+![Schriftfarbe Rot](images/click6.png)
+
+Nachdem wir nun die Schrift eingestellt haben, wollen wir ändern, was passiert, wenn ein bestimmtes Ereignis ausgelöst wird.
+
+Wenn du die Tasten von Chatter drückst, löst du damit ein bestimmtes Ereignis aus.
+
+Glücklicherweise haben wir dafür einen speziellen Block definiert, der sich im Abschnitt **I/O** befindet. I/O steht für "**Input/Output**", also "Eingabe/Ausgabe".
+
+Die Knöpfe von Chatter sind die sogenannten Eingabegeräte, weil sie beim Drücken einen elektrischen Impuls an den Computer von Chatter senden. Chatter's Bildschirm ist ein Beispiel für ein Ausgabegerät, weil Chatter Signale an ihn sendet, um Informationen anzuzeigen.
+
+Du musst diesen violetten Block mit dem Namen "Wenn die linke Taste gedrückt wird" (englisch: "**When button left gets pressed**") finden. Platziere den Block auf dem Zeichenbereich.
+
+![I/O](images/click7.jpg)
+
+![I/O im Zeichenbereich](images/click8.jpg)
+
+Wie du siehst, haben wir uns entschieden, mit der **rechten Taste** (englisch: "button right") zu beginnen. Also ändere schnell die Taste, um mit uns Schritt zu halten.
+
+Gehe dann zurück zum Abschnitt Anzeige und suche wieder den Block "**Anzeige mit Bildschirmfarbe löschen**".
+
+![Bildschirm löschen](images/click9.jpg)
+
+Ziehe diesen Block in den **violetten I/O-Block**.
+
+![Bildschirm löschen im I/O Block](images/click10.jpg)
+
+Du hast also Chatter ein Kommando gegeben, welches ausgeführt wird, wenn die rechte Taste gedrückt wird. Als erstes führt es nun dazu, dass das Display schwarz wird.
+
+Der nächste Block, nach dem wir suchen werden, ist der Textausgabeblock "print" (mit den drei weißen Kreisen, die den Text und die Koordinaten bestimmen).
+
+![Textausgabe](images/click11.jpg)
+
+Ziehe ihn in den violetten I/O-Block.
+
+Ändere den Text "Rechts" und die Koordinaten in 120 und 60.
+
+![Textausgabe](images/click12.jpg)
+
+
 ## Wiederherstellen der Basis-Firmware von Chatter
 
 Todo
