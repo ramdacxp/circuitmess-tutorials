@@ -12,7 +12,7 @@
 
 Vielen Dank für deine Unterstützung von CircuitMess und willkommen zum Chatter-Programmiertutorial.
 
-Wir werden **CircuitBlocks** für die Programmierung deiner neu zusammengebauten verschlüsselnden drahtlosen Kommunikatoren verwenden.
+Wir werden **CircuitBlocks** für die Programmierung deiner neu zusammengebauten, verschlüsselnden, drahtlosen Kommunikatoren verwenden.
 
 CircuitBlocks ist eine von uns entwickelte, maßgeschneiderte Programmier-App.
 Du wirst deinen Chatter in der grafischen, blockbasierten Programmieroberfläche von CircuitBlocks programmieren, die dir bei deinen ersten Schritten in der Welt der Datenverarbeitung helfen wird.
@@ -39,7 +39,7 @@ Wie du mit dieser Meldung umgehen kannst, erfährst du in den folgenden Anweisun
 
 ![Windows Sicherheitsmeldung](images/not-safe1.png)
 
-Diese Meldung erhältst du möglicherweise bei der Installation von CircuitBlock auf deinem PC. Windows meldet eine Bedrohung, obwohl das Programm sicher heruntergeladen und ausgeführt werden kann. Bitte fahre mit der Installation fort, indem Du auf die Option *"Mehr Informationen"* (bzw. *"More info"* in englisch) klickst.
+Diese Meldung erhältst du möglicherweise bei der Installation von CircuitBlocks auf deinem PC. Windows meldet eine Bedrohung, obwohl das Programm sicher heruntergeladen und ausgeführt werden kann. Bitte fahre mit der Installation fort, indem Du auf die Option *"Mehr Informationen"* (bzw. *"More info"* in englisch) klickst.
 
 ![Sicherheitsmeldung mit Details](images/not-safe2.png)
 
@@ -165,7 +165,7 @@ Das so genannte "Code-Fenster" besteht aus den folgenden Teilen:
   Du wirst sehen, dass einige Teile des Codes in lustigen Farben eingefärbt sind.
   Programmierer nennen dies *Syntaxhervorhebung*. Im Grunde werden verschiedene Kategorien von Codebefehlen unterschiedlich eingefärbt, damit Programmierer den Code leichter verstehen können.
 
-2. **Umschalter für helles/dunkles Farmschema** - mit dieser Schaltfläche kannst du die Hintergrund- und Textfarbe des Codefensters umschalten.
+2. **Umschalter für helles/dunkles Farbschema** - mit dieser Schaltfläche kannst du die Hintergrund- und Textfarbe des Codefensters umschalten.
 
 3. **Erweitern** - dehnt das Codefenster auf den gesamten Bildschirm aus. Drücke die Taste erneut, um es wieder auf den halben Bildschirm zu verkleinern.
 
@@ -184,7 +184,7 @@ Er besteht aus den folgenden Teilen:
 2. **Komponentenauswahl** - die Blöcke sind hier in verschiedene Kategorien unterteilt.
   Jeder Kategorie ist eine bestimmte Farbe zugewiesen.
 
-3. **Zeichenfläche** - ziehe die Blöcke aus der Komponentenauswahl und legen sie in der Zeichenfläche ab. Auf diese Weise wird der Code erstellt. Kinderleicht!
+3. **Zeichenfläche** - ziehe die Blöcke aus der Komponentenauswahl und lege sie in der Zeichenfläche ab. Auf diese Weise wird der Code erstellt. Kinderleicht!
 
 4. **Zentrierwerkzeug** - wenn du dich beim Scrollen durch die Zeichenfläche verirrst, drücke diese Taste. Dadurch wird die Anzeige auf die Blöcke zentriert, die du auf der Zeichenfläche abgelegt hast.
 
@@ -194,7 +194,7 @@ Er besteht aus den folgenden Teilen:
 
 In CircuitBlocks gibt es insgesamt **neun** Blocktypen. Jeder von ihnen wird durch seine Farbe dargestellt. Jeder Block wird in Code übersetzt, der dann kompiliert und auf deinen Chatter hochgeladen wird, genau wie auf jeder Arduino-basierten Plattform.  
 
-Jeden Blocktyp kannst du anklicken um einen Bereich zu öffnen, auf dem du die zugehörigen Blöcke per Drag & Drop in die Zeichenfläche ziehen kannst.
+Jeden Blocktyp kannst du anklicken um einen Bereich zu öffnen, von dem du die zugehörigen Blöcke per Drag & Drop in die Zeichenfläche ziehen kannst.
 
 Wenn du auf "Mehr" (englisch: "More") drückst, werden noch mehr Blöcke sichtbar, die nicht so häufig verwendet werden.
 
@@ -236,8 +236,8 @@ Für dreieckige "Löcher" müssen boolesche Blöcke eingefügt werden.
 
 #### Programmbausteine
 
-Alles andere ist im Grunde ein Programmbausteine (englisch "building block").
-Das sind Funktionen, die keinen Rückgabewert haben (sie geben null zurück).
+Alles andere sind im Grunde Programmbausteine (englisch "building blocks").
+Das sind Funktionen, die keinen Rückgabewert haben.
 Sowohl elliptische als auch dreieckige Blöcke müssen zunächst innerhalb der Programmbausteine platziert werden, um als Teil des Programms zu fungieren.
 
 Sie haben eine bestimmte "Puzzle"-Form und können ineinander gestapelt werden.
@@ -257,7 +257,7 @@ Es gibt im Grunde zwei Hauptbausteinabschnitte:
 
 Dies ist nun der wichtigste Teil.
 
-Der ganze Sinn der blockähnlichen IDE ist das Verbinden von Blöcken und deren Platzierung in einem anderen Block.
+Der ganze Sinn der blockbasierten Programmierumgebung ist das Verbinden von Blöcken und deren Platzierung in einem anderen Block.
 
 Das alles geschieht durch einfaches **Drag-and-Drop**, also das Verschieben der Blöcke mit der Maus.
 
