@@ -39,6 +39,7 @@ jobs:
         npx -y md-to-pdf tutorials/chatter/build/README.md     && mv tutorials/chatter/build/README.pdf     pdf/Chatter-Bauanleitung.pdf
         npx -y md-to-pdf tutorials/chatter/usage/README.md     && mv tutorials/chatter/usage/README.pdf     pdf/Chatter-Benutzerhandbuch.pdf
         npx -y md-to-pdf tutorials/chatter/anatomy/README.md   && mv tutorials/chatter/anatomy/README.pdf   pdf/Chatter-Aufbau.pdf
+        npx -y md-to-pdf tutorials/chatter/coding/README.md    && mv tutorials/chatter/coding/README.pdf    pdf/Chatter-Programmierhandbuch.pdf
         ls -R pdf
 
     - name: Create Release
@@ -137,4 +138,14 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: pdf/Chatter-Aufbau.pdf
         asset_name: Chatter-Aufbau.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload Chatter-Programmierhandbuch.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/Chatter-Programmierhandbuch.pdf
+        asset_name: Chatter-Programmierhandbuch.pdf
         asset_content_type: application/pdf
