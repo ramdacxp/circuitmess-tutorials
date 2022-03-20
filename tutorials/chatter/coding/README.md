@@ -650,7 +650,146 @@ Klicke auf den Block und ziehe ihn auf die Zeichenbereich.
 
 ![Schriftart einstellen](images/buz4.png)
 
-...
+Und jetzt legen wir die **Schriftfarbe** fest.
+
+![Schriftfarbe einstellen](images/buz5.png)
+
+Diesmal wählen wir die Schriftart **Gelb** (englisch: yellow).
+
+![Schriftfarbe auf gelb stellen](images/buz6.jpg)
+
+Nun, da wir eine Schrift eingestellt haben, können wir ändern, **was mit dem Summer passiert, wenn eine bestimmte Taste gedrückt oder losgelassen wird**.
+
+Wie im vorherigen Programm verwenden wir Blöcke aus dem Abschnitt **I/O**, um zu bestimmen, was passiert, wenn bestimmte Tasten gedrückt werden.
+
+![I/O Block](images/buz7.png)
+
+![I/O Button Block eingefügt](images/buz8.jpg)
+
+Wir stellen dir einen neuen Block vor. Er hat die Bezeichnung "**Ton mit Frequenz von 1000 Hz für 500 Millisekunden abspielen**" - auf englisch: "Play tone with frequency 1000 Hz for 500 milliseconds"
+
+![I/O Play Block eingefügt](images/buz9.jpg)
+
+Klicke auf den Block und ziehe ihn auf den Zeichenbereich.
+
+Wir haben die **Millisekunden** auf **200** geändert, aber du kannst den Ton so lang oder kurz machen, wie du magst.
+
+![Play Block eingefügt](images/buz10.jpg)
+
+Wir löschen die Anzeige in lila, sobald wir die rechte Taste drücken.
+
+![Bildschirm löschen](images/buz11.jpg)
+
+![Bildschirm lila](images/buz12.jpg)
+
+Du kannst auswählen, was auf dem Display angezeigt werden soll, sobald die Taste gedrückt wird.
+
+![Block zur Textausgabe](images/buz13.jpg)
+
+Zum Beispiel kann der Bildschirm "**boop**" anzeigen, wenn wir die **rechte Taste** drücken.
+
+![Boop](images/buz14.jpg)
+
+**Vergiss die Koordinaten nicht!**  
+Setzen wir x auf 65 und y auf 60.
+
+Und zum Schluss ziehe den "**draw sprite to display**"-Block auf den Zeichenbereich damit das Programm funktioniert.
+
+![Ausgabeblock](images/buz15.jpg)
+
+Erste Taste - FERTIG!
+
+![Erste Taste](images/buz16.jpg)
+
+Da wir die gleichen Blöcke öfter benötigen, können wir sie einfach duplizieren.
+
+Lass uns eine Taste nach der anderen programmieren.
+
+![Tasten rechts und links](images/buz17.jpg)
+
+Der erste neue Block wird ausgeführt, wenn eine **linke Taste** gedrückt wird.
+
+Wir haben uns entschieden, diesmal einen Ton mit einer Frequenz von 2000 Hz abzuspielen, aber wir haben die gleiche Zeitspanne beibehalten, für die wir diesen Ton abspielen werden.
+
+Die Farbe des Bildschirms bleibt lila, aber wir zeigen diesmal "Beep" an.
+
+**Duplizieren wir den Block noch einmal.**
+
+Jetzt verwenden wir die Zurück-Taste und verwenden einen Ton mit einer Frequenz von 3000 Hz für 50 Millisekunden. In der Zwischenzeit wird auf dem Bildschirm "Ding" angezeigt.
+
+Beachte, dass wir die Koordinaten für alle Ausgaben gleich gelassen haben.
+
+![3 Tasten](images/buz18.jpg)
+
+Ja, du hast es richtig erraten!
+
+Es ist an der Zeit, weitere Blöcke zu duplizieren.
+
+Die letzte Taste, die wir verwenden werden, ist die **Eingabetaste**.
+
+In diesem Programm werden wir nichts beim Loslassen dieser Taste machen.
+
+Wenn du die Enter-Taste drückst, spielt der Buzzer **150 Millisekunden** lang einen Ton mit einer Frequenz von **100 Hz**. Während der Ton abgespielt wird, erscheint auf dem Bildschirm die Meldung "**Buzz**".
+
+![4 Tasten](images/buz19.jpg)
+
+**Toll!**
+
+**Wir haben alle vier Tasten von Chatters erster Tastenreihe benutzt.**
+
+Wir sollten etwas mit dem Bildschirm machen, sobald Chatter eingeschaltet wird. Das Beste, was wir tun können, ist zu schreiben, was als nächstes auf dem Bildschirm passieren wird.
+
+Dazu müssen wir in den **Abschnitt Display** wechseln und einige Blöcke verwenden.
+
+Als Erstes müssen wir den Bildschirm mit seiner aktuellen Farbe füllen damit der bisher angezeigte Text verschwindet.
+
+Dazu verwenden wir diesen Block:
+
+![Bildschirm löschen](images/buz20.png)
+
+Dieser Block muss in den Bereich "**Arduino run first**" des Hauptblocks gezogen werden.
+
+![Zeichenbereich](images/buz21.jpg)
+
+Da wir den Bildschirm gelöscht haben, ist es nun an der Zeit, etwas darauf zu schreiben.
+
+![Textausgabeblock](images/buz22.png)
+
+Ziehe den eingekreisten Block in den Abschnitt "Arduino run first".
+
+Du benötigst zwei dieser Blöcke, damit der Text schön in der Mitte des Bildschirms platziert wird.
+
+![Textausgabeblock](images/buz23.jpg)
+
+Der Text, der auf dem Bildschirm angezeigt wird, sobald du deinen Chatter einschaltest, lautet also: "**Press one of the top row buttons!**" ("Drücke eine der Tasten der oberen Reihe!"). Im Grunde ist dies wie eine Anleitung auf dem Bildschirm.
+
+Und wir hoffen, du weißt, was am Ende stehen muss.
+Der "**draw sprite to display**"-Block!
+
+![Fertiges Programm](images/buz24.jpg)
+
+**Du hast es geschafft!**  
+**Herzlichen Glückwunsch!**
+
+Drücke den großen roten Ausführen-Knopf ("Run"), warte, bis der Code kompiliert ist und probiere ihn aus.
+
+Sobald der Code kompiliert ist, sollte dein Chatter neu starten und der Bildschirm wird gelb mit dem lila Slogan "Drücke einen der Knöpfe in der oberen Reihe!".
+
+Wenn du dies tust und auf eine der Tasten drückst, werden Töne vom Buzzer abgespielt. Je nachdem, auf welche Taste du gedrückt hast, ist die Tonfrequenz unterschiedlich und die Dauer des Tons ändert sich.
+
+Außerdem wird mit jeder Taste ein anderer Text auf dem Bildschirm angezeigt.
+
+Auf den folgenden Fotos kannst du sehen, wie der Bildschirm jeweils aussehen sollte:
+
+![Programm in Aktion](images/buz25.jpg)
+
+![Programm in Aktion](images/buz26.jpg)
+
+![Programm in Aktion](images/buz27.jpg)
+
+![Programm in Aktion](images/buz28.jpg)
+
+![Programm in Aktion](images/buz29.jpg)
 
 ## Wiederherstellen der Basis-Firmware von Chatter
 
