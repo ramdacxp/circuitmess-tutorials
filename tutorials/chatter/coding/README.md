@@ -624,6 +624,34 @@ Auf den Fotos unten kannst du sehen, was passieren soll:
 
 ![Eingabetaste losgelassen](images/click27.jpg)
 
+### Buzzzzzer - der Summer
+
+Wir wollen lernen, was man mit dem **Piezo-Summer** macht, den du auf deinen Chatter gelötet hast.
+
+Wie das Wort schon sagt, wird der Summer zur Erzeugung von Summtönen verwendet.
+
+Wir werden eine sehr ähnliches Programm wie das letzte erstellen, **aber dieses Mal wird das Drücken der Tasten einen bestimmten Ton aus dem Summer auslösen**.
+
+#### Fangen wir an!
+
+Für den Anfang öffne den Bereich "Display" und klicke auf den Block "Schriftgröße einstellen auf".
+
+![Schriftgröße einstellen](images/buz1.png)
+
+Auch hier ändern wir die Schriftgröße auf 1, wie bei den letzten beiden Programmen.
+
+![Schriftgröße auf 1 einstellen](images/buz2.png)
+
+Als nächstes müssen wir eine **Schriftart** festlegen - über einen weiteren Block aus dem Abschnitt "Display".
+
+![Schriftart einstellen](images/buz3.png)
+
+Klicke auf den Block und ziehe ihn auf die Zeichenbereich.
+
+![Schriftart einstellen](images/buz4.png)
+
+...
+
 ## Wiederherstellen der Basis-Firmware von Chatter
 
 Todo
