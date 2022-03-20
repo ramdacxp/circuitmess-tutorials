@@ -359,7 +359,105 @@ Es ist an der Zeit, zur nächsten Lektion überzugehen...
 
 ## Los geht's! Schritt für Schritt
 
-Todo
+### Lass uns auf den Bildschirm schreiben!
+
+Jetzt geht's zur Sache!
+
+Bevor es los gehen kann, musst du deinen Chatter an den USB-Anschluss deines Computers anschließen und ihn einschalten.
+
+![Chatter via USB anschließe](images/step1.jpg)
+
+Wenn alles in Ordnung ist, sollte CircuitBlocks "Chatter connected" anzeigen.
+
+![Chatter verbunden](images/step2.jpg)
+
+Wenn CircuitBlocks deinen Chatter nicht erkannt hat, überprüfe bitte, ob das USB-Kabel richtig eingesteckt ist und ob du einen funktionierenden USB-Anschluss an deinem Computer verwendest.
+
+Wenn CircuitBlocks dann deinen Chatter immer noch nicht erkennt, ist möglicherweise etwas mit der Treiberinstallation auf deinem Computer schief gelaufen. Treiber sind diese kleinen Programme, die deinem Computer helfen, mit Chatter zu kommunizieren, und sie verhalten sich manchmal komisch. Wenden dich per E-Mail an contact@circuitmess.com, wenn dein Computer deinen Chatter nicht erkennt.
+
+**Lasst uns etwas schreiben!**
+
+Wir werden die Dinge so einfach wie möglich angehen.
+
+Das erste, was wir lernen werden, ist, wie man den **Bildschirm von Chatter löscht** und darauf **schreibt**!
+
+Dazu benötigen wir nur Blöcke eines einzigen Blocktypes: Bildschrim (Display).
+Bitte klicke auf den genannten Blocktyp und wähle "Schriftgröße auf 6 setzen" (englisch "set font size to").
+
+![Schriftgröße setzen](images/step3.jpg)
+
+Sobald du auf den Block klickst, erscheint er im **Zeichenbereich** und du musst ihn in den bläulichen "**Arduino run first**"-Block ziehen.
+
+![Block einsetzen](images/step4.jpg)
+
+Wir finden, dass die Schriftgröße 6 zu groß sein könnte, also haben wir sie in 1 geändert. Du kannst das tun, indem du einfach die "6" löschst und stattdessen "1" einträgst.
+
+Einfach, nicht wahr?
+
+Als Nächstes müssen wir eine **Schriftart** festlegen. Den Block "set font size" findest du ebenfalls im Abschnitt "Display".
+
+![Schriftart auswählen](images/step5.jpg)
+
+Die Schriftart muss nicht geändert werden, aber wenn du experimentieren möchtest, kannst du das gerne tun!
+
+![Schriftart](images/step6.jpg)
+
+Das dritte Element, das wir aus dem Abschnitt "Display" verwenden werden, ist der Block "**Schriftfarbe auf Bildschirmfarbe setzen**" (englisch "set font colour to screen colour").
+
+![Farbe setzen](images/step7.jpg)
+
+Anstelle der vorausgewählten Farbe grün ("Green") wählen wir als Schriftfarbe Marineblau (englisch "Navy").
+
+Du kannst jede beliebige Farbe wählen die du magst.
+
+Dein Programm sollte jetzt wie folgt aussehen:
+
+![Farbe gesetzt](images/step8.jpg)
+
+Nachdem du nun alle erforderlichen Größen, Farben und Schriftarten eingestellt hast, ist es an der Zeit, den **Bildschirm zu löschen** und komplett mit einer bestimmten Farbe zu füllen, damit der anzuzeigende Satz (oder das Wort) deutlich zu sehen ist.
+
+Wie im vorherigen Block kannst Du jede beliebige Farbe wählen.
+
+![Bildschirm löschen](images/step9.jpg)
+
+Klicke auf den eingekreisten Block und ziehe ihn in den Arduino-Run-First-Block wie die anderen Blöcke.
+
+Wie du sehen kannst, haben wir beschlossen, dass der Bildschirm grün (englisch: "Green") sein soll.
+
+![Bildschirm grün einfärben](images/step10.png)
+
+Lass uns den Hauptteil unseres Programms beginnen - schreibe einen Satz (oder ein Wort), dass auf dem Bildschirm erscheinen soll.
+
+Um das zu tun, musst du diesen Block verwenden:
+
+![Text ausgeben](images/step11.jpg)
+
+Wie du sehen kannst, gibt es drei weiße Kreise in die man etwas eintragen kann.
+
+* Der erste (neben "**print**") bestimmt den Satz, der auf dem Bildschirm erscheinen soll.
+* Die **X- und Y-Koordinaten** geben an, wo der Text auf dem Bildschirm erscheinen soll.
+
+Wir haben uns entschieden, "Hallo, Welt!" auf den Bildschirm zu schreiben, aber wir haben die Koordinaten beibehalten.
+
+![Hello World](images/step12.jpg)
+
+Das letzte, was du nun noch tun musst, ist auf einen "draw sprite to display"-Block zu klicken.
+
+Wir müssen diesen Block verwenden, um sicherzustellen, dass dieser Code auf dem Bildschirm angezeigt wird.
+
+![Auf Bildschirm ausgeben](images/step13.jpg)
+
+![Fertiges Programm](images/step14.jpg)
+
+Klicke nun auf die große rote Schaltfläche Ausführen ("**Run**") und warte, bis der Code kompiliert ist!
+
+Beim ersten Mal kann es bis zu einer Minute dauern, bis der Code kompiliert ist. Aber keine Sorge, danach sollte das Kompilieren schneller gehen.
+
+Wenn du auf die Schaltfläche Ausführen klickst, erscheint eine rote Linie unter der Symbolleiste, die den Prozentsatz des kompilierten Codes anzeigt. Sobald der Code kompiliert ist, wird dein Chatter neu gestartet, der Bildschirm wird grün und in der Farbe Marine erscheint ein Text, der sagt: "Hallo, Welt!"
+
+So wie auf dem Foto unten sollte es aussehen:
+
+![Hello World](images/step15.jpg)
 
 ## Wiederherstellen der Basis-Firmware von Chatter
 
