@@ -527,6 +527,102 @@ Ziehe ihn in den violetten I/O-Block.
 
 ![Textausgabe](images/click12.jpg)
 
+Und wie du bereits gelernt hast, musst du, damit dieser Code funktioniert, einen "**draw sprite to display**"-Block einfügen.
+
+![Ausgaben zeichnen](images/click13.jpg)
+
+![Fertig](images/click14.jpg)
+
+Nun müssen wir den gleichen Code für die restlichen Tasten verwenden. Am einfachsten ist es, den bereits erstellten Block zu duplizieren.
+
+Um den Block zu **duplizieren**, klicke mit der rechten Maustaste auf den lila Teil des Blocks. Im Menü sollte "**duplicate 5 blocks**" (also "5 Blöcke duplizieren") stehen. Klicke darauf, und es sollte ein identischer Block erstellt werden.
+
+Ziehe ihn in den Zeichenbereich und ändere ihn leicht ab.
+
+Jetzt werden wir programmieren, was passiert, wenn die **linke Taste gedrückt** ("button left") wird.
+
+Wir haben uns dafür entschieden, die Farbe des Bildschirms schwarz zu lassen, aber wir werden jetzt "Links" auf dem Bildschirm ausgeben.
+
+Außerdem haben wir die **Koordinaten** des Textes auf **x=10** und **y=60** geändert.
+
+Am Ende gibt es wieder einen "draw sprite to display"-Block, um sicherzustellen, dass der Code auf dem Bildschirm erscheint.
+
+![Linke und rechte Taste](images/click15.jpg)
+
+Du musst diese fünf Blöcke noch dreimal duplizieren.
+
+Lass uns zunächst die Taste programmieren, die man verwendet, um im Chatter auf die vorherige Anzeige **zurück**zukehren (Zurück auf englisch: "back").
+
+![Zurück-Taste](images/click16.jpg)
+
+Wie du sehen kannst, haben wir uns entschieden, "**Back**" anzuzeigen und die Koordinaten **x=65** und **y=90** zu setzen.
+
+Jetzt werden wir zwei Duplikate für die Eingabetaste erstellen.
+
+Ein Programmteil wird entscheiden, was passiert, wenn die **Eingabetaste** (englisch "Enter") **gedrückt** wird (englisch: "gets pressed"), und der andere Programmteil wird bestimmen, was passiert, wenn die Eingabetaste **losgelassen** wird (englisch: "gets released").
+
+![Eingabetaste](images/click17.jpg)
+
+Vergewissere dich, dass auf dem Block, den du beim Loslassen der Eingabetaste verwendest "Enter release" und auf dem anderen "Enter press" steht.
+
+**Überprüfe die Koordinaten auf dem Foto oben.**
+
+Wenn alle I/O-Blöcke erstellt sind, ist es Zeit, zum Block "**Arduino run first**" zurückzukehren.
+
+Öffne den Abschnitt "Display" und wähle dort den Block "clear the display with screen color Black".
+
+![Bildschirm löschen](images/click18.jpg)
+
+Klicke auf den Block, ziehe ihn auf den Zeichenbereich und platziere ihn im "Arduino run first" Teil des Programms.
+
+![Bildschirm löschen](images/click19.jpg)
+
+Das nächste, was wir brauchen, ist ebenfalls einer der bekannten Blöcke.
+
+Wähle aus dem Abschnitt "Anzeige" den Textausgabe-Block "Print" aus.
+Wir brauchen zwei davon - aber du kannst den zweiten einfach duplizieren.
+
+![Textausgabe](images/click20.jpg)
+
+Dein Programm sollte nun wie folgt aussehen:
+
+![Bisheriges Programm](images/click21.png)
+
+Achte darauf, dass im einen Block "Press one of the" und im anderen "top row buttons!" steht. In deutsch könnte man schreiben: "**Drücke eine der**" und "**oberen Tasten!**"
+
+Bitte überprüfe auch die Koordinaten, die wir für jeden Block angegeben haben.
+
+Warum haben wir die beiden letzten Sätze ausgegeben?
+
+Wir haben uns dafür entschieden, sie anzuzeigen, damit der Code besser und übersichtlicher aussieht. Wenn sich dein Chatter nach der Übersetzung des Codes einschaltet, erscheint als erstes der Text "Drücke eine der oberen Tasten!". Danach kannst du diese Tasten tatsächlich drücken und überprüfen, ob der Rest deines Programms richtig funktioniert.
+
+Stelle sicher, dass du am Ende des Abschnitts "Arduino run first" einen "**draw sprite to display**"-Block einfügst, damit der Text erscheint.
+
+![Fertiges Programm](images/click22.jpg)
+
+Ta-daa!
+
+**Drücke die große rote Schaltfläche in der Toolbar, warten bis der Code kompiliert ist und teste die Tasten.**
+
+Sobald der Code kompiliert ist, startet dein Chatter neu und der Bildschirm wird rot mit einem schwarzen Text, der besagt: "Drücke eine der oberen Tasten!".
+
+Du kannst nun wie gesagt eine der Tasten der obersten Reihe drücken. Sobald du eine der Tasten drückst, wird der Bildschirm schwarz.
+
+Jede Taste gibt einen anderen Text aus, der besagt, welche Taste du gedrückt hast. Wenn du also die rechte Taste drückst, wird auf dem Bildschirm "rechts" angezeigt und wenn du die linke Taste drückst, wird "links" angezeigt. Außerdem haben wir die Koordinaten so gesetzt, dass die rechte Taste den Text auf der rechten Seite anzeigt und die linke Taste den Text auf der linken Seite.
+
+Mit der Eingabetaste verhält es sich etwas anders. Wie du sehen kannst, haben wir die gleichen Koordinaten beibehalten, aber im Gegensatz zu den anderen Tasten haben wir diese zweimal verwendet - zum Drücken und Loslassen. Wenn Du also die Eingabetaste drückst, erscheint auf dem Bildschirm "Enter press". Wenn du die Eingabetaste loslässt, erscheint auf dem Bildschirm "Enter release".
+
+Auf den Fotos unten kannst du sehen, was passieren soll:
+
+![Programm beim Start](images/click23.jpg)
+
+![Taste rechts gedrückt](images/click24.jpg)
+
+![Taste links gedrückt](images/click25.jpg)
+
+![Eingabetaste gedrückt](images/click26.jpg)
+
+![Eingabetaste losgelassen](images/click27.jpg)
 
 ## Wiederherstellen der Basis-Firmware von Chatter
 
