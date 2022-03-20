@@ -863,4 +863,32 @@ Du kannst versuchen, mit leeren Bildern zu starten und von Grund auf deine Icons
 
 ## Wiederherstellen der Basis-Firmware von Chatter
 
-Todo
+Wenn du mit dem Programmieren fertig bist und deinen Chatter einfach wieder "normal" machen willst, musst du seine Basis-Firmware wiederherstellen.
+
+Das ist ganz einfach: Schließe deinen Chatter an den USB-Anschluss deines Computers an und drücke die Schaltfläche "Firmware wiederherstellen" (englisch: Restore firmware) oben rechts.
+
+![Firmware wiederherstellen](images/restore1.jpg)
+
+Du wirst in einem Fenster aufgefordert, das Gerät auszuwählen, für das du die Firmware wiederherstellen möchtest.
+
+Wähle hier natürlich **Chatter**.
+
+![Firmware wiederherstellen](images/restore2.jpg)
+
+Warte ein paar Sekunden, und dein Chatter wird wieder wie gewohnt funktionieren.
+
+Du musst dies immer dann tun, wenn du mit der Programmierung deines Chatters fertig bist und wenn du möchtest, dass er seine ursprünglichen Funktionalität zurückerhält.
+
+### Wie geht's weiter?
+
+Du hast das Ende unseres Chatter-Tutorials erreicht, Herzlichen Glückwunsch!
+
+![Chatter](images/end.jpg)
+
+Wir hoffen, du bist genauso gespannt wie wir auf die Zukunft von Chatter, denn es gibt so viele coole Dinge, die wir in den zukünftigen Firmware- und CircuitBlocks-Updates damit machen wollen.
+
+In der Zwischenzeit kannst du auf eigene Faust weiterforschen und uns zeigen, was du mit deinem Chatter gemacht hast, indem du es im [CircuitMess-Community-Forum](https://community.circuitmess.com/?_ga=2.183484449.682055333.1647717467-1474995974.1636355834) oder über unseren [Discord-Kanal](https://discord.com/channels/765164309655060480/771790668036833280) teilst.
+
+Wenn du Hilfe mit deinem Gerät brauchst, wende dich wie immer an uns über contact@circuitmess.com, und wir werden dir so schnell wie möglich helfen.
+
+Vielen Dank und mach' weiter so!
