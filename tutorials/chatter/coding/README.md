@@ -791,6 +791,76 @@ Auf den folgenden Fotos kannst du sehen, wie der Bildschirm jeweils aussehen sol
 
 ![Programm in Aktion](images/buz29.jpg)
 
+### Bilder zeichnen
+
+Zu Beginn dieses Handbuchs haben wir ein cooles kleines Tool namens Sprite-Editor (Symbol Pinsel in der Symbolleiste) erwähnt.
+
+Jetzt werden wir lernen, wie man es benutzt.
+
+Wenn du einen ByteBoi hast kennst du sich schon aus. Es hat sich nichts geändert. Du kannst die Bilder auf die selbe Weise zeichnen und auf dem Bildschirm anzeigen. Aber wenn du hier neu bist, kommen jetzt die Zeichenstunden.
+
+In der Computergrafik ist ein Sprite ein zweidimensionales Bild oder eine Animation, die in eine größere Szene integriert ist.
+
+Suche zunächst das Pinselsymbol in der Symbolleiste.
+
+![Sprite-Editor](images/draw1.jpg)
+
+Es öffnet sich ein Fenster, wie auf dem Foto unten zu sehen:
+
+![Sprite-Editor](images/draw2.jpg)
+
+Schauen wir uns an, was die einzelnen Symbole bedeuten.
+
+![Symbole des Sprite-Editors](images/draw3.png)
+
+1. **Pinsel** - damit kannst du malen, was du willst.
+
+2. **Radierer** - du verwendest ihn, um Fehler zu löschen.
+
+3. **Farbwähler** - wähle eine Farbe aus dem Bild aus und zeichne damit.
+
+4. **Mit Farbe ausfüllen** - fülle das gesamte Bild oder einen Teil des Bildes mit einer anderen Farbe aus.
+
+5. **Farbpalette** - hier kannst du wählen, welche Farbe zum Zeichnen verwenden werden soll.
+
+6. **Neues Bild** - wenn du auf der Pluszeichen (+) klickst, wird ein leeres Fenster für dein neues Bild angezeigt. Wenn du jedoch auf den nach unten zeigenden Pfeil klickst, siehst du alle vorher erstellten Bilder.
+
+7. **Schließen** / **Close** - wenn du mit der Zeichnung fertig bist, drücke auf diese große blaue Schaltfläche.
+
+Dies ist das leere Fenster, das du am Anfang jeder Zeichnung sehen wirst.
+
+![Leerer Sprite-Editor](images/draw4.png)
+
+Du kannst malen, was du willst, und es später auf dem Bildschirm deines Chatter anzeigen.
+
+![Sprite-Editor mit Männchen](images/draw5.png)
+
+Wenn du nicht zeichnen willst, aber gerne ein paar coole Bilder auf deinem Chatter hättest, kannst du immer ein vorgefertigtes Bild wählen.
+
+Vielleicht möchtest du die vorgefertigten Bilder bearbeiten und sie verbessern. Kein Problem, klick einfach auf das Bild, das du verbessern möchtest, und fang an zu zeichnen!
+
+![Vorgefertigte Bilder](images/draw6.png)
+
+Ich habe mich zum Beispiel entschieden, einen Weihnachtsbaum zu zeichnen, wollte aber keinen Baum von Grund auf zeichnen. Also nahm ich einen vorgefertigten Baum und zeichnete Weihnachtsornamente darauf.
+
+Außerdem wollte ich nicht, dass mein Baum einen Allerweltsnamen hat, also habe ich ihn in Weihnachtsbaum umbenannt.
+
+Wenn du deine Zeichnung umbenennen möchtest, solltest du wissen, dass der Name nicht mit einer Zahl beginnen darf und dass zwischen den Wörtern keine Leerzeichen sein dürfen.
+
+![Weihnachtsbaum](images/draw7.png)
+
+Ein weiterer Tipp ist, dass du die Auflösung deines Sprites in der oberen linken Ecke ändern kannst.
+
+**Die Auflösung** ist die Größe eines Sprites, und sie wird in Pixeln gemessen.
+
+**Ein Pixel** ist das kleinste kontrollierbare Element eines Bildes, das auf dem Bildschirm dargestellt wird.
+
+![Auflösung geändert](images/draw8.png)
+
+**Tolle Arbeit!**
+
+Du kannst versuchen, mit leeren Bildern zu starten und von Grund auf deine Icons neu zu erstellen.
+
 ## Wiederherstellen der Basis-Firmware von Chatter
 
 Todo
