@@ -48,6 +48,18 @@ Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
 * [Chatter Anatomy Guide](https://learn.circuitmess.com/resources/guides/en/chatter-anatomy-guide)
 * [Chatter coding - first steps](https://learn.circuitmess.com/resources/guides/en/chatter-coding)
 
+## Synthia
+
+![Chatter](images/synthia.jpg)
+
+Deutsche Übersetzungen:
+
+* [Synthia Bauanleitung](tutorials/synthia/build/README.md)
+
+Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
+
+* [Synthia Build Guide](https://learn.circuitmess.com/resources/guides/en/synthia-build-guide/)
+
 ## Copyright
 
 Die Rechte an den originalen englischen Texten inkl. der verwendeten Bilder

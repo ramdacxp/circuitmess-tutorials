@@ -8,5 +8,8 @@
   ],
   "markdownlint.config": {
     "MD026": false
+  },
+  "files.associations": {
+    "*.yaml": "home-assistant"
   }
 }
