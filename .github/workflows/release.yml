@@ -53,10 +53,10 @@ jobs:
         tag_name: ${{ env.VERSION }}
         body: |
           # PDF Tutorials ${{ env.VERSION }}
-          This release contains german PDF tutorials for the CircuitMess kits **Wacky Robots** and **Chatter**.
+          This release contains german PDF tutorials for the CircuitMess kits **Wacky Robots**, **Chatter**, and **Synthia**.
           It was created on ${{ env.DATE }} at ${{ env.TIME }}.
 
-          Diese Version enthält deutsche PDF Anleitungen für die CircuitMess Bausätze **Wacky Robots** und **Chatter**.
+          Diese Version enthält deutsche PDF Anleitungen für die CircuitMess Bausätze **Wacky Robots**, **Chatter** und **Synthia**.
           Die Anleitungen wurden am ${{ env.DATE }} um ${{ env.TIME }} Uhr generiert.
       env:
         GITHUB_TOKEN: ${{ github.token }}
