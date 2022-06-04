@@ -89,6 +89,99 @@ Schicke uns bitte ein Foto von allem, was im Karton war, und wir werden uns so s
 
 ## Hier sind die Werkzeuge
 
+### Nötige Werkzeuge
+
+In diesem Kapitel erklären wir dir, welche Werkzeuge du für den Zusammenbau deines Synthia benötigst.
+
+Wenn du dein **CircuitMess Tools-Paket** vor dir liegen hast, dann solltest du bereit sein und hast bereits alle benötigten Werkzeuge!
+
+Falls du den Synthia-Bausatz ohne das Werkzeugpaket erhalten hast, ist dies ein guter Zeitpunkt, um sich einige der Werkzeuge auszuleihen oder sie zu kaufen.
+
+Die benötigten Werkzeuge sind unverzichtbar, wenn du elektronische Geräte zusammenbaust, reparierst oder modifizierst - und sie sind das Handwerkszeug für jeden Maker, Hardware-Hacker, Modder oder Elektriker.
+
+![Werkzeuge](images/tools1.png)
+
+1. Lötkolben
+2. Entlöt-Vakuumwerkzeug (Lötsauger)
+3. Lötkolbenständer
+4. Eine kleine Rolle mit kolophoniumhaltigem Lot
+5. Reinigungsschwamm
+6. Kreuzschlitzschraubendreher
+7. Seitenschneider
+8. Spitzzange
+
+#### Lötkolben
+
+Dies ist das wichtigste Werkzeug im Arsenal eines Bastlers.
+
+Für den Zusammenbau von Synthia reicht jeder Lötkolben der Einstiegsklasse aus.
+
+Wenn du vor hast, in die Welt der Heimwerkerprojekte einzutauchen, solltest du einen teureren Lötkolben mit mehr Funktionen in Betracht ziehen. Lötkolben mit austauschbaren Spitzen sind zum Beispiel besonders nützlich, wenn du viel mit kleineren Bauteilen arbeiten möchtest.
+
+Im nächsten Kapitel findest du eine Anleitung zum richtigen Löten und zur Pflege deines Lötkolbens.
+
+![Lötkolben aus dem Tools-Paket](images/tools2.png)
+
+#### Lötschwamm
+
+Dieses kleine Stück macht nicht viel her, bis man es in Wasser einweicht. Dann verwandelt es sich in einen super Lötzinn-Reinigungsschwamm! Benutze ihn, nachdem du ein paar Lötstellen gelötet hast, um das überschüssige Lot von der Spitze deines Lötkolbens zu entfernen. Achte darauf, dass der Schwamm weder tropfnass noch staubtrocken ist - er sollte feucht sein.
+
+#### Seitenschneider
+
+Mit einem Seitenschneider wie diesem kannst du die Beine von gelöteten Bauteilen abschneiden und Drähte kürzen.
+
+Wir bevorzugen die auf dem Bild gezeigte Zange (Plato, Modell 170), aber auch jedes andere Modell ist geeignet.
+
+![Seitenschneider/Zange](images/tools3.png)
+
+#### Spitzzange
+
+Eine solche Zange brauchst du beim Zusammenbau des Gehäuses oder beim Einstecken kniffliger Stecker!
+
+Sie ist generell hilfreich bei feinmechanischen Arbeiten.
+
+![Spitzzange](images/tools4.png)
+
+#### Kreuzschlitz - Schraubendreher
+
+Für die Montage des Gehäuses benötigst du diesen Kreuzschlitzschraubendreher.
+
+Ein handelsüblicher 2,0 mm - Kreuzschlitzschraubendreher sollte ausreichen.
+
+![Kreuzschlitzschraubendreher](images/tools5.png)
+
+#### Entlöt-Vakuumwerkzeug (Lötsauger)
+
+Dieses Werkzeug ist nützlich, um Lötfehler zu beseitigen. Für die Montage selbst ist es nicht notwendig.
+
+Wenn du vor hast, in Zukunft etwas zu hacken, zu modden oder Hardware zu reparieren, ist es immer eine gute Idee, dieses Werkzeug zu haben.
+
+![Lötsauger](images/tools6.png)
+
+### Zusätzliche nützliche Werkzeuge
+
+#### Helfende dritte Hand mit Lupe
+
+Dies könnte deine Löterfahrung ein wenig angenehmer machen, besonders wenn du kompliziertere Projekte durchführen möchtest.
+
+![Dritte Hand mit Lupe](images/tools7.png)
+
+#### Multimeter
+
+Ein Multimeter kann für viele Dinge verwendet werden: zum Prüfen kniffliger Verbindungen, zum Messen der Batteriespannung, zum Testen von Widerständen und Kondensatoren, zum Messen des Stromverbrauchs und vielem mehr.
+
+Es ist ein nützliches Werkzeug, wenn du herausfinden willst, was bei einem Elektronik-Bausatz schief gelaufen ist.
+
+![Multimeter](images/tools8.png)
+
+#### Lötdocht
+
+Du kannst den Lötdocht zusammen mit dem Entlöt-Vakuumwerkzeug verwenden, um Lötfehler zu beseitigen. Lege ihn einfach auf die fehlerhafte Lötstelle und drücke mit einem heißen Lötkolben darauf. Dann saugt er das überschüssige Lot auf wie ein Schwamm!
+
+Nützlich zum Korrigieren von Lötstellen, die mit einem Lötsauger nicht leicht zu erreichen sind.
+
+![Lötdocht](images/tools9.png)
+
 ## Zusammenbau
 
 ## Wie geht's weiter?
