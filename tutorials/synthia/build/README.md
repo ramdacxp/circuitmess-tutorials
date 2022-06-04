@@ -459,6 +459,60 @@ Im nächsten Kapitel werden wir dich durch den Hardwaretest führen.
 
 ### Teil Zwei - Erster Hardwaretest
 
+Willkommen zu einem der spannendsten Teile des Zusammenbaus - dem Hardwaretest!
+
+Mit ihm kannst du überprüfen, ob alles richtig verlötet ist und ob alles so funktioniert, wie es soll.
+
+**Erst danach sollten wir mit dem Zusammenbau des Gehäuses fortfahren! Es wäre eine Menge Arbeit, das Gehäuse zu zerlegen, wenn wir feststellen, dass etwas nicht funktioniert!**
+
+Deshalb ist es wichtig, diese einfache Kontrolle durchzuführen.
+Fangen wir also an...
+
+#### Schritt 1
+
+In der Verpackung solltest du ein USB-C-Kabel finden, welches zum Laden und Programmieren von Synthia verwendet wird.
+
+Wenn du es aus irgendeinem Grund nicht hast, genügt auch jedes andere USB-C-Kabel.
+
+Verwende das Kabel, um Synthia mit deinem PC zu verbinden.
+
+![Synthia mit PC verbinden](images/check1.jpg)
+
+Synthia sollte sich sofort einschalten!
+
+![Synthia eingeschaltet](images/check2.jpg)
+
+Wie bei jedem anderen CircuitMess-Gerät ist es am wichtigsten zu prüfen, ob alle Taster, Encoder und Schieberegler richtig funktionieren. Ein weiterer wichtiger Punkt sind die LEDs.
+
+#### Schritt 2
+
+**Wenn du Synthia zum ersten Mal an den PC anschließt, hörst du die Stimme von Spencer.**
+(Falls du hier neu bist und nicht weißt, wer Spencer ist: Das ist unser Selbstbau-Sprachassistent.)
+
+Spencer beglückwünscht dich zu deinem Erfolg und führt dich durch die erste Prüfung, so dass du nichts verpassen kannst.
+
+In dieser Anleitung stellen wir die nötigen Schritte zur Sicherheit noch einmal schriftlich vor, damit du sie gut nachverfolgen kannst.
+
+#### Schritt 3
+
+**Als erstes musst du die Taster überprüfen**.
+Wenn sie richtig funktionieren, sollte das **grüne Licht** unter ihnen aufleuchten.
+
+Funktioniert alles? Erstaunlich!
+
+Jetzt musst du **auf die Encoder klicken und sie ein wenig drehen**. Wenn die Encoder funktionieren, sollten die LEDs auf der **LED-Matrix aufleuchten**, je nachdem, wo du dich auf der Matrix befindest.
+
+Und zum Schluss musst du die **Schieberegler überprüfen**. Schiebe sie einfach nach oben und unten. Wenn alles in Ordnung ist, **leuchten die LEDs an der Seite** eine nach der anderen auf.
+
+**Nachdem du alles überprüft hast, sagt dir Spencer, dass alles in Ordnung ist!**
+Klicke auf den Encoder und du hörst Spencer sagen: **"Spencer out!"**.
+
+Jetzt, da du sicher bist, dass alles richtig verlötet ist, kannst du das Gehäuse von Synthia zusammenbauen.
+
 ### Teil Drei - Das Gehäuse
 
+In Arbeit
+
 ## Wie geht's weiter?
+
+In Arbeit
