@@ -387,7 +387,7 @@ Jeder Encoder hat sieben Stifte, die so angeordnet sind, dass es nur eine Mögli
 
 ![Encoder einstecken](images/enc2.jpg)
 
-Vergewissere sich sich vor dem Löten, dass die Encoder senkrecht auf der Platine stehen.
+Vergewissere dich vor dem Löten, dass die Encoder senkrecht auf der Platine stehen.
 
 Wenn alles in Ordnung zu sein scheint, beginne mit dem Löten!
 
