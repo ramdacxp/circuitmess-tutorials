@@ -511,8 +511,172 @@ Jetzt, da du sicher bist, dass alles richtig verlötet ist, kannst du das Gehäu
 
 ### Teil Drei - Das Gehäuse
 
-In Arbeit
+Wenn du bis hierher gekommen bist, hat dein Gerät den Hardware-Test erfolgreich bestanden!
+
+Das bedeutet, dass du auf dem besten Weg bist, ein professioneller Bastler zu werden!
+
+Jetzt müssen wir die beiden Acryl-Gehäuseteile verwenden, um die Platine zu schützen und dein Gerät professioneller aussehen zu lassen.
+
+Für diesen Abschnitt der Anleitung werden diese Teile die wichtigsten sein.
+
+![Acryl-Gehäuseteile und Platine](images/case1.jpg)
+
+Jedes Acryl-Gehäuseteil hat auf beiden Seiten eine Schutzschicht, die abgezogen werden muss. Sie sind noch nicht vollständig durchsichtig, aber das sollten sie sein, wenn du diesen Schritt abgeschlossen hast!
+
+![Gehäuse](images/case2.jpg)
+
+Vergiss nicht, die Schutzschicht von beiden Seiten der Gehäuseteile abzuziehen!
+Nachdem du alles abgezogen hast, sollten die Teile so aussehen:
+
+![Gehäuse](images/case3.jpg)
+
+Wir werden das obere Gehäuseteil zuerst zu montieren (das ist das mit den vielen Löchern)!
+
+Dafür brauchst du die größeren Schrauben und die goldenen Abstandshalter.
+
+![Gehäuse](images/case4.jpg)
+
+Wie du sehen kannst, gibt es sechs Schrauben und sechs Abstandshalter.
+
+Sie werden in die sechs kleinen Löcher am Rand des Acrylgehäuses und der Leiterplatte eingesetzt.
+
+Wir empfehlen dir, eine Schraube und einen Abstandshalter einzusetzen, sicherzustellen, dass alles fest sitzt, und erst dann zur nächsten Schraube und zum nächsten Abstandshalter zu gehen.
+
+Wichtig ist, dass du die Schraube von der Außenseite des Acrylgehäuses und den Abstandshalter von der Innenseite anbringst.
+
+![Gehäuse](images/case5.jpg)
+
+Du musst die Teile mit den Fingern fest ziehen. Es wird noch kein Werkzeug benötigt!
+
+![Gehäuse](images/case6.jpg)
+
+Tue dies nun für alle sechs Schrauben und Abstandshalter.
+
+Am Ende sollte es so aussehen:
+
+![Gehäuse](images/case7.jpg)
+
+![Gehäuse](images/case8.jpg)
+
+Setze nun dieses Gehäuse auf die Vorderseite der Platine.
+
+![Gehäuse](images/case9.jpg)
+
+![Gehäuse](images/case10.jpg)
+
+Weiter geht's mit der anderen Gehäuseseite!
+
+Dafür brauchst du: das Acrylgehäuse, das noch übrig ist, sechs Abstandshalter und sechs kleinere Schrauben.
+
+![Gehäuse](images/case11.jpg)
+
+Der Vorgang ist der selbe wie bei der vorderen Verkleidung.
+
+Nimm eine Schraube und einen Abstandshalter und befestige sie. Die Schrauben müssen an der Außenseite des Gehäuses und die Abstandshalter an der Innenseite angebracht werden.
+
+Du erkennst die Seiten an den sechs Kreisen! Auf der Außenseite kannst du die Kanten der Kreise spüren!
+
+![Gehäuse](images/case12.jpg)
+
+Wiederhole dies für alle sechs Schrauben und Abstandshalter:
+
+![Gehäuse](images/case13.jpg)
+
+![Gehäuse](images/case14.jpg)
+
+![Gehäuse](images/case16.jpg)
+
+Nimm nun die Platine sowie dieses Gehäuseteil und verbinden beide!
+
+![Gehäuse](images/case17.jpg)
+
+Nun kannst du mit dem Schraubenzieher die Schrauben fest ziehen!
+
+![Gehäuse](images/case18.jpg)
+
+Achte darauf, dass du die Schrauben nicht zu fest anziehst, da dies zum Bruch des Gehäuses führen kann!
+
+![Gehäuse](images/case19.jpg)
+
+Alles ist jetzt verbunden! Super!
+
+Jetzt ist es an der Zeit, Knöpfe und Kappen für die Taster und Encoder anzubringen, um die spätere Verwendung noch angenehmer zu gestalten.
+
+Wir beginnen mit den Kappen der Encoder. Das sind die beiden größten Kappen aus der Box.
+
+![Gehäuse](images/case20.jpg)
+
+Setze sie hier ein:
+
+![Gehäuse](images/case21.jpg)
+
+Achte darauf, die Kappe auf den Encoder zu drücken, bis sie einrastet.
+
+Nachdem du die Kappen auf die Encoder aufgesetzt hast, versuche sie ein wenig zu benutzen, um zu sehen, ob alles richtig zusammengesetzt ist.
+
+![Gehäuse](images/case22.jpg)
+
+Als nächstes brauchen wir die Kappen für die Taster.
+
+![Gehäuse](images/case23.jpg)
+
+Drücke die Kappen auf den Taster, bis sie einrasten.
+
+Stell sicher, dass alles reibungslos funktioniert, bevor du zum nächsten Schritt übergehst.
+
+![Gehäuse](images/case24.jpg)
+
+![Gehäuse](images/case24-2.jpg)
+
+So sollte Synthia im Moment aussehen:
+
+![Gehäuse](images/case25.jpg)
+
+Als Nächstes musst du die Schieberegler mit Kappen versehen.
+
+![Gehäuse](images/case26.jpg)
+
+Schiebe sie nach dem Anbringen ein wenig, um sicherzustellen, dass alles richtig funktioniert!
+
+![Gehäuse](images/case27.jpg)
+
+Gute Arbeit!
+
+Wir sind am Ende der Montage angelangt.
+
+Das Einzige, was noch zu tun ist, ist das Anbringen von selbstklebenden Gummifüßen an der Unterseite des Geräts, um es zu sichern.
+
+Das sind die Teile, die du brauchst:
+
+![Gehäuse](images/case28.jpg)
+
+Wie du sehen kannst, befinden sich unter jedem der Gummifüße weiße Aufkleber.
+Du musst den Aufkleber entfernen, bevor du sie auf das Gehäuse setzt.
+
+![Gehäuse](images/case29.jpg)
+
+![Gehäuse](images/case30.jpg)
+
+Setze die klebrige Seite der Gummifüße auf die Unterseite des Geräts.
+
+![Gehäuse](images/case31.jpg)
+
+So sollte Synthia nach dem Aufkleben der Gummifüße aussehen!
+
+![Gehäuse](images/case32.jpg)
 
 ## Wie geht's weiter?
 
-In Arbeit
+Herzlichen Glückwunsch! Du hast erfolgreich einen digitalen Musiksampler, Synthia, zusammengebaut.
+
+**Als Nächstes** wirst du herausfinden, wie man ihn benutzt, **welche tollen Funktionen wir für dich vorbereitet haben und wie man ihn programmiert**!
+
+Wir sind gerade dabei, eine Anleitung für die Benutzung und die Programmierung zu erstellen, daher müssen wir dich noch um ein wenig Geduld bitten.
+
+![Synthia am PC](images/next.jpg)
+
+In der Zwischenzeit laden wir dich ein, unserem
+**[Discord-Kanal](https://discord.gg/wdKa8AP7)**
+und unserer
+**[Facebook-Gruppe](https://www.facebook.com/groups/circuitmesscommunity)**
+beizutreten, wo du Ideen, Fotos und Feedback mit anderen Makern austauschen kannst und exklusive Neuigkeiten von CircuitMess erhältst.
