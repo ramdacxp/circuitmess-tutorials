@@ -586,7 +586,7 @@ Wiederhole dies für alle sechs Schrauben und Abstandshalter:
 
 ![Gehäuse](images/case16.jpg)
 
-Nimm nun die Platine sowie dieses Gehäuseteil und verbinden beide!
+Nimm nun die Platine sowie dieses Gehäuseteil und verbinde beide!
 
 ![Gehäuse](images/case17.jpg)
 
@@ -606,13 +606,13 @@ Wir beginnen mit den Kappen der Encoder. Das sind die beiden größten Kappen au
 
 ![Gehäuse](images/case20.jpg)
 
-Setze sie hier ein:
+Setze sie hier auf:
 
 ![Gehäuse](images/case21.jpg)
 
 Achte darauf, die Kappe auf den Encoder zu drücken, bis sie einrastet.
 
-Nachdem du die Kappen auf die Encoder aufgesetzt hast, versuche sie ein wenig zu benutzen, um zu sehen, ob alles richtig zusammengesetzt ist.
+Nachdem du die Kappen auf die Encoder aufgesetzt hast, versuche sie zu benutzen, sie ein wenig nach rechts und links zu drehen, um zu sehen, ob alles richtig zusammengesetzt ist.
 
 ![Gehäuse](images/case22.jpg)
 
@@ -622,7 +622,7 @@ Als nächstes brauchen wir die Kappen für die Taster.
 
 Drücke die Kappen auf den Taster, bis sie einrasten.
 
-Stell sicher, dass alles reibungslos funktioniert, bevor du zum nächsten Schritt übergehst.
+Stell' sicher, dass alles reibungslos funktioniert, bevor du zum nächsten Schritt übergehst.
 
 ![Gehäuse](images/case24.jpg)
 
@@ -667,7 +667,7 @@ So sollte Synthia nach dem Aufkleben der Gummifüße aussehen!
 
 ## Wie geht's weiter?
 
-Herzlichen Glückwunsch! Du hast erfolgreich einen digitalen Musiksampler, Synthia, zusammengebaut.
+Herzlichen Glückwunsch! Du hast erfolgreich deinen digitalen Musiksampler, Synthia, zusammengebaut.
 
 **Als Nächstes** wirst du herausfinden, wie man ihn benutzt, **welche tollen Funktionen wir für dich vorbereitet haben und wie man ihn programmiert**!
 
