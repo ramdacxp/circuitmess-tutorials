@@ -41,6 +41,7 @@ jobs:
         npx -y md-to-pdf tutorials/chatter/anatomy/README.md   && mv tutorials/chatter/anatomy/README.pdf   pdf/Chatter-Aufbau.pdf
         npx -y md-to-pdf tutorials/chatter/coding/README.md    && mv tutorials/chatter/coding/README.pdf    pdf/Chatter-Programmierhandbuch.pdf
         npx -y md-to-pdf tutorials/synthia/build/README.md     && mv tutorials/synthia/build/README.pdf     pdf/Synthia-Bauanleitung.pdf
+        npx -y md-to-pdf tutorials/synthia/usage/README.md     && mv tutorials/synthia/usage/README.pdf     pdf/Synthia-Benutzerhandbuch.pdf
         ls -R pdf
 
     - name: Create Release
@@ -159,4 +160,14 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: pdf/Synthia-Bauanleitung.pdf
         asset_name: Synthia-Bauanleitung.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload Synthia-Benutzerhandbuch.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/Synthia-Benutzerhandbuch.pdf
+        asset_name: Synthia-Benutzerhandbuch.pdf
         asset_content_type: application/pdf
