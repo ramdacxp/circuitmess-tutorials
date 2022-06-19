@@ -671,7 +671,7 @@ Herzlichen Glückwunsch! Du hast erfolgreich deinen digitalen Musik-Sampler, Syn
 
 **Als Nächstes** wirst du herausfinden, wie man ihn benutzt, **welche tollen Funktionen wir für dich vorbereitet haben und wie man ihn programmiert**!
 
-Wir sind gerade dabei, eine Anleitung für die Benutzung und die Programmierung zu erstellen, daher müssen wir dich noch um ein wenig Geduld bitten.
+Diese Informationen findest Du in den Anleitungen zur Benutzung bzw. zur Programmierung, die du von [unserer Homepage](https://learn.circuitmess.com/resources/guides) herunterladen kannst.
 
 ![Synthia am PC](images/next.jpg)
 
