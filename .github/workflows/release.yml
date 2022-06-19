@@ -1,6 +1,8 @@
 # https://gist.github.com/riggaroo/d828c5ffecf261d3ccc7bde89817dba5
 # https://trstringer.com/github-actions-create-release-upload-artifacts/
 
+# Todo: Switch to https://github.com/softprops/action-gh-release
+
 name: Create Release
 
 on:
