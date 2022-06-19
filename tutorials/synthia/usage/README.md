@@ -9,11 +9,6 @@
   * [Zeit für die Aufnahme!](#zeit-für-die-aufnahme)
   * [Was kommt als Nächstes?](#was-kommt-als-nächstes)
 
-
-
-
-
-
 ## Finde dich zurecht...
 
 ### Wozu können die Knöpfe verwendet werden?
@@ -24,7 +19,7 @@ Wenn Du diese Anleitung liest, hast du Synthia erfolgreich zusammengebaut! Herzl
 
 Eines der coolsten Dinge an Synthia ist, dass alles, was du wissen musst, um mit ihm zu spielen, auf seiner Rückseite steht.
 
-Wir haben uns entschieden, eine Kurzanleitung auf die Platine zu schreiben, damit du diese Anleitung nicht ständig aufschlagen musst, sondern Synthia einfach umdrehen und dir merken kannst, wofür jeder Knopf da ist!
+Wir haben uns entschieden, eine Kurzanleitung auf die Platine zu drucken, damit du diese Anleitung nicht ständig aufschlagen musst, sondern Synthia einfach umdrehen und dir merken kannst, wofür jeder Knopf da ist!
 
 ![Gitarre spielen mit Synthia](images/rock.jpg)
 
@@ -44,7 +39,7 @@ Wenn du **beide Encoder** gleichzeitig drückst, wird der **Hardware-Test** neu 
 
 ![Encoder](images/encoder.jpg)
 
-#### Jetzt ist die Zeit für die Schiebereglern gekommen!
+#### Jetzt ist die Zeit für die Schieberegler gekommen!
 
 Auch hier haben wir zwei davon - den linken und den rechten.
 
@@ -58,16 +53,16 @@ Mit dem **rechten Schieberegler** kannst du die **Lautstärke** und **Effektinte
 
 Es gibt fünf Druckknöpfe bzw. Taster, die im Grunde alle das Gleiche tun.
 
-Jeder von ihnen hat seinen eigenen Klang, aber es ist sehr einfach, sie zu benutzen - wenn du lernst, was einer von ihnen tun kann, hast du gelernt, wofür sie alle da sind.
+Jeder von ihnen hat seinen eigenen Klang. Es ist sehr einfach, sie zu benutzen - wenn du lernst, was einer von ihnen tun kann, hast du gelernt, wofür sie alle da sind.
 
 **Sie werden verwendet für:**
 
 * Platzieren von Samples auf der Tonspur/Track
 * Samples aus dem Track entfernen
-* Bearbeiten von Sample-Slots
+* Bearbeiten der Sample-Slots
 * Aktivieren oder Deaktivieren von Tonspuren
 * Verlassen des Speichermenüs
-* Aufnehmen deiner Sounds & Kopieren in den aktuellen Slot
+* Aufnehmen deiner Sounds & Kopieren von Sounds in den aktuellen Slot
 
 ![Druckknöpfe](images/buttons.jpg)
 
@@ -109,7 +104,7 @@ Wenn du die **Lautstärke** einstellen möchtest, schiebe den **rechten Schieber
 
 An der Seite der Schieberegler befinden sich **LEDs**, die die Lautstärke und das Tempo anzeigen.
 
-Wenn **alle LEDs** neben dem rechten Schieberegler aufleuchten, bedeutet das, dass die **maximal** Lautstärke eingestellt ist. Das Gleiche gilt für das Tempo!
+Wenn **alle LEDs** neben dem rechten Schieberegler aufleuchten, bedeutet das, dass die **maximale** Lautstärke eingestellt ist. Das Gleiche gilt für das Tempo!
 
 ![Schieberegler](images/slider.jpg)
 
@@ -152,9 +147,9 @@ Um das **Speichermenü zu verlassen**, drücke einfach einen der Druckknöpfe, d
 
 Wenn du den **Sample-Slot bearbeiten** möchtest, musst du ein paar Dinge wissen!
 
-Um in den Sample-Editiermodus zu gelangen, **halte den Druckknopf des Slots gedrückt**, dass du bearbeiten möchtest.
+Um in den Sample-Editiermodus zu gelangen, **halte den Druckknopf des Slots gedrückt**, den du bearbeiten möchtest.
 
-Wenn du den Sound auf der dritten Taste bearbeiten möchtest, halte diese Taste einfach eine Sekunde lang gedrückt. Synthia wechselt in den Sample-Editiermodus und die LED unter dem Slot, den du bearbeitest, leuchtet gelb.
+Wenn du den Sound des vierten Slots bearbeiten möchtest, halte den entsprechenden Druckknopf "D" einfach eine Sekunde lang gedrückt. Synthia wechselt in den Sample-Editiermodus und die LED unter dem Slot, den du bearbeitest, leuchtet gelb.
 
 ![Sample-Editiermodus](images/edit.jpg)
 
@@ -186,9 +181,9 @@ Synthia bietet wie erwähnt fünf vorinstallierte Sounds und fünf Effekte.
 
 Jetzt ist es an der Zeit für den wahrscheinlich aufregendsten Teil dieser Anleitung, nämlich die **Aufnahme**!
 
-**Um dein eigenes Sample aufzunehmen**, musst du den Slot-Editiermodus aufrufen und mit dem linken Encoder das letzte Sample auswählen (das ist das Aufnahme-Sample).
+**Um dein eigenes Sample aufzunehmen**, musst du den Slot-Editiermodus aufrufen und mit dem linken Encoder den letzten Eintrag auswählen (das ist das Aufnahme-Sample).
 
-Sobald du dich im **Aufnahmemodus** befindest, sollte die kleine **LED unter dem Slot**, den du gerade bearbeitest, **rot aufleuchten**, um dir zu zeigen, dass du gerade aufnimmst. 
+Sobald du dich im **Aufnahmemodus** befindest, sollte die kleine **LED unter dem Slot**, den du gerade bearbeitest, **rot aufleuchten**, um dir zu zeigen, dass du gerade aufnimmst.
 Genau wie bei einer Videokamera, richtig?
 
 ![Aufnahme](images/record.jpg)
@@ -198,7 +193,7 @@ Zum Aufnehmen halte den Druckknopf, die du gerade bearbeitest, gedrückt. In dem
 Nachdem du mit der Aufnahme fertig bist, muss Synthia die Aufnahme verarbeiten und speichern, was ein oder zwei Sekunden dauern kann. Vielleicht denkst du, dass Synthia blockiert ist, aber keine Sorge, es arbeitet nur an der Aufnahme.
 
 **Anmerkung:**  
-Wenn du dich im Aufnahmemodus befindest und eine der **LEDs** unter den Drucktasten **blau leuchtet**, bedeutet dies, dass du in diesem Slot etwas aufgenommen hast.
+Wenn du dich im Aufnahmemodus befindest und eine der **LEDs** unter den Drucktasten **blau leuchtet**, bedeutet dies, dass du in diesem Slot eigene Samples aufgenommen hast.
 
 Du kannst auf einen der blau leuchtenden Druckknöpfe drücken, um die Aufnahme von diesem Slot in den Slot zu kopieren, den du gerade bearbeitest.
 

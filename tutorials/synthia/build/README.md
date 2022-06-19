@@ -667,7 +667,7 @@ So sollte Synthia nach dem Aufkleben der Gummifüße aussehen!
 
 ## Wie geht's weiter?
 
-Herzlichen Glückwunsch! Du hast erfolgreich deinen digitalen Musiksampler, Synthia, zusammengebaut.
+Herzlichen Glückwunsch! Du hast erfolgreich deinen digitalen Musik-Sampler, Synthia, zusammengebaut.
 
 **Als Nächstes** wirst du herausfinden, wie man ihn benutzt, **welche tollen Funktionen wir für dich vorbereitet haben und wie man ihn programmiert**!
 
