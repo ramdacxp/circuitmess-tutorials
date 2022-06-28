@@ -359,7 +359,21 @@ Es ist an der Zeit, zur nächsten Lektion überzugehen...
 
 ## Los geht's! Schritt für Schritt
 
-Todo
+### Ausprobieren der LED-Matrix
+
+Im den nächsten Kapiteln stellen wir dir drei Beispiele vor, die dich in die Welt des Programmierens einführen werden!
+
+Verbinde deinen Synthia mit deinem PC, öffne CircuitBlocks und folge diesen Schritten.
+
+[Todo](https://learn.circuitmess.com/resources/guides/en/synthia-coding-guide/synthia-coding-guide-2-1)
+
+### Klicken, Schieben und Drehen
+
+[Todo](https://learn.circuitmess.com/resources/guides/en/synthia-coding-guide/synthia-coding-guide-2-2)
+
+### Lass uns malen!
+
+[Todo](https://learn.circuitmess.com/resources/guides/en/synthia-coding-guide/synthia-coding-guide-2-3)
 
 ## Wiederherstellen der Basis-Firmware von Synthia
 
