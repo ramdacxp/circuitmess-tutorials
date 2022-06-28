@@ -56,11 +56,13 @@ Deutsche Übersetzungen:
 
 * [Synthia Bauanleitung](tutorials/synthia/build/README.md)
 * [Synthia Benutzerhandbuch](tutorials/synthia/usage/README.md)
+* [Synthia Programmierung - Erste Schritte](tutorials/synthia/coding/README.md)
 
 Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
 
 * [Synthia Build Guide](https://learn.circuitmess.com/resources/guides/en/synthia-build-guide/)
 * [Synthia Usage Guide](https://learn.circuitmess.com/resources/guides/en/synthia-usage-guide)
+* [Synthia coding - first steps](https://learn.circuitmess.com/resources/guides/en/synthia-coding-guide)
 
 ## Copyright
 
