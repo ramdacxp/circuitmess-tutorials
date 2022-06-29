@@ -25,7 +25,6 @@ jobs:
       run: |
         echo "VERSION=$(date +'v1.%Y%m%d.%H%M%S')" >> $GITHUB_ENV
         echo "DATE=$(date +'%d.%m.%Y')" >> $GITHUB_ENV
-        echo "TIME=$(date +'%H:%M:%S')" >> $GITHUB_ENV
 
     - name: Check out code
       uses: actions/checkout@v2
@@ -44,6 +43,7 @@ jobs:
         npx -y md-to-pdf tutorials/chatter/coding/README.md    && mv tutorials/chatter/coding/README.pdf    pdf/Chatter-Programmierhandbuch.pdf
         npx -y md-to-pdf tutorials/synthia/build/README.md     && mv tutorials/synthia/build/README.pdf     pdf/Synthia-Bauanleitung.pdf
         npx -y md-to-pdf tutorials/synthia/usage/README.md     && mv tutorials/synthia/usage/README.pdf     pdf/Synthia-Benutzerhandbuch.pdf
+        npx -y md-to-pdf tutorials/synthia/coding/README.md    && mv tutorials/synthia/coding/README.pdf    pdf/Synthia-Programmierhandbuch.pdf
         ls -R pdf
 
     - name: Create Release
@@ -57,10 +57,10 @@ jobs:
         body: |
           # PDF Tutorials ${{ env.VERSION }}
           This release contains german PDF tutorials for the CircuitMess kits **Wacky Robots**, **Chatter**, and **Synthia**.
-          It was created on ${{ env.DATE }} at ${{ env.TIME }}.
+          It was created on ${{ env.DATE }}.
 
           Diese Version enthält deutsche PDF Anleitungen für die CircuitMess Bausätze **Wacky Robots**, **Chatter** und **Synthia**.
-          Die Anleitungen wurden am ${{ env.DATE }} um ${{ env.TIME }} Uhr generiert.
+          Die Anleitungen wurden am ${{ env.DATE }} generiert.
       env:
         GITHUB_TOKEN: ${{ github.token }}
 
@@ -172,4 +172,14 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: pdf/Synthia-Benutzerhandbuch.pdf
         asset_name: Synthia-Benutzerhandbuch.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload Synthia-Programmierhandbuch.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/Synthia-Programmierhandbuch.pdf
+        asset_name: Synthia-Programmierhandbuch.pdf
         asset_content_type: application/pdf
