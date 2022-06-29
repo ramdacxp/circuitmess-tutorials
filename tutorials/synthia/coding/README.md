@@ -365,7 +365,246 @@ Im den nächsten Kapiteln stellen wir dir drei Beispiele vor, die dich in die We
 
 Verbinde deinen Synthia mit deinem PC, öffne CircuitBlocks und folge diesen Schritten.
 
-[Todo](https://learn.circuitmess.com/resources/guides/en/synthia-coding-guide/synthia-coding-guide-2-1)
+Normalerweise sind unsere Geräte mit Displays ausgestattet, aber wir haben uns entschlossen, das ein wenig zu ändern und Synthia mit einer LED-Matrix zu versehen.
+
+**Das Wichtigste zuerst!**
+
+Wir wollen dir ein paar wichtige Begriffe erklären:
+
+1. **Track monochrome** -> Die zahlreichen einfarbigen LEDs in der Mitte von Synthia
+2. **Cursor monochrome** -> Name für die Reihe weißer LEDs unter den Track LEDs
+3. **Slider monochrome** -> Einfarbige LEDs neben den Schiebereglern
+4. **Track RGB** -> farbige LEDs links und rechts neben den Spuren
+5. **Slot RGB** -> farbige LEDs unter den Druckknöpfen
+
+Klicke auf **[New Sketch]** in CircuitBlocks und wähle "Synthia", da dies das Gerät ist, das wir heute programmieren werden.
+
+Danach sollte der Zeichenbereich so aussehen:
+
+![Zeichenbereich mit leerem Sketch](images/code1.jpg)
+
+Wie du sehen kannst, gibt es in diesem Hauptblock zwei Abschnitte - "Arduino run first" und "Arduino loop forever". Blöcke, die du in den Abschnitt "**Arduino run first**" setzt werden **sofort** ausgeführt, sobald du das Gerät einschaltest. Die Blöcke im Abschnitt "**Loop forever**" werden danach ausgeführt - immer und immer wieder - in einer Art Endlosschleife.
+
+Als erstes schauen wir uns den Abschnitt "**LED matrix**" auf der linken Seite an und suchen nach dem Block "**play matrix animation**" (spiele Matrix Animation).
+
+Dieser Abschnitt enthält eine Gruppe von Blöcken, die für die Anzeige von Animationen und auf der LED-Matrix von Synthia verwendet werden können.
+
+![LED matrix](images/code2.jpg)
+
+Klicke einfach auf den Block und ziehe ihn in den Block.
+
+Wir wollen den Block "**play matrix animation**" am Anfang des Hauptblocks einfügen, damit die Animation nur einmal beim Start des Geräts abgespielt wird.
+
+Ändere die Art der Animation von "pitch" nach "volume".
+
+![play matrix animation](images/code3.jpg)
+
+Jetzt müssen wir unsere erste Variable für diesen Sketch erstellen. Nennen wir sie "**x**".
+
+In der Computerprogrammierung ist eine Variable ein Speicherplatz, der einen Wert enthält. Jede Variable hat einen bestimmten Namen. Du kannst den Wert einer Variablen setzen und ändern.
+
+Lass uns zunächst eine Variable erstellen. Suche den Abschnitt "Variables" und klicke auf die Schaltfläche [**Create variable ...**] (Variable erstellen).
+
+![Variable](images/code4.jpg)
+
+Es wird ein Fenster wie dieses angezeigt:
+
+![Neue Variable](images/code5.jpg)
+
+Speichere den Namen mit [Save] und schon bist du startklar!
+
+Im Variablenbereich gibt es nun zwei neue Blöcke mit den Namen "Set x to" und "Change x by (1)". Für den Moment brauchen wir den ersten Block "Setze x auf".
+
+![Variable setzen](images/code6.jpg)
+
+Wenn wir eine Variable erstellen, ist sie undefiniert - **sie hat keinen Wert**. Wir müssen für jede Variable einen Wert festlegen, wenn unser Computerprogramm startet. Deshalb brauchst du den Block "**set variable**" (Variable setzen).
+
+Es gibt einen Block, in den du einen beliebigen numerischen Wert schreiben kannst, und er befindet sich im Abschnitt "**Math**".
+
+![Math Block](images/code7.jpg)
+
+Setze die Variable "**x**" auf **0**.
+
+Warum auf 0, wirst du sich fragen...
+
+Die Variable "x" enthält als Wert die Ordnungszahl der LED, die gerade leuchtet.
+
+Da sich unter jedem der 5 Taster eine LED befindet und PCs beim Zählen bei 0 beginnen, müssen wir für den Wert der **ersten LED** eine **0*** einsetzen.
+
+![X=0](images/code8.jpg)
+
+Jetzt ist es an der Zeit, die erste Funktion zu erstellen.
+
+![Functions](images/code9.jpg)
+
+Genau wie bei den Variablen kannst du eine Funktion erstellen, indem du im Abschnitt "Functions" auf die Schaltfläche [Create a Function] klickst. Es erscheint ein Popup-Fenster.
+
+![Functions Popup](images/code10.jpg)
+
+Du kannst deiner Funktion einen beliebigen Namen geben. Wir haben sie "**drawPixel**" genannt, da in den meisten Programmen die Funktionen englische Namen haben.
+
+Sobald du auf die Schaltfläche [Done] ("Fertig") klickst, erhältst du einen neuen bläulichen Block auf der Zeichenfläche. Wir heben uns diesen Teil für später auf und verwenden jetzt den neuen Block "**call drawPixel**".
+
+![Funktion erstellt](images/code11.jpg)
+
+![Funktion eingesetzt](images/code12.jpg)
+
+Mit dieser Funktion wird die LED, die durch die Variable "**x**" ausgewählt wird, zum leuchten gebracht.
+
+Zunächst schaltet die Funktion "drawPixel" alle LEDs aus, ändert den aktuellen Pixel auf Cyan und überträgt die Änderungen auf die Matrix.
+
+Erstellen wir eine weitere Variable und nennen sie "**pixelTime**".
+
+Wir brauchen diese Variable, um die Zeit zu verfolgen, die seit dem letzten Aufleuchten der LED vergangen ist.
+
+Du weißt bereits, wie man das macht, oder?
+
+Klicken Sie also auf den Abschnitt "**Variables**" und dann auf die Schaltfläche [Create variable...].
+
+![Neue Variable](images/code13.jpg)
+
+Gib einen Namen an.
+
+![Variable benennen](images/code14.jpg)
+
+Ziehe den Block "**Set variable to**" (Variable setzen auf) unter den Block "**call drawPixel**" (Funktion "drawPixel" aufrufen).
+
+Genau wie auf dem Foto unten:
+
+![Variablenblock einsetzen](images/code15.jpg)
+
+Du siehst, dass wir wieder einmal keinen Wert für die Variable haben, also müssen wir das ändern.
+
+Diesmal werden wir der Variablen keinen numerischen Wert geben.
+
+Gehe zum Abschnitt "Time" (Zeit) und wähle "**current elapsed Time (milliseconds)**" (aktuell verstrichene Zeit in Millisekunden".
+
+![verstrichene Zeit](images/code16.jpg)
+
+Setze diesen Block an die Stelle des Kreises im Variablenblock.
+
+![Variablenblock einsetzen](images/code17.jpg)
+
+Jetzt ist es an der Zeit, den Funktionsblock "**drawPixel**" zu verwenden.
+
+Dieser Block bestimmt, was auf der LED-Matrix angezeigt wird.
+
+Als Erstes musst du **die gesamte Matrix löschen**.
+
+Dazu benötigst du den Block mit der Anweisung "**clear the track monochrome matrix**".
+
+![Matrix löschen](images/code18.jpg)
+
+Nachdem wir es in den "**drawPixel**"-Block eingefügt haben, ändern wir den Bereich "track monochrome" in "slot RGB".
+
+![Matrix löschen eingesetzt](images/code19.jpg)
+
+Der nächste Block, den wir benötigen, stammt ebenfalls aus dem Bereich der **LED-Matrix-Blöcke**.
+
+Suche nach diesem speziellen Block:
+
+![RGB Matrix Pixel Block](images/code20.jpg)
+
+Änder "track" in "**slot**", da wir gerade an mit den LEDs unter den Druckknöpfen arbeiten, und setze die Farbe auf **cyan** (oder eine andere Farbe, die du magst).
+Du musst auch die 0 in eine **Variable "x"** ändern.
+
+Das Endprodukt sollte wie folgt aussehen:
+
+![Fertiger Block](images/code21.jpg)
+
+Wir befinden uns immer noch im Bereich der LED-Matrix-Blöcke.
+
+Suche nach dem Block mit der Aufschrift "**push changes to track monochrome matrix**".
+
+![Änderungen setzen](images/code22.jpg)
+
+Da wir mit den Slot-RGB LEDs arbeiten, müssen wir "track monochrome" in "**slot RGB**" ändern.
+
+![Änderungen setzen](images/code23.jpg)
+
+Auch hier werden wir den Block "**clear the matrix**" (Matrix löschen) verwenden.
+Du kannst ihn entweder auf die gleiche Weise erstellen wie den ersten Block, oder du kannst einfach den bereits vorhandenen Block **kopieren**.
+
+**Zum Kopieren** klickst du einfach auf die rechte Maustaste und wählst "duplicate" (Duplizieren). Die rechte Maustaste kannst du auch zum **Löschen** von Blöcken verwenden.
+
+**Jetzt werden wir mit den Track RGB LEDs arbeiten.**
+
+![Track RGB LEDs löschen](images/code24.jpg)
+
+Du kannst die nächsten beiden Blöcke mit den Namen "**set RGB matrix pixel color**" und "**push changes to matrix**" ebenfalls kopieren.
+
+Das einzige, was du ändern musst, ist "**slot RGB**" in "**track RGB**".
+
+So sollte der Zeichenbereich jetzt aussehen:
+
+![Track RGB LEDs setzen](images/code25.jpg)
+
+Wir haben die Funktion "**drawPixel**" erfolgreich abgeschlossen.
+
+Das Einzige, was noch fehlt, ist der Teil der **Arduino-Endlosschleife**.
+
+Lass uns auch das fertigstellen!
+
+Der Abschnitt **Logic** ist der nächste Abschnitt, den wir verwenden werden.
+
+![Logikblock](images/code26.jpg)
+
+![Block setzen](images/code27.jpg)
+
+Wir ersetzen den "**true**"-Teil des Blocks durch diesen Block:
+
+![Block setzen](images/code28.jpg)
+
+Dies ist eine Vergleichsfunktion, die beide Seiten vergleicht. Wir müssen einen mathematischen Block anstelle der linken Zahl verwenden.
+
+Nachdem du einige Änderungen vorgenommen hast, sollte der Zeichenbereich nun so aussehen:
+
+![Vergleich](images/code29.jpg)
+
+Wir werden die Variable "**x**" um 1 erhöhen (change by 1).
+
+Diese Änderung bedeutet, dass sich "x" alle 500 Millisekunden um 1 (bis zu 4) erhöht.
+
+![X erhöhen](images/code30.jpg)
+
+Und nun benötigen wir einen "Wenn-dann-Block" (**if - do**).
+
+![Wenn-dann-Block](images/code31.jpg)
+
+Nimm einen weiteren **Vergleichsblock** und platziere ihn anstelle des "true" Teils.
+
+![Vergleichsblock einsetzen](images/code32.jpg)
+
+![X zurücksetzen](images/code33.jpg)
+
+Hier haben wir festgelegt, dass die **Variable "x" auf 0 gesetzt wird**.
+
+**Alle 500 Millisekunden erhöht sich die Variable "x" um 1**. Das geht bis 4, da es 5 RGB-LEDs in der Reihe gibt.
+
+**Sobald "x" den Wert 4 erreicht hat, wird sie wieder auf 0 gesetzt.**
+
+![X bis 5 hochzählen](images/code34.jpg)
+
+Nun müssen wir die Funktion "**drawPixel**" aufrufen, um die LED zum Leuchten zu bringen und die aktuelle Zeit speichern.
+
+![Funktion aufrufen](images/code35.jpg)
+
+Nachdem du nun dein Programm fertiggestellt hast und verstehst, was vor sich geht, klicke auf die große rote Schaltfläche **Run** (Ausführen) und warte, bis der Code **kompiliert** ist!
+
+Wenn du dies zum ersten Mal machst, kann es bis zu einer Minute dauern, bis der Code kompiliert ist.
+Aber keine Sorge, danach sollte das Kompilieren schneller gehen.
+
+**Hier sind ein paar Fotos, die zeigen, wie es nach dem Kompilieren des Codes aussehen sollte.**
+
+So sieht Synthia aus, wenn du es einschaltest. Die erste LED unter dem Taster wird aufleuchten (diejenige, die wir als 0 eingestellt haben).
+
+![Testlauf](images/run1.jpg)
+
+Alle 500 Millisekunden schaltet das Licht auf eine andere LED um.
+
+![Umschalten auf die nächste LED](images/run2.jpg)
+
+Außerdem wird die Animation die ganze Zeit über auf der LED-Matrix abgespielt.
 
 ### Klicken, Schieben und Drehen
 
