@@ -477,7 +477,7 @@ Du siehst, dass wir wieder einmal keinen Wert für die Variable haben, also müs
 
 Diesmal werden wir der Variablen keinen numerischen Wert geben.
 
-Gehe zum Abschnitt "Time" (Zeit) und wähle "**current elapsed Time (milliseconds)**" (aktuell verstrichene Zeit in Millisekunden".
+Gehe zum Abschnitt "Time" (Zeit) und wähle "**current elapsed time (milliseconds)**" (aktuell verstrichene Zeit in Millisekunden".
 
 ![verstrichene Zeit](images/code16.jpg)
 
@@ -505,7 +505,7 @@ Suche nach diesem speziellen Block:
 
 ![RGB Matrix Pixel Block](images/code20.jpg)
 
-Änder "track" in "**slot**", da wir gerade an mit den LEDs unter den Druckknöpfen arbeiten, und setze die Farbe auf **cyan** (oder eine andere Farbe, die du magst).
+Ändere "track" in "**slot**", da wir gerade an mit den LEDs unter den Druckknöpfen arbeiten, und setze die Farbe auf **cyan** (oder eine andere Farbe, die du magst).
 Du musst auch die 0 in eine **Variable "x"** ändern.
 
 Das Endprodukt sollte wie folgt aussehen:
@@ -814,7 +814,7 @@ Zunächst erstellen wir drei **Variablen** und nennen sie **"x", "y" und "lifted
 
 ![Variablen](images/draw1.jpg)
 
-Wie du bereits weisst, bestimmen die Variablen "x" und "y" die aktuelle **Position der LED in der Matrix**.
+Wie du bereits weißt, bestimmen die Variablen "x" und "y" die aktuelle **Position der LED in der Matrix**.
 
 Die Variable "**lifted**" (die auf deutsch "angehoben" bedeutet) ist neu. Mit ihr bestimmst du, ob der "Zeichenstift" angehoben oder bereit zum Zeichnen ist. Dies ist eine **boolesche Variable**, d.h. sie kann **true** (wahr) oder **false** (falsch) sein.
 
@@ -858,7 +858,7 @@ Mit dem **linken Encoder (x-Variable)** ändern wir die **horizontale Position**
 
 ![Encoder](images/draw8.jpg)
 
-Erinnerst du dich an das verherige Beispiel?
+Erinnerst du dich an das vorherige Beispiel?
 
 Wir werden hier die gleichen Schritte durchführen.
 
@@ -876,7 +876,7 @@ Denke auch daran, dass mit dem linken Encoder die **Spaltenposition** in der Mat
 
 Auch hier wiederholen wir dieselben Werte und Grenzen wie im vorherigen Beispiel.
 
-Jetzt müssen wir die Funkltion "**drawDot**" unter allen Blöcken aufrufen, um sicherzustellen, dass sich der Punkt in der Matrix bewegt.
+Jetzt müssen wir die Funktion "**drawDot**" unter allen Blöcken aufrufen, um sicherzustellen, dass sich der Punkt in der Matrix bewegt.
 
 Dein Programm sollte jetzt wie folgt aussehen:
 
