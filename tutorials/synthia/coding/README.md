@@ -608,7 +608,201 @@ Außerdem wird die Animation die ganze Zeit über auf der LED-Matrix abgespielt.
 
 ### Klicken, Schieben und Drehen
 
-[Todo](https://learn.circuitmess.com/resources/guides/en/synthia-coding-guide/synthia-coding-guide-2-2)
+Willkommen zum **zweiten Tutorial** in Synthias Programmierhandbuch.
+
+**In diesem Tutorial werden wir alle verfügbaren Eingänge verwenden und ein bisschen mit ihnen spielen.**
+
+**Eingänge** bei Synthia sind **Taster, Schieberegler und Encoder** - also die Teile, die du gelötet hast!
+
+Das Erste, was wir tun werden, ist **zwei Variablen** zu erstellen, "x" und "y", die die Achsen darstellen werden.
+
+![Variablen anlegen](images/t2-1.jpg)
+
+Nimm die "set to"-Blöcke für beide Variablen und füge sie in den Abschnitt "Arduino run first" ein.
+
+![Variablen in RunFirst](images/t2-2.jpg)
+
+Du kannst die Variablen auf jede beliebige Zahl setzen, aber wir wählen diese Zahlen so, dass der Startpunkt nicht am Anfang oder Ende liegt.
+
+Diese Zahlen **geben die Position der LED, die auf der Hauptmatrix aufleuchtet, sobald wir das Gerät einschalten**.
+
+Jetzt ist es an der Zeit für eine weitere Sache, mit der du vertraut sind: Erstelle eine **Funktion**.
+Wir werden sie "**drawPixel**" nennen, wie im vorherigen Beispiel.
+
+Nimm den "**call drawPixel**"-Block und platziere ihn unter den Variablen.
+
+![call drawPixel](images/t2-3.jpg)
+
+Mit dieser Funktion bringen wir die LED zum Leuchten, die durch die Variablen "**x**" und "**y**" bestimmt wird.
+Jetzt müssen wir sicherstellen, dass die Funktion "**drawPixel**" diese spezielle LED zum Leuchten bringen kann.
+Der erste Schritt besteht darin, die Matrix zu löschen, bevor irgendetwas anderes beginnt.
+
+Verwende dazu den Block "**clear the matrix**" aus dem Abschnitt **LED-Matrix**.
+
+![clear the matrix](images/t2-4.jpg)
+
+Wir benötigen den Block "**set track monochrome matrix pixel brightness to**" aus der LED-Matrix.
+
+Setze die Helligkeit auf **255** (das ist das Maximum), und "**x**" und "**y**" als die Variablen dieser Koordinaten.
+
+![LED setzen](images/t2-5.jpg)
+
+Zum Schluss müssen die Änderungen, die du vorgenommen hast, an die Matrix übertragen werden.
+
+Verwende dazu den Block "**push changes to matrix**" aus dem Abschnitt **LED matrix**.
+
+![Änderungen übertragen](images/t2-6.jpg)
+
+**Super!**
+
+Gehen wir nun zurück zum Teil **Arduino-Run-First** des Hauptblocks, erstellen eine weitere **Variable** und nennen sie **RGB**.
+
+Wir verwenden den Block "**set RGB to**", genau wie bei den Variablen "**x**" und "**y**", und platzieren ihn unter dem Block "**call drawPixel**".
+
+Die RGB-Variable definiert die Ordnungszahl der LED, die aufleuchtet. Setze den numerischen Wert der RGB-Variable auf **0**.
+
+![drawPixel](images/t2-7.jpg)
+
+Der Grund, warum wir bei 0 beginnen, ist der gleiche wie im letzten Programm. Es gibt fünf RGB-LEDs in der Reihe, und der PC beginnt mit der Zählung bei 0, also müssen wir den Zahlenwert 0 eingeben, damit die erste RGB-LED aufleuchtet.
+
+Lass uns eine Funktion für diese Variable erstellen.
+
+Diese Funktion wird genau dasselbe tun wie die letzte, aber für die RGB-Variable.
+
+Als Nächstes musst du also den "**call drawRGB**"-Block unter dem "**set RGB to**"-Block im Abschnitt "**Arduino run first**" platzieren.
+
+**Die Funktion drawRGB wird eine bestimmte RGB-LED auf der Grundlage der "RGB"-Variablen zum Leuchten bringen.**
+
+![drawRGB](images/t2-8.jpg)
+
+In der Funktion "**drawRGB**" werden wir die Farbe der LED bestimmen und die Variable in RGB ändern. Der Unterschied ist, dass alles **zweimal gemacht** wird - da wir es für die **Slot-RGB- und die Track-RGB-Matrix** machen.
+
+Zuerst musst du die Slot- und Track-RGB-Matrix **löschen**. Dann setzt du die **Farbe auf Cyan** für Track und Slot RGB und stellst sicher, dass du den **Wert für die RGB-Variable setzt**.
+
+Zum Schluss musst du die Änderungen, die du vorgenommen hast, **an die Matrix übertragen**.
+
+![Slot und Track](images/t2-9.jpg)
+
+Dies war die Vorbereitung und dies ist sehr wichtig für den endgültigen Code.
+
+**Jetzt ist es an der Zeit, die Eingänge zu verwenden!**
+
+Wir fangen mit den **Encodern** an.
+
+Um mit den Drehgebern/Encodern zu arbeiten, gehe zum Abschnitt **I/O** und suche den lila Block mit der Aufschrift "Encoders".
+
+Ziehe diesen Block per Drag & Drop in den Zeichenbereich.
+
+![Encoder](images/t2-10.jpg)
+
+Jetzt müssen wir bestimmen, was mit der Variable "**x**" passiert, wenn wir den **linken Encoder** bewegen.
+
+Dazu benötigen wir einen "**constrain**"-Block aus dem Mathematik Bereich "**Math**".
+
+![Encoder im Zeichenbereich](images/t2-11.jpg)
+
+Die Variable "**amount**" enthält einen Wert, der davon abhängt, in welche Richtung wir den Encoder drehen. Wenn wir ihn nach **rechts** drehen, ist der Wert der Variablen **1**, und wenn wir ihn nach **links** drehen, ist der Wert **-1**.
+
+Mit dem **Constrain**-Block **begrenzen** wir den Wert der Variablen **zwischen 0 und 15** (denn 16 ist die maximale Anzahl der horizontal angeordneten LEDs).
+
+Wir haben also den Block aus dem Math-Bereich genommen, die Summe von "x" und "amount" ermittelt und mit dem Constrain-Block diese Summe auf einen Wert zwischen 0 und 15 begrenzt.
+
+Wenn wir den Encoder nach rechts drehen, wird x um 1 erhöht, und wenn wir ihn nach links drehen, wird x um 1 verringert.
+
+Nachdem wir alles eingestellt haben, rufen wir die Funktion "**drawPixel**" auf.
+
+![Encoder mit drawPixel](images/t2-12.jpg)
+
+Jetzt machen wir das Gleiche für den rechten Encoder.
+
+Da wir die gleichen Blöcke verwenden, kannst du einfach alles duplizieren, was wir für den linken Encoder getan haben - und es ein wenig ändern.
+
+![Linker Encoder](images/t2-13.jpg)
+
+Gib also anstelle von "left" "right encoder" ein und ändere "x" in die Variable "y".
+
+Außerdem muss die **Begrenzung zwischen 0 und 4** liegen, da es 5 LEDs gibt, die vertikal auf der Matrix angeordnet sind.
+
+**Jetzt ist es an der Zeit für die Drucktasten!**
+
+Wir werden nur mit den ersten beiden Drucktasten (von links) arbeiten.
+**Die ganz linke wird als Taste A bezeichnet, die rechte als Taste B.**
+
+Du findest den Block im Abschnitt **I/O**:
+
+![Drucktasten](images/t2-14.jpg)
+
+Zuerst richten wir alles für die Taste A, die ganz links ist, ein.
+
+![Taster A](images/t2-15.jpg)
+
+Wie du sehen kannst, wird der Wert der RGB-Variablen um -1 geändert.
+
+![Rumpf Taster A](images/t2-16.jpg)
+
+**Sobald wir auf die Taste A klicken, ändert sich der Wert um -1.**
+
+Mit dem **Logikblock** legen wir fest, dass, wenn der Wert der LED auf 0 fällt, der Wert auf 4 zurückgeht (die LED unter der Taste ganz rechts leuchtet dann auf).
+
+Zum Schluss müssen wir den "**call drawRGB**"-Block in den großen lila Block einfügen.
+
+![Taster A fertig](images/t2-17.jpg)
+
+Duplizieren wir alles für den Taster B.
+
+Ändere es ein wenig, damit es wie der Block auf dem Foto aussieht:
+
+![Taster B](images/t2-18.jpg)
+
+Bei der Taste B verhält es sich genau umgekehrt.
+
+**Wenn wir also auf die Drucktaste B klicken, ändert sich der Wert um 1, und sobald wir bei 4 angekommen sind, geht der Wert wieder auf 0 zurück (die LED ganz links leuchtet auf).**
+
+**Und zu guter Letzt, die Schieberegler!**
+
+Zuerst müssen Sie diesen Block im Abschnitt **I/O** finden:
+
+![Schieberegler](images/t2-19.jpg)
+
+**Während wir die Schieberegler bewegen, ändert sich ihr Wert in Abhängigkeit von der Position der Pixel auf der Matrix.**
+
+Die Variable "**value**" wird zwischen **0 und 255** eingestellt. Die **Y-Achse reicht von 0 bis 7** (die Anzahl der LEDs an der Seite des Schiebereglers).
+
+Wir haben also 256 Werte für den Schieberegler und 8 für die LED-Matrix.
+
+Um den **Schieberegler auf eine Pixelkoordinate abzubilden**, musst du seinen Wert durch 32 teilen (die Zahl, die wir erhalten, wenn wir den Wert des Schiebereglers durch den Wert der LED-Matrix teilen) und die Zahl runden.
+
+Der Wert des Schiebereglers ist in der niedrigsten Position 0 und in der höchsten 255.
+
+![Slider abbilden](images/t2-20.jpg)
+
+Schließlich müssen wir den Block "**push changes to slider monochrome matrix**" innerhalb des lila Blocks platzieren.
+
+![Änderungen übertragen](images/t2-21.jpg)
+
+Wir können nun alles für den rechten Schieberegler duplizieren.
+
+**Das Einzige, was wir ändern werden, ist der Wert des Parameters "x" auf 1.**
+
+![](images/t2-22.jpg)
+
+**Klicke auf die Ausführen-Schaltfläche "Run", warte bis der Code kompiliert ist und genieße das Ergebnis!**
+
+Du kannst deine Programm testen, indem du die Drehgeber drehst, die Schieberegler verschiebst und auf die Drucktasten klickst.
+
+Sieht doch toll aus, oder?
+
+Nur noch ein weiteres Beispiel, und du bist bereit, selbst zu programmieren.
+
+**Hier sind ein paar Fotos, die zeigen, wie es aussehen wird, wenn du den Code kompiliert hast!**
+
+Wenn du die Encoder drehst, verschiebst du die Position des Punktes auf der LED-Matrix.
+
+![Test der Encoder](images/t2-23.jpg)
+
+Wenn du die Taster A und B drückst, leuchten weitere LEDs unter den Tastern auf.
+
+![Test der Taster](images/t2-24.jpg)
 
 ### Lass uns malen!
 
