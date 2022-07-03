@@ -784,7 +784,7 @@ Wir können nun alles für den rechten Schieberegler duplizieren.
 
 **Das Einzige, was wir ändern werden, ist der Wert des Parameters "x" auf 1.**
 
-![](images/t2-22.jpg)
+![Rechter Slider](images/t2-22.jpg)
 
 **Klicke auf die Ausführen-Schaltfläche "Run", warte bis der Code kompiliert ist und genieße das Ergebnis!**
 
@@ -806,7 +806,126 @@ Wenn du die Taster A und B drückst, leuchten weitere LEDs unter den Tastern auf
 
 ### Lass uns malen!
 
-[Todo](https://learn.circuitmess.com/resources/guides/en/synthia-coding-guide/synthia-coding-guide-2-3)
+Willkommen bei der Anleitung zum letzten Programmierbeispiel, das wir für dich vorbereitet haben.
+
+Klicke noch einmal auf "New Sketch" und wähle "Synthia" aus.
+
+Zunächst erstellen wir drei **Variablen** und nennen sie **"x", "y" und "lifted"**.
+
+![Variablen](images/draw1.jpg)
+
+Wie du bereits weisst, bestimmen die Variablen "x" und "y" die aktuelle **Position der LED in der Matrix**.
+
+Die Variable "**lifted**" (die auf deutsch "angehoben" bedeutet) ist neu. Mit ihr bestimmst du, ob der "Zeichenstift" angehoben oder bereit zum Zeichnen ist. Dies ist eine **boolesche Variable**, d.h. sie kann **true** (wahr) oder **false** (falsch) sein.
+
+Lass uns die Werte für diese Variablen festlegen.
+
+Dazu verwenden wir den "set to"-Block aus dem Abschnitt "Variables".
+
+![Variablen setzen](images/draw2.jpg)
+
+Die Variable "X" wird auf 2 gesetzt, genau wie die Variable "y", und die Variable "lifted" wird auf false gesetzt.
+
+**Wenn die Variable "lifted" auf false gesetzt ist, bedeutet das, dass der Stift nicht angehoben wurde (bereit zum Zeichnen), und wenn sie auf true gesetzt ist, ist der Stift angehoben und nicht bereit zum Zeichnen.**
+
+Ein weiterer wichtiger Punkt ist, die Matrix jedes Mal zu löschen, wenn das Gerät eingeschaltet wird, damit man darauf zeichnen kann.
+
+Wir brauchen die Funktion "**clear the track monochrome matrix**", um die Matrix zu löschen.
+
+![Initialisierung](images/draw3.jpg)
+
+Nachdem wir nun die Hauptvariablen gesetzt haben, erstellen wir eine neue Funktion und nennen sie "drawDot".
+
+Diese Funktion zeichnet die aktuelle Position des Punktes auf der Matrix.
+
+![drawDot](images/draw4.jpg)
+
+Nimm den "**if-not**"-Block aus dem Abschnitt "**Logic**" und füge ihn in die Funktion "**drawDot**" ein.
+
+![If-Not](images/draw5.jpg)
+
+Eine weitere wichtige Einstellung ist, die **Helligkeit** der Matrixpixel auf das Maximum zu setzen - **255**!
+
+![Maximale Helligkeit](images/draw6.jpg)
+
+Ziehe abschließend den Block "**push changes to matrix**" in den if-Block, um sicherzustellen, dass deine Änderungen gespeichert werden.
+
+![push changes to matrix](images/draw7.jpg)
+
+Wir werden **Encoder zum Zeichnen auf der Matrix verwenden**. Deshalb ist es jetzt an der Zeit, die lila Blöcke aus dem Abschnitt **I/O** zu verwenden.
+
+Mit dem **linken Encoder (x-Variable)** ändern wir die **horizontale Position** des Punktes auf der Matrix. Mit dem **rechten Encoder (y-Variable)** ändern wir die **vertikale Position** des Punktes.
+
+![Encoder](images/draw8.jpg)
+
+Erinnerst du dich an das verherige Beispiel?
+
+Wir werden hier die gleichen Schritte durchführen.
+
+![Encoder Logik](images/draw9.jpg)
+
+Wir stellen also sicher, dass wir die Variable **amount** (-1, wenn wir den Encoder nach links drehen, oder 1, wenn wir den Encoder nach rechts drehen) **zu "x" oder "y" hinzufügen**, und diese von 0 bis 15 **begrenzen**.
+
+Dupliziere diesen Block für den rechten Encoder!
+
+**Vergiss nicht, die "x"-Variable auf den linken Encoder zu legen, die "y"-Variable aber auf den rechten Encoder.**
+
+Denke auch daran, dass mit dem linken Encoder die **Spaltenposition** in der Matrix geändert wird, so dass die Grenze zwischen 0 und 15 liegt. Andererseits änderst du die **Zeilenposition** in der Matrix mit dem rechten Encoder, so dass die Grenze von 0 bis 4 gesetzt ist.
+
+![Zeilen und Spalten](images/draw10.jpg)
+
+Auch hier wiederholen wir dieselben Werte und Grenzen wie im vorherigen Beispiel.
+
+Jetzt müssen wir die Funkltion "**drawDot**" unter allen Blöcken aufrufen, um sicherzustellen, dass sich der Punkt in der Matrix bewegt.
+
+Dein Programm sollte jetzt wie folgt aussehen:
+
+![Programm](images/draw11.jpg)
+
+Als Letztes stellen wir ein, was passieren soll, wenn einer der **Encoder gedrückt** wird.
+
+**E1 symbolisiert den linken Encoder, und E2 den rechten.**
+
+Dazu benötigst du diesen Block aus dem Abschnitt **I/O**-Block**:
+
+![Encoder Klick](images/draw12.jpg)
+
+**Durch drücken der Encoder wollen wir die Variable "lifted" ändern.**
+
+![Klick ändert lifted](images/draw13.jpg)
+
+Wie in den Blöcken beschrieben, wechselt die Variable von "angehoben" (lifted) zu "nicht angehoben" (not lifted), wenn du den linken Encoder drückst
+
+Duplizieren wir die Blöcke für den rechten Encoder.
+
+![Klick für rechten Encoder](images/draw14.jpg)
+
+Wie du sehen kannst, bewirkt das Drücken des rechten Encoders das Gleiche.
+
+Wenn die Variable also angehoben war, wird sie in nicht angehoben geändert. Das gilt natürlich auch in beide Richtungen, d.h. wenn die Variable nicht angehoben ist, wird sie durch Drücken der Encoder in angehoben umgewandelt.
+
+**Herzlichen Glückwunsch!**
+
+Du hast alle Beispiele erfolgreich abgeschlossen und bist auf dem Weg, ein echter Programmierer zu werden!
+
+Wir sind fast fertig mit dieser Anleitung, aber schaue unbedingt im nächsten Kapitel nach, denn dort zeigen wir dir, wie du alle vorgenommenen Änderungen löschen und dein Gerät neu starten kannst.
+
+**Hier sind ein paar Fotos, die zeigen, wie es aussehen sollte, wenn du den Code kompiliert hast.**
+
+Sobald du den Code ausführst und das Gerät eingeschaltet wird, siehst du dies auf Synthia.
+
+Der kleine Punkt (LED auf der LED-Matrix), der aufleuchtet, ist der Punkt, den wir zu Beginn des Programms gesetzt haben. Das ist dein Ausgangspunkt beim Zeichnen auf der Matrix.
+
+![Demo](images/draw15.jpg)
+
+Wenn du den linken Encoder drehst, kannst du horizontal zeichnen, und wenn du den rechten Encoder drehst, kannst du vertikal zeichnen.
+
+![Demo](images/draw16.jpg)
+
+![Demo](images/draw17.jpg)
+
+Wenn du auf einen der Encoder klickst, zeichnet der Stift nicht mehr.
+Wenn du ihn erneut anklickst, beginnt er wieder zu zeichnen.
 
 ## Wiederherstellen der Basis-Firmware von Synthia
 
