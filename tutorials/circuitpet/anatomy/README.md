@@ -14,7 +14,7 @@ Wir beginnen mit den größeren Bauteilen und gehen später auf die kleineren Ba
 
 ### Erkunde die Hauptplatinen
 
-Es wäre falsch, mit etwas anderem zu beginnen als mit der Hauptplatine. Deshalb präsentieren wir dir den Star des Abends...
+Es wäre falsch, mit etwas anderem zu beginnen als mit den Hauptplatinen. Deshalb präsentieren wir dir den Star des Abends...
 
 **PCB steht für Printed Circuit Board**. Diese Glasfaserplatine ist mit Kupferbahnen, Schutzlack und Isoliermaterial versehen.  
 
@@ -34,7 +34,7 @@ Genau wie bei anderen CircuitMess-Geräten wie Nibble oder Spencer wollen wir, d
 
 Dieser Mikrocontroller steuert alles, und man könnte sagen, dass er das Gehirn von CircuitPet ist. Der ESP-WROOM-32 ist ein leistungsfähiges Modul, das hauptsächlich für Tonkodierung und Musik-Streaming verwendet wird. In Anbetracht seiner Fähigkeiten ist er sehr preisgünstig.
 
-Neben der Ausgabe von Tönen kann der ESP-WROOM-32 auch zum steuern von Schiebereglern, Encodern, Tastern und LEDs verwendet werden.
+Neben der Ausgabe von Tönen kann der ESP-WROOM-32 auch zum Steuern von Schiebereglern, Encodern, Tastern und LEDs verwendet werden.
 
 Aufgrund seiner Komplexität und Empfindlichkeit ist dieses Modul bereits mit der Hauptplatine von CircuitPet verbunden.
 
@@ -78,8 +78,6 @@ Dieser Stecker wird für den Anschluss des Akkus an die Anzeigeplatine verwendet
 
 ![JST-2P-Stecker](images/jst.jpg)
 
-Auf diesem Bildschirm siehst du die Textnachrichten, die du erhalten wirst, alle Einstellungen und coole Funktionen, die du etwas später in CircuitBlocks programmieren kannst.
-
 ### Reset-Knopf
 
 Diese Taste ist ziemlich selbsterklärend - die Reset-Taste dient zum Zurücksetzen des gesamten Hauptprogramms. Das kann nützlich sein, falls die Anzeige auf dem Bildschirm "eingefroren" ist (was hoffentlich nie passiert).
@@ -106,7 +104,7 @@ Dieser Transistor ist hauptsächlich für die Verstärkung von Signalen mit geri
 
 Dies ist eine Echtzeituhr (englisch: RTC = Real Time Clock).
 
-Ein RTC ist eine **batteriebetriebene Uhr, die in einem Mikrochip auf der Hauptplatine eines Computers** enthalten ist. Ein kleiner Speicher auf diesem Mikrochip speichert Systembeschreibungen oder Setup-Werte - einschließlich der aktuellen Zeitwerte, die von der Echtzeituhr verarbeitet werden.
+Ein RTC ist eine **batteriebetriebene Uhr, die in einem Mikrochip auf der Hauptplatine von Computern** enthalten ist. Ein kleiner Speicher auf diesem Mikrochip speichert Systembeschreibungen und eingestellte Werte - einschließlich von Zeitparametern, die von der Echtzeituhr verarbeitet werden.
 
 ### 5. TP4054 Chip
 
@@ -118,7 +116,7 @@ Dieser Chip wird als Spannungsregler verwendet.
 
 ### 7. CN2626 Chip
 
-Dies ist ein linearer Regler, der für die Stromversorgung des CircuitPet verwendet wird. Der CN2626 verfügt außerdem über eine Temperaturregelung anstelle eines Übertemperaturschutzes, der den Ausgangsstrom regelt, um die Temperatur des Chips bei hoher Leistung oder hoher Umgebungstemperatur zu begrenzen.
+Dies ist ein linearer Regler, der für die Stromversorgung des CircuitPet verwendet wird. Der CN2626 verfügt außerdem über eine Temperaturregelung anstelle eines Übertemperaturschutzes, die den Ausgangsstrom regelt, um die Temperatur des Chips bei hoher Leistung oder hoher Umgebungstemperatur zu begrenzen.
 
 ## CircuitPet Blockdiagramm
 
