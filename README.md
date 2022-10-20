@@ -64,6 +64,21 @@ Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
 * [Synthia Usage Guide](https://learn.circuitmess.com/resources/guides/en/synthia-usage-guide)
 * [Synthia coding - first steps](https://learn.circuitmess.com/resources/guides/en/synthia-coding-guide)
 
+## CircuitPet
+
+![CircuitPet](images/pet.jpg)
+
+Deutsche Übersetzungen:
+
+* [CircuitPet Aufbau und Komponentenübersicht](tutorials/circuitpet/anatomy/README.md)
+
+Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
+
+* [CircuitPet Build Guide](https://learn.circuitmess.com/resources/guides/en/circuitpet-build-guide)
+* [CircuitPet Usage Guide](https://learn.circuitmess.com/resources/guides/en/circuitpet-usage-guide)
+* [CircuitPet Anatomy Guide](https://learn.circuitmess.com/resources/guides/en/circuitpet-anatomy-guide)
+* [CircuitPet coding - first steps](https://learn.circuitmess.com/resources/guides/en/circuitpet-coding-guide)
+
 ## Copyright
 
 Die Rechte an den originalen englischen Texten inkl. der verwendeten Bilder
