@@ -32,18 +32,19 @@ jobs:
     - name: Generate PDFs
       run: |
         mkdir -p pdf
-        npx -y md-to-pdf tutorials/robots/bee/README.md        && mv tutorials/robots/bee/README.pdf        pdf/WackyRobot-Bee.pdf
-        npx -y md-to-pdf tutorials/robots/bob/README.md        && mv tutorials/robots/bob/README.pdf        pdf/WackyRobot-Bob.pdf
-        npx -y md-to-pdf tutorials/robots/capacitron/README.md && mv tutorials/robots/capacitron/README.pdf pdf/WackyRobot-Capacitron.pdf
-        npx -y md-to-pdf tutorials/robots/marv/README.md       && mv tutorials/robots/marv/README.pdf       pdf/WackyRobot-Marv.pdf
-        npx -y md-to-pdf tutorials/robots/resistron/README.md  && mv tutorials/robots/resistron/README.pdf  pdf/WackyRobot-Resistron.pdf
-        npx -y md-to-pdf tutorials/chatter/build/README.md     && mv tutorials/chatter/build/README.pdf     pdf/Chatter-Bauanleitung.pdf
-        npx -y md-to-pdf tutorials/chatter/usage/README.md     && mv tutorials/chatter/usage/README.pdf     pdf/Chatter-Benutzerhandbuch.pdf
-        npx -y md-to-pdf tutorials/chatter/anatomy/README.md   && mv tutorials/chatter/anatomy/README.pdf   pdf/Chatter-Aufbau.pdf
-        npx -y md-to-pdf tutorials/chatter/coding/README.md    && mv tutorials/chatter/coding/README.pdf    pdf/Chatter-Programmierhandbuch.pdf
-        npx -y md-to-pdf tutorials/synthia/build/README.md     && mv tutorials/synthia/build/README.pdf     pdf/Synthia-Bauanleitung.pdf
-        npx -y md-to-pdf tutorials/synthia/usage/README.md     && mv tutorials/synthia/usage/README.pdf     pdf/Synthia-Benutzerhandbuch.pdf
-        npx -y md-to-pdf tutorials/synthia/coding/README.md    && mv tutorials/synthia/coding/README.pdf    pdf/Synthia-Programmierhandbuch.pdf
+        npx -y md-to-pdf tutorials/robots/bee/README.md         && mv tutorials/robots/bee/README.pdf         pdf/WackyRobot-Bee.pdf
+        npx -y md-to-pdf tutorials/robots/bob/README.md         && mv tutorials/robots/bob/README.pdf         pdf/WackyRobot-Bob.pdf
+        npx -y md-to-pdf tutorials/robots/capacitron/README.md  && mv tutorials/robots/capacitron/README.pdf  pdf/WackyRobot-Capacitron.pdf
+        npx -y md-to-pdf tutorials/robots/marv/README.md        && mv tutorials/robots/marv/README.pdf        pdf/WackyRobot-Marv.pdf
+        npx -y md-to-pdf tutorials/robots/resistron/README.md   && mv tutorials/robots/resistron/README.pdf   pdf/WackyRobot-Resistron.pdf
+        npx -y md-to-pdf tutorials/chatter/build/README.md      && mv tutorials/chatter/build/README.pdf      pdf/Chatter-Bauanleitung.pdf
+        npx -y md-to-pdf tutorials/chatter/usage/README.md      && mv tutorials/chatter/usage/README.pdf      pdf/Chatter-Benutzerhandbuch.pdf
+        npx -y md-to-pdf tutorials/chatter/anatomy/README.md    && mv tutorials/chatter/anatomy/README.pdf    pdf/Chatter-Aufbau.pdf
+        npx -y md-to-pdf tutorials/chatter/coding/README.md     && mv tutorials/chatter/coding/README.pdf     pdf/Chatter-Programmierhandbuch.pdf
+        npx -y md-to-pdf tutorials/synthia/build/README.md      && mv tutorials/synthia/build/README.pdf      pdf/Synthia-Bauanleitung.pdf
+        npx -y md-to-pdf tutorials/synthia/usage/README.md      && mv tutorials/synthia/usage/README.pdf      pdf/Synthia-Benutzerhandbuch.pdf
+        npx -y md-to-pdf tutorials/synthia/coding/README.md     && mv tutorials/synthia/coding/README.pdf     pdf/Synthia-Programmierhandbuch.pdf
+        npx -y md-to-pdf tutorials/circuitpet/anatomy/README.md && mv tutorials/circuitpet/anatomy/README.pdf pdf/CircuitPet-Aufbau.pdf
         ls -R pdf
 
     - name: Create Release
@@ -56,10 +57,10 @@ jobs:
         tag_name: ${{ env.VERSION }}
         body: |
           # PDF Tutorials ${{ env.VERSION }}
-          This release contains german PDF tutorials for the CircuitMess kits **Wacky Robots**, **Chatter**, and **Synthia**.
+          This release contains german PDF tutorials for the CircuitMess kits **Wacky Robots**, **Chatter**, **Synthia**, and **CircuitPet**.
           It was created on ${{ env.DATE }}.
 
-          Diese Version enthält deutsche PDF Anleitungen für die CircuitMess Bausätze **Wacky Robots**, **Chatter** und **Synthia**.
+          Diese Version enthält deutsche PDF Anleitungen für die CircuitMess Bausätze **Wacky Robots**, **Chatter**, **Synthia** und **CircuitPet**.
           Die Anleitungen wurden am ${{ env.DATE }} generiert.
       env:
         GITHUB_TOKEN: ${{ github.token }}
@@ -182,4 +183,14 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: pdf/Synthia-Programmierhandbuch.pdf
         asset_name: Synthia-Programmierhandbuch.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload CircuitPet-Aufbau.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/CircuitPet-Aufbau.pdf
+        asset_name: CircuitPet-Aufbau.pdf
         asset_content_type: application/pdf
