@@ -71,6 +71,7 @@ Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
 Deutsche Übersetzungen:
 
 * [CircuitPet Aufbau und Komponentenübersicht](tutorials/circuitpet/anatomy/README.md)
+* [CircuitPet Benutzerhandbuch](tutorials/circuitpet/usage/README.md)
 
 Die Übersetzungen basieren auf diesen CircuitMess Guides (englisch):
 
