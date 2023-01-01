@@ -551,6 +551,172 @@ Bitte schalte deinen Lötkolben aus, indem du den Stecker aus der Steckdose zieh
 
 Bereit, weiterzumachen?
 
+#### 7. Tastenkappen
 
+Lassen wir die Anzeigeplatine erst einmal beiseite.
 
+Nimm die Hauptplatine und die vier schwarzen Kappen, die du in der Tüte mit den kleinen Bauteilen findest.
 
+![Tastenkappen](images/cap1.jpg)
+
+Dieser Teil ist nicht so zwingend notwendig wie die anderen Teile, aber er wird dir das Leben erleichtern.
+
+![Tastenkappen und Taster](images/cap2.jpg)
+
+Platziere die **Kappen oben auf jedem Taster** und achte darauf, dass sie klicken!
+
+![Ein Taster fertig](images/cap3.jpg)
+
+![Alle Kappen montiert](images/cap4.jpg)
+
+#### 8. Batterie
+
+Für diesen Teil benötigst du einen **Li-Po-Akku** und die **Displayplatine**.
+
+![Betterie](images/batt1.jpg)
+
+Stecke den Akku **in den weißen Schlitz** auf der Anzeigeplatine.
+Drücke den Stecker dann vorsichtig hinein, **bis du ein Klicken spürst**.
+
+![Stecker der Batterie](images/batt2.jpg)
+
+![Batterie eingebaut](images/batt3.jpg)
+
+**Wenn alles gut aussieht**, hast du alles erfolgreich gelötet und die wichtigsten Teile auf beiden Platinen platziert.
+
+Jetzt schließen wir alles an und bringen es in einem Acrylgehäuse unter, um dein CircuitPet zu schützen.
+
+**Weiter geht's mit dem nächsten Kapitel.**
+
+### Teil Zwei - Gehäuse
+
+**Willkommen zum zweiten Teil, in dem du sehen wirst, wie du das Gehäuse für dein CircuitPet zusammenbaust!**
+
+Wir nehmen **zwei ovale** Acryl-Gehäuseteile.
+
+![Gehäuseteile](images/case1.jpg)
+
+Als Erstes musst du **die weißen Schutzfolien abziehen**.
+
+Wie du sehen kannst, hat jedes Acrylgehäuseteil **auf beiden Seiten eine Schutzschicht**, die abgezogen werden muss. Aktuell sind sie noch nicht vollständig durchsichtig, aber das sollten sie sein, sobald du diesen Schritt beendet hast!
+
+![Schutzfolie abziehen](images/case2.jpg)
+
+**Vergiss nicht, auch die zweite Schicht zu entfernen!**
+
+![Zweite Seite Schutzfolie](images/case3.jpg)
+
+So sollten die Gehäuseteile aussehen, nachdem alle Schutzschichten entfernt wurden:
+
+![Schutzfolie entfernt](images/case4.jpg)
+
+Nimm die Hauptplatine, das größere Acrylgehäuse, vier goldene Abstandshalter, vier Metallschrauben und einen Schraubenzieher.
+
+![Werkzeug](images/case5.jpg)
+
+Zuerst nehmen wir das Gehäuse und die Platine und **setzen das Gehäuse auf die Rückseite** der Platine.
+
+Bitte achte darauf, dass du es richtig anbringst - der Teil mit den vielen Löchern sollte unten sein.
+
+Schaue dir die Fotos unten an, um es dir einfacher zu machen:
+
+![Gehäuse aufsetzen](images/case6.jpg)
+
+![Gehäuse aufsetzen](images/case7.jpg)
+
+Nimm nun eine **Schraube** und einen **Abstandshalter** und stecke sie in eines der vier Löcher.
+
+Wichtig ist, dass die Schraube von der Außenseite des Acrylgehäuses und der Abstandshalter von der Innenseite eingesetzt wird.
+
+Du musst sie mit den Fingern befestigen. Es wird noch kein Werkzeug benötigt!
+
+![Schraube und Abstandshalter](images/case8.jpg)
+
+![Schraube und Abstandshalter](images/case9.jpg)
+
+![4 Abstandshalter](images/case10.jpg)
+
+Wiederhole diesen Vorgang vier mal, bis deine Leiterplatte so aussieht:
+
+![4 Schrauben und Abstandshalter](images/case11.jpg)
+
+![4 Schrauben und Abstandshalter](images/case12.jpg)
+
+![4 Schrauben und Abstandshalter](images/case13.jpg)
+
+Als Nächstes setzen wir die vordere Acrylverkleidung oben auf die Anzeigeplatine.
+
+Für diesen Schritt benötigen wir die Anzeigeplatine, das vordere Gehäuse, vier Metallschrauben und den Schraubendreher.
+
+![Werkzeug II](images/case14.jpg)
+
+Lege ihn so ab, dass der nicht angeschlossene Teil nach unten zeigt.
+
+![Gehäuse für Anzeige](images/case15.jpg)
+
+**Nimm die Hauptplatine und verbinden sie mit der Anzeigeplatine.**
+
+Du musst die männliche Stiftleiste in die weibliche Buchsenleiste stecken.
+
+![Platinen verbinden](images/case16.jpg)
+
+![Platinen verbinden](images/case17.jpg)
+
+Vergewissere dich, dass alles angeschlossen ist, bevor du mit dem nächsten Schritt fortfährst.
+
+Prüfe auch, ob die Abstandshalter genau unter den Löchern der Anzeigeplatine platziert sind, um spätere Probleme zu vermeiden.
+
+Wenn alles in Ordnung ist, nimm **eine der Metallschrauben** und den **Schraubendreher**.
+
+![Platinen verschrauben](images/case18.jpg)
+
+![Platinen verschrauben](images/case19.jpg)
+
+Wiederhole diesen Schritt mit alle vier Schrauben.
+
+Dein CircuitPet sollte am Ende so aussehen:
+
+![Platinen fertig verschraubt](images/case20.jpg)
+
+![Platinen fertig verschraubt](images/case21.jpg)
+
+### Zusätzlicher Schritt
+
+Zusammen mit den Komponenten, die du für dein CircuitPet benötigst, erhältst du auch **zwei zusätzliche Acrylgehäuseteile, Aufkleber und ein Schlüsselband**.
+
+Wir zeigen dir gleich, wie du sie verwenden kannst.
+
+Beginnen wir mit den beiden Gehäuseteilen.
+Diese sind für den **CircuitPet-Ständer** gedacht!
+
+![Ständer](images/stand1.jpg)
+
+Zuerst musst du wieder **zwei Schutzfolien entfernen**, wie du es bereits zu Beginn dieses Kapitels getan hast.
+
+![Folien des Ständers entfernen](images/stand2.jpg)
+
+**Vergiss die andere Seite nicht!**
+
+![Folien des Ständers entfernen](images/stand3.jpg)
+
+So sollten die Einzelteile aussehen, wenn du alle Folien entfernt hast:
+
+![Ständer ohne Folien](images/stand4.jpg)
+
+Jetzt machen wir einen Ständer daraus.
+
+**Die kürzere Seite kommt in das raketenförmige Gehäuse.**
+
+![Ständer zusammenstecken](images/stand5.jpg)
+
+Klebe ein paar Aufkleber darauf und schon hast du einen Ständer für dein CircuitPet.
+
+![Ständer mit Aufklebern](images/stand6.jpg)
+
+![Ständer mit Aufklebern](images/stand7.jpg)
+
+Zum Schluss kann du noch das **gelbe Schlüsselband** anbringen - fertig!
+
+![Schlüsselband](images/lanyard.jpg)
+
+**Herzlichen Glückwunsch! Du hast dein CircuitPet erfolgreich aufgebaut!**
