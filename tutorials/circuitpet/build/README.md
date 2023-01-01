@@ -430,4 +430,127 @@ Und so sollte die Vorderseite deiner Platine aussehen:
 
 #### 4. Der Schalter
 
+Nun legen wir die Hauptplatine beiseite und nehmen die **Anzeigeplatine** zur Hand.
+Außerdem benötigst du in diesem Schritt einen Ein-Aus-Schalter.
+
+Mit dem Schalter, den du im Bausatz hast, kannst du später das Gerät **ein- und ausschalten**.
+
+Ein Schalter steuert den Stromfluss zu einem elektrischen Gerät - mit anderen Worten, er **verbindet und trennt einen Stromkreis**.
+
+![Schalter](images/switch1.jpg)
+
+Der Schalter wird auf der **oberen Rückseite** der **Anzeigeplatine** angebracht.
+
+Genau so:
+
+![Schalter auf Platine](images/switch2.jpg)
+
+Vergewissere dich, dass der Schalter **eingerastet** ist als du ihn in die Platine gesteckt hast.
+Prüfe bitte auch, dass er **nicht verdreht** ist. Sonst funktioniert er nicht und lässt sich nur schwer wieder herausnehmen, wenn du ihn eingelötet hast.
+
+Na dann. Nimm deinen Lötkolben und los geht's!
+
+![Schalter einlöten](images/switch3.jpg)
+
+Ta-daa! Du hast es geschafft!
+
+Du hast eines der wichtigsten Teile deines Geräts erfolgreich angelötet.
+
+![Schalter eingelötet](images/switch4.jpg)
+
+#### 5. RGB-LED
+
+Jetzt ist es Zeit für den etwas kniffligen Teil der Montage.
+
+**Was machen LEDs?**
+
+**LED steht für Licht-emittierende Dioden.**  
+**LEDs** wandeln elektrische Energie in sichtbares Licht um.
+
+**RGB** im Namen steht für **Rot, Grün und Blau**.
+
+Das bedeutet, dass diese besonderen Leuchtdioden in drei verschiedenen Farben leuchten können.
+Diese LEDs sind etwas ganz Besonderes, denn sie haben einen winzigen **eingebauten Chip**, der die Farbe steuert. Wenn du genau hinschaust siehst du in der LED einen **kleinen schwarzen Punkt** - das ist der Chip für die Farbsteuerung.
+
+**Achte bitte darauf, dass du die LEDs richtig in die Platine einsetzt!**
+
+Hier ist, was du für diesen Teil brauchst:
+
+![RGB LED](images/led1.jpg)
+
+Du musst die **Zange** und die LED nehmen und ihre **Beine biegen**.
+Wir tun dies, damit die LED in den kleinen Kreis zwischen dem Schalter und dem Batteriefach passt.
+
+**Bitte beachte, dass das erste und dritte Beinchen in die unteren Löcher und das zweite und vierte Beinchen in die oberen Löcher gehört.**
+
+Schaue dir diese Fotos an:
+
+![RGB LED mit gebogenen Beinen](images/led2.jpg)
+
+![RGB LED](images/led3.jpg)
+
+**Du wirst sehen, wie stark du die Beine biegen musst, wenn du anfängst, die Beine durch die Löcher zu stecken.**
+
+![RGB LED in Platine](images/led4.jpg)
+
+![RGB LED in Platine](images/led5.jpg)
+
+Hast du das geschafft? Prima!
+
+**Vergiss auch nicht, die LED vor dem Löten ganz auf die Platine zu schieben.**
+
+So sollte die Vorderseite jetzt aussehen:
+
+![Vorderseite der Platine](images/led6.jpg)
+
+Nimm den Lötkolben, und los geht's!
+
+Achtung! Diese Pins sind etwas enger angeordnet als die, die du zuvor gelötet hast. Also achte bitte darauf sie nicht zu überbrücken.
+
+Außerdem ist das Display sehr nah, also achte darauf, den **Lötkolben nicht auf das Display zu legen**.
+
+![LED anlöten](images/led7.jpg)
+
+Du wirst feststellen, dass die Beinchen **ein bisschen zu lang** sind, also sollten wir etwas dagegen tun.
+
+Nimm die **Abschneidezange** und schneide sie direkt über den Stiften ab.
+
+**Achtung!** Drehe den Teil, den du abschneiden möchtest, immer von dir weg, um deine Augen nicht zu verletzen.
+
+![Beine der LED kürzen](images/led8.jpg)
+
+Sieht ziemlich cool aus, oder?
+
+![LED fertig eingelötet](images/led9.jpg)
+
+#### 6. Stiftleiste
+
+Das sind die Teile, die du jetzt brauchst:
+
+![Stiftleiste](images/hdr1.jpg)
+
+**Die männlichen Stiftleisten werden auf der rechten Seite neben dem Display angebracht.**
+
+Drehe die Anzeigetafel um und stecke die **kürzere Seite der Stifte** in die Löcher.
+
+![Stiftleiste](images/hdr2.jpg)
+
+Nimm den Lötkolben in die Hand, und dann geht's los!
+
+![Stiftleiste einlöten](images/hdr3.jpg)
+
+Auch hier sind die Stifte etwas näher als am Anfang, so dass man **etwas vorsichtiger sein** muss, um keine Brücken zu bilden!
+
+**Herzlichen Glückwunsch! Du hast alle Bauteile erfolgreich verlötet! Der schwierige Teil ist geschafft.**
+
+Wir hoffen, du hattest viel Spaß beim Löten der Bauteile.
+Leider musst du jetzt **deinen Lötkolben ausschalten**, aber es liegen noch weitere lustige Schritte vor dir, und wir sind noch nicht ganz fertig!
+
+Bitte schalte deinen Lötkolben aus, indem du den Stecker aus der Steckdose ziehst.
+**Lasse ihn mindestens fünf Minuten auf dem Lötkolbenständer liegen, damit er abkühlt**, bevor du ihn weglegst.
+
+Bereit, weiterzumachen?
+
+
+
 
