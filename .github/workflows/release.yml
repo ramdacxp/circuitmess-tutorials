@@ -46,6 +46,7 @@ jobs:
         npx -y md-to-pdf tutorials/synthia/coding/README.md     && mv tutorials/synthia/coding/README.pdf     pdf/Synthia-Programmierhandbuch.pdf
         npx -y md-to-pdf tutorials/circuitpet/anatomy/README.md && mv tutorials/circuitpet/anatomy/README.pdf pdf/CircuitPet-Aufbau.pdf
         npx -y md-to-pdf tutorials/circuitpet/usage/README.md   && mv tutorials/circuitpet/usage/README.pdf   pdf/CircuitPet-Benutzerhandbuch.pdf
+        npx -y md-to-pdf tutorials/circuitpet/build/README.md   && mv tutorials/circuitpet/build/README.pdf   pdf/CircuitPet-Bauanleitung.pdf
         ls -R pdf
 
     - name: Create Release
@@ -194,6 +195,16 @@ jobs:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: pdf/CircuitPet-Aufbau.pdf
         asset_name: CircuitPet-Aufbau.pdf
+        asset_content_type: application/pdf
+
+    - name: Upload CircuitPet-Bauanleitung.pdf
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: pdf/CircuitPet-Bauanleitung.pdf
+        asset_name: CircuitPet-Bauanleitung.pdf
         asset_content_type: application/pdf
 
     - name: Upload CircuitPet-Benutzerhandbuch.pdf
