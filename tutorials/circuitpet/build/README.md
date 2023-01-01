@@ -720,3 +720,20 @@ Zum Schluss kann du noch das **gelbe Schlüsselband** anbringen - fertig!
 ![Schlüsselband](images/lanyard.jpg)
 
 **Herzlichen Glückwunsch! Du hast dein CircuitPet erfolgreich aufgebaut!**
+
+## Wie geht's weiter?
+
+Herzlichen Glückwunsch!
+Du hast CircuitPet, dein virtuelles DIY-Haustier, erfolgreich zusammengebaut.
+
+**Als Nächstes** wirst du herausfinden, wie man es benutzt, **welche tollen Funktionen wir für dich vorbereitet haben und wie man es programmiert**!
+
+![Schlüsselband](images/lanyard.jpg)
+
+Diese Informationen findest Du in den Anleitungen zur Benutzung bzw. zur Programmierung, die du von [unserer Homepage](https://learn.circuitmess.com/resources/guides) herunterladen kannst.
+
+In der Zwischenzeit laden wir dich ein, unserem
+**[Discord-Kanal](https://discord.gg/wdKa8AP7)**
+und unserer
+**[Facebook-Gruppe](https://www.facebook.com/groups/circuitmesscommunity)**
+beizutreten, wo du Ideen, Fotos und Feedback mit anderen Makern austauschen kannst und exklusive Neuigkeiten von CircuitMess erhältst.
