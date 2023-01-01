@@ -18,7 +18,7 @@ Finde heraus, wie du dein neues CircuitPet - ein virtuelles Haustier Bastelkit -
 
 #### Willkommen zur CircuitMess CircuitPet-Bauanleitung!
 
-In dieser Bauanleitung erfährst du, wie du deinen virtuelles mobiles Haustier zusammenbaust. Mit CircuitPet lernst du etwas über Echtzeituhren (RTC), Mikrocomputer und andere elektronische Komponenten, TFT-LCD-Displays, stromsparende und ständig eingeschaltete Schaltungen, die Mechanik von Videospielen und vieles mehr.
+In dieser Bauanleitung erfährst du, wie du deinen virtuelles, mobiles Haustier zusammenbaust. Mit CircuitPet lernst du etwas über Echtzeituhren (RTC), Mikrocomputer und andere elektronische Komponenten, TFT-LCD-Displays, stromsparende und ständig eingeschaltete Schaltungen, die Mechanik von Videospielen und vieles mehr.
 
 ![CircuitPet](images/start2.jpg)
 
@@ -38,11 +38,11 @@ Natürlich hängt die Montagezeit von deinen Vorkenntnissen und deiner Erfahrung
 
 #### Fertigkeiten
 
-Du musst keine besonderen Fähigkeiten haben, um dich an diesem Heimwerkerprojekt versuchen zu können.
+Du musst keine besonderen Fähigkeiten haben, um dich an diesem Bastelprojekt versuchen zu können.
 
 Das Hauptziel ist es, Spaß zu haben und etwas Neues zu lernen.
 
-Also passt auf, lies alle Anweisungen und mach' dich bereit, Spaß zu haben!
+Also pass' auf, lies alle Anweisungen und mach' dich bereit, Spaß zu haben!
 Dies ist eine großartige Gelegenheit und dein erster Schritt in deiner großen Ingenieurskarriere.
 
 #### Lernen mit CircuitPet
@@ -79,7 +79,7 @@ Schicke uns bitte ein Foto von allem, was im Karton war, und wir werden uns so s
 
 1. Aufkleber
 2. Gelbes Schlüsselband
-3. Sammlerkarte
+3. Sammelkarte
 4. Li-Po-Akku
 5. Ständer aus Acryl
 6. Anzeigeplatine
@@ -90,10 +90,10 @@ Schicke uns bitte ein Foto von allem, was im Karton war, und wir werden uns so s
 11. Widerstände
 12. USB-C-Kabel
 13. Ein-Aus-Schalter
-14. Stiftleisten und Buchsenleisten
+14. Stiftleiste und Buchsenleiste
 15. Taster
 16. Kappen für die Taster
-17. Metallbolzen
+17. Metallschrauben
 18. Abstandshalter aus Messing
 
 ## Hier sind die Werkzeuge
@@ -392,7 +392,7 @@ So sollte die Rückseite deiner Platine jetzt aussehen:
 
 Wir arbeiten noch immer an der Hauptplatine.
 
-Der nächste Schritt ist das **Löten von vier Tastern**, mit denen man CircuitPet füttern, durch das Menü gleiten und Spiele spielen usw. kann.
+Der nächste Schritt ist das **Löten von vier Tastern**, mit denen man CircuitPet füttern, durch das Menü navigieren und Spiele spielen usw. kann.
 
 Taster sind die am häufigsten verwendeten Eingabebausteine - und es gibt insgesamt 4 davon auf dem CircuitPet.
 
@@ -472,7 +472,7 @@ Jetzt ist es Zeit für den etwas kniffligen Teil der Montage.
 Das bedeutet, dass diese besonderen Leuchtdioden in drei verschiedenen Farben leuchten können.
 Diese LEDs sind etwas ganz Besonderes, denn sie haben einen winzigen **eingebauten Chip**, der die Farbe steuert. Wenn du genau hinschaust siehst du in der LED einen **kleinen schwarzen Punkt** - das ist der Chip für die Farbsteuerung.
 
-**Achte bitte darauf, dass du die LEDs richtig in die Platine einsetzt!**
+**Achte bitte darauf, dass du die LED richtig in die Platine einsetzt!**
 
 Hier ist, was du für diesen Teil brauchst:
 
@@ -529,7 +529,7 @@ Das sind die Teile, die du jetzt brauchst:
 
 ![Stiftleiste](images/hdr1.jpg)
 
-**Die männlichen Stiftleisten werden auf der rechten Seite neben dem Display angebracht.**
+**Die männliche Stiftleiste wird auf der rechten Seite neben dem Display angebracht.**
 
 Drehe die Anzeigetafel um und stecke die **kürzere Seite der Stifte** in die Löcher.
 
@@ -573,7 +573,7 @@ Platziere die **Kappen oben auf jedem Taster** und achte darauf, dass sie klicke
 
 Für diesen Teil benötigst du einen **Li-Po-Akku** und die **Displayplatine**.
 
-![Betterie](images/batt1.jpg)
+![Batterie](images/batt1.jpg)
 
 Stecke den Akku **in den weißen Schlitz** auf der Anzeigeplatine.
 Drücke den Stecker dann vorsichtig hinein, **bis du ein Klicken spürst**.
@@ -650,13 +650,13 @@ Für diesen Schritt benötigen wir die Anzeigeplatine, das vordere Gehäuse, vie
 
 ![Werkzeug II](images/case14.jpg)
 
-Lege ihn so ab, dass der nicht angeschlossene Teil nach unten zeigt.
+Lege die Anzeigeplatine so ab, dass die Anzeige nach oben und die Batterie nach unten zeigen.
 
 ![Gehäuse für Anzeige](images/case15.jpg)
 
 **Nimm die Hauptplatine und verbinden sie mit der Anzeigeplatine.**
 
-Du musst die männliche Stiftleiste in die weibliche Buchsenleiste stecken.
+Du musst die (männliche) Stiftleiste in die (weibliche) Buchsenleiste stecken.
 
 ![Platinen verbinden](images/case16.jpg)
 
@@ -684,7 +684,7 @@ Dein CircuitPet sollte am Ende so aussehen:
 
 Zusammen mit den Komponenten, die du für dein CircuitPet benötigst, erhältst du auch **zwei zusätzliche Acrylgehäuseteile, Aufkleber und ein Schlüsselband**.
 
-Wir zeigen dir gleich, wie du sie verwenden kannst.
+Wir zeigen dir jetzt, wie du sie verwenden kannst.
 
 Beginnen wir mit den beiden Gehäuseteilen.
 Diese sind für den **CircuitPet-Ständer** gedacht!
@@ -715,7 +715,7 @@ Klebe ein paar Aufkleber darauf und schon hast du einen Ständer für dein Circu
 
 ![Ständer mit Aufklebern](images/stand7.jpg)
 
-Zum Schluss kann du noch das **gelbe Schlüsselband** anbringen - fertig!
+Zum Schluss solltest du noch das **gelbe Schlüsselband** anbringen - fertig!
 
 ![Schlüsselband](images/lanyard.jpg)
 
