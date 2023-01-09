@@ -366,11 +366,90 @@ Es ist an der Zeit, zur nächsten Lektion überzugehen...
 
 ### Blink, blink
 
+Jetzt geht's zur Sache!
+
+Zu Beginn musst du dein CircuitPet an den USB-Anschluss deines Computers **anschließen und einschalten**.
+
+![CircuitPet via USB anschließen](images/blink1.jpg)
+
+Wenn alles in Ordnung ist, sollte CircuitBlocks "CircuitPet connected" ("CircuitPet verbunden") und einen grünen Punkt anzeigen.
+
+![Verbindung ok](images/blink2.jpg)
+
+Wenn CircuitBlocks dein CircuitPet **nicht erkannt** hat, überprüfe bitte, ob das USB-Kabel richtig eingesteckt ist und ob du einen funktionierenden USB-Anschluss deines Computers verwendest.
+
+Wenn CircuitBlocks dein CircuitPet dann immer noch nicht erkennt, ist möglicherweise etwas mit der Treiberinstallation auf deinem Computer schief gelaufen. Treiber sind diese kleinen Programme, die deinem Computer helfen, mit CircuitPet zu kommunizieren - und sie verhalten sich manchmal komisch.
+
+Wende dich bitte per E-Mail an contact@circuitmess.com, wenn dein Computer CircuitPet nicht erkennt.
+
+#### Spielen wir mit der LED!
+
+Das erste, was wir lernen werden, ist zu programmieren, wie man die **LED in verschiedenen Farben blinken** lässt!
+
+Der erste Block, den wir finden müssen, heißt "**set RGB LED color**" (übersetzt: "Setze die LED Farbe"). Dieser spezielle Block steuert, ob die LED ein- oder ausgeschaltet werden soll.
+
+Da die LED eine der Ausgangskomponenten von CircuitPet ist, findest du den Block, den du brauchst, im Abschnitt **I/O**.
+
+![Blockauswahl](images/blink3.jpg)
+
+Wenn du auf "**off**" (= "Aus") klickst, werden dir die zur **Verfügung stehenden Farben** angezeigt.
+
+Wir haben uns dieses Mal für Rot entschieden, aber du kannst jede beliebige Farbe verwenden.
+
+![Farbauswahl](images/blink4.png)
+
+Der Anfang Deines Programms sollte jetzt wie folgt aussehen:
+
+![Programmcode](images/blink5.jpg)
+
+Da wir wollen, dass die LED blinkt, müssen wir die **Zeit einstellen, die zwischen dem Einschalten der LED und der nächsten Aktion vergehen soll**.
+
+Suche dazu nach einem **Zeitblock**, der wie folgt aussieht:
+
+![Zeitblock](images/blink6.jpg)
+
+Auch hier kannst du die Zeit frei wählen. Wir haben uns dafür entschieden, dass die Wartezeit eine Sekunde betragen sollte.
+
+![1 Sekunde warten](images/blink7.jpg)
+
+Damit es mehr Spaß macht, haben wir beschlossen, dass jedes Blinksignal **in einer anderen Farbe** leuchten soll.
+
+Wiederhole dazu entweder die Schritte, die wir für die ersten beiden Blöcke durchgeführt haben - oder klicke einfach mit der rechten Maustaste und wählen die Option "duplicate" (= "Duplizieren").
+
+![2. Farbe](images/blink8.jpg)
+
+Wie du sehen kannst, ist die zweite Farbe, die leuchten wird, Cyan.
+
+Nun müssen wir die **Zeitspanne** zwischen dem ersten und dem zweiten Blinken festlegen.
+Dazu duplizieren wir einfach den Block "**wait 1 seconds**".
+
+![2. Wartezeit](images/blink9.jpg)
+
+Machen wir das noch einmal!
+
+Dupliziere beide Blöcke (den Farb- und den Zeitblock), und fülle die Kreise mit `yellow` (also "gelb") und `1`.
+
+So sollte dein Code jetzt aussehen:
+
+![Fertiges Programm](images/blink10.jpg)
+
+Klicke nun auf die große rote Schaltfläche "**Run**" ("Ausführen") und beobachte, wie der Programmcode **kompiliert** wird.
+
+Wenn du dies zum ersten Mal machst, kann es bis zu einer Minute dauern, bis der Code kompiliert ist. Aber keine Sorge, die Kompilierung sollte danach viel schneller sein.
+
+Wenn du auf die Schaltfläche Run/Ausführen klickst, erscheint unter der Symbolleiste eine rote Linie, die den Anteil des bereits kompilierten Codes anzeigt. Sobald der Code fertig kompiliert ist, wird dein CircuitPet neu gestartet und die LED blinkt in den Farben Rot, Cyan und Gelb in Intervallen von einer Sekunde.
+
 ### Anzeigezeit
+
+Todo
 
 ### Spiel mit den Tasten
 
+Todo
+
 ### Piepsen wir los
+
+Todo
 
 ## Wiederherstellen der Basis-Firmware von CircuitPet
 
