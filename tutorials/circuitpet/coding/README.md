@@ -630,7 +630,153 @@ Keine Sorge, im nächsten Kapitel gibt es noch mehr coole Beispiele!
 
 ### Piepsen wir los
 
-Todo
+Wir wollen lernen, was man mit dem Summer machen kann, der an das CircuitPet angelötet ist.
+
+Wie das Wort schon sagt, wird der Summer verwendet, um Summtöne oder Piepstöne zu erzeugen.
+
+Wir werden eine sehr ähnliches Programm wie das vorherige erstellen,
+aber dieses Mal wird das **Drücken der Tasten einen bestimmten Ton aus dem Summer** auslösen.
+
+**Fangen wir an!**
+
+Für den Anfang verwende den **Schriftgröße**-Block aus dem Abschnitt **Display**.
+
+![Schriftgröße](images/buzz1.jpg)
+
+Wie bei den beiden vorherigen Programmen wird die Schriftgröße auf 1 gesetzt.
+
+![Schriftgröße auf 1](images/buzz2.jpg)
+
+Als Nächstes musst du eine **Schriftart** auswählen, ein weiterer Block im Abschnitt **Display**.
+
+![Schriftart](images/buzz3.jpg)
+
+Klicke auf den Block und ziehe ihn auf die Zeichenfläche.
+
+![Schriftart](images/buzz4.jpg)
+
+Und jetzt legen wir die **Schriftfarbe** fest.
+
+![Schriftfarbe](images/buzz5.jpg)
+
+Diesmal wählen wir die Schriftart **Gelb** ("Yellow").
+
+![Gelb](images/buzz6.png)
+
+Nachdem wir nun eine Schrift eingestellt haben, wollen wir nun festlegen, **was mit dem Summer passiert, wenn eine bestimmte Taste gedrückt oder losgelassen wird**.
+
+Wie im vorherigen Sketch verwenden wir **I/O-Blöcke**, um zu bestimmen, was passiert, wenn bestimmte Tasten gedrückt werden.
+
+![I/O-Blöcke](images/buzz7.jpg)
+
+![I/O-Blöcke](images/buzz8.png)
+
+Wir stellen dir einen neuen Block mit der Bezeichnung "**Ton mit Frequenz 1000 Hz für 500 Millisekunden abspielen**" vor.
+
+![Ton abspielen](images/buzz9.jpg)
+
+Klicke auf den Block und ziehe ihn in den **I/O-Block** im Zeichenbereich.
+
+Wir haben die Dauer in **Millisekunden auf 200** geändert, aber du kannst sie so lang oder so kurz machen, wie du möchtest.
+
+![Ton abspielen](images/buzz10.png)
+
+Wir **löschen die Anzeige** in lila ("**purple**"), sobald wir die rechte Taste drücken.
+
+![Anzeige löschen](images/buzz11.png)
+
+Du kannst auswählen, was auf dem Display angezeigt werden soll, sobald die Taste gedrückt wird.
+
+![Test ausgeben](images/buzz12.jpg)
+
+![Boop](images/buzz13.png)
+
+Zum Beispiel kann auf dem Bildschirm "**boop**" stehen, wenn wir die rechte Taste drücken.
+
+**Vergiss die Koordinaten nicht!**
+
+Setzen wir "**x**" auf 65 und "**y**" auf 60.
+
+Und zum Schluss ziehe noch den Block "**draw sprite to display**" hinein, damit das Programm funktioniert.
+
+![Anzeige aktualisieren](images/buzz14.jpg)
+
+Erste Taste - FERTIG!
+
+![Taste fertig](images/buzz15.png)
+
+Da wir die gleichen Blöcke benötigen, können wir sie einfach **duplizieren**.
+
+Lass' uns eine Taste nach der anderen programmieren.
+
+![Block dupliziert](images/buzz16.png)
+
+Der neue I/O-Block soll aktiviert werden, wenn die **linke Taste** gedrückt wird.
+Es soll einen Ton mit einer **Frequenz von 2000 Hz** abspielt werden. Die Dauer der Tonausgabe lassen wir gleich.
+
+Die Farbe des Bildschirms bleibt lila, aber diesmal zeigen wir "**Beep**" an.
+
+**Duplizieren wir den Block noch einmal.**
+
+Jetzt verwenden wir die Taste "zurück" (englisch "back") um einen Ton mit einer Frequenz von **3000 Hz für 50 Millisekunden** abzuspielen.
+
+Auf dem Bildschirm soll "**Ding**" angezeigt werden. Beachte dass wir die Koordinaten für alle Ausgaben gleich gehalten haben.
+
+![3 Blöcke](images/buzz17.png)
+
+Ja, du hast es richtig erraten!
+
+Es ist an der Zeit, weitere Blöcke zu duplizieren.
+
+Die letzte Taste, die wir verwenden werden, ist die Eingabetaste ("**Enter**"). In diesem Beispiel werden wir nichts beim Loslassen dieser Taste machen.
+
+Wenn du die Enter-Taste drückst, spielt der Summer **150 Millisekunden lang** einen Ton mit einer Frequenz von **100 Hz**.
+
+Während der Ton abgespielt wird, erscheint auf dem Bildschirm die Meldung "**Buzz**".
+
+![4 Blöcke](images/buzz18.png)
+
+**Großartig! Wir haben alle vier Tasten von CircuitPet verwendet.**
+
+Wir sollten etwas mit dem Bildschirm machen, sobald CircuitPet sich einschaltet.
+
+Das Beste, was wir tun können, ist zu schreiben, was als nächstes auf dem Bildschirm passieren wird.
+
+Dazu müssen wir in den **Abschnitt Display** wechseln und einige Blöcke verwenden. Als Erstes müssen wir die Anzeige löschen.
+
+Dazu verwenden wir diesen Block:
+
+![Löschen](images/buzz19.jpg)
+
+Dieser Block muss in den Bereich "Arduino run first" gezogen werden.
+
+![Löschen](images/buzz20.png)
+
+Da wir die Anzeige gelöscht haben, ist es an der Zeit, etwas darauf zu schreiben.
+
+![Textausgabe](images/buzz21.jpg)
+
+Ziehe den eingekreisten Block in den Abschnitt "Arduino run first".
+
+Außerdem benötigst du zwei dieser Blöcke, damit der Text schön in der Mitte des Bildschirms platziert wird.
+
+![Ausgabe der Hinweise](images/buzz22.jpg)
+
+Der Text, der auf dem Display erscheint, sobald Sie Ihr CircuitPet einschalten, lautet also: "**Drücken Sie eine der Tasten!**".
+Auf englisch also "Press one of the buttons!". Das Ganze ist auf 2 Zeilen aufgeteilt.
+
+Im Grunde ist das wie eine Anleitung auf dem Bildschirm.
+
+Und wir hoffen, du weißt, was am Ende jedes Programms stehen muss. Der "**draw sprite to display**" Block!
+
+![Fertig](images/buzz23.jpg)
+
+**Du hast es geschafft!**  
+**Herzlichen Glückwunsch!**
+
+Drücke den großen roten **Ausführen-Knopf "Run"**, warte, bis der Code kompiliert ist und überprüfe ihn.
+
+Sobald der Code kompiliert ist, sollte dein CircuitPet neu starten, der Bildschirm sollte gelb werden und einen **lila Hinweistext** auf dem Bildschirm anzeigen.
 
 ## Wiederherstellen der Basis-Firmware von CircuitPet
 
