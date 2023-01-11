@@ -441,7 +441,67 @@ Wenn du auf die Schaltfläche Run/Ausführen klickst, erscheint unter der Symbol
 
 ### Anzeigezeit
 
-Todo
+Du hast dein erstes Programm erfolgreich erstellt.
+
+**Bist du bereit für mehr?**
+
+Wir werden jetzt sehen, was wir mit den **Bildschirm** anstellen können.
+
+Bei der Arbeit mit dem Display werden wir hauptsächlich den Bereich des **Display-Blocks** verwenden.
+
+In diesem Teil der Anleitung werden wir versuchen, **den Bildschirm von CircuitPet zu beschreiben**. Es ist gut zu wissen, dass man, wenn man etwas darauf schreiben will, zuerst die Schriftgröße, die Schriftart und die Schriftfarbe einstellen muss.
+
+**Also, los geht's!**
+
+Suchen wir nach dem **Schriftgrößenblock**, der so aussieht:
+
+![Schriftgrößenblock](images/display1.jpg)
+
+Du kannst Buchstaben in jeder gewünschten Größe anzeigen.
+
+![Schriftgröße 1](images/display2.png)
+
+Legen wir nun die **Schriftart** fest.
+
+Sie befindet sich in gleichen Blockabschnitt wie der vorherige Block.
+
+![Schriftart](images/display3.jpg)
+
+So sollte dein Programm jetzt aussehen:
+
+![Programm bisher](images/display4.jpg)
+
+Als Letztes müssen wir noch die **Schriftfarbe** festlegen.
+
+![Schriftfarbe](images/display5.jpg)
+
+Wir haben Marineblau (englisch: "Navy") als Schriftfarbe gewählt, aber du kannst jede **Farbe aus der Liste** verwenden.
+
+![Navy](images/display6.jpg)
+
+Lass uns den Hauptteil des Programm einstellen - schreibe einen Satz (oder ein Wort), dass auf dem Display erscheinen soll, mit folgendem Block:
+
+![Ausgabe-Block](images/display7.jpg)
+
+Wie du sehen kannst, gibt es drei weiße Kreise, die zum Schreiben von Text verwendet werden.
+
+Das erste Feld direkt neben "print" (zu deutsch: "schreiben"), bestimmt den Satz, der auf dem Display erscheint.
+
+Mit den Feldern **"x" und "y"** definierst Du die **Position**, an welcher der Text auf dem Bildschirm erscheinen soll.
+
+Wir haben uns entschieden, "**Hello, world!**" auf den Bildschirm zu schreiben. Die Koordinaten haben wir dabei nicht verändert.
+
+![Hello, world](images/display8.jpg)
+
+Das letzte, was du im Programm tun musst, ist auf den "draw sprite to display"-Block zu klicken.
+
+Wir müssen diesen Block verwenden, um sicherzustellen, dass unser Programmcode auch auf dem Display angezeigt wird.
+
+![Anzeige auf dem Display](images/display9.jpg)
+
+![Fertiges Programm](images/display10.jpg)
+
+Klicke auf die große rote Schaltfläche "**Run**" zum Ausführen des Programms und warte auf die **Kompilierung** des Codes!
 
 ### Spiel mit den Tasten
 
