@@ -105,7 +105,7 @@ Solltest du Probleme mit der Installation haben, wende dich bitte per E-Mail an 
 
 Wenn du CircuitBlocks öffnest, siehst du ein Fenster, das wie oben gezeigt aussieht.
 
-Es ist ziemlich einfach - Du kannst ein **neues Projekt (wir nennen Projekte auf englisch auch "Sketches")** beginnen, indem Sie auf die Schaltfläche "Neues Projekt" (englisch "New project") klickst.
+Es ist ziemlich einfach - Du kannst ein **neues Projekt (wir nennen Projekte auf englisch auch "Sketches")** beginnen, indem du auf die Schaltfläche "Neues Projekt" (englisch "New project") klickst.
 
 **Gespeicherte Projekte** werden direkt neben dieser Schaltfläche angezeigt und du kannst jederzeit darauf zugreifen.
 
@@ -388,7 +388,7 @@ Das erste, was wir lernen werden, ist zu programmieren, wie man die **LED in ver
 
 Der erste Block, den wir finden müssen, heißt "**set RGB LED color**" (übersetzt: "Setze die LED Farbe"). Dieser spezielle Block steuert, ob die LED ein- oder ausgeschaltet werden soll.
 
-Da die LED eine der Ausgangskomponenten von CircuitPet ist, findest du den Block, den du brauchst, im Abschnitt **I/O**.
+Da die LED eine der Ausgabekomponenten von CircuitPet ist, findest du den Block, den du brauchst, im Abschnitt **I/O** (Input/Output bzw. Eingabe/Ausgabe).
 
 ![Blockauswahl](images/blink3.jpg)
 
@@ -398,7 +398,7 @@ Wir haben uns dieses Mal für Rot entschieden, aber du kannst jede beliebige Far
 
 ![Farbauswahl](images/blink4.png)
 
-Der Anfang Deines Programms sollte jetzt wie folgt aussehen:
+Der Anfang deines Programms sollte jetzt wie folgt aussehen:
 
 ![Programmcode](images/blink5.jpg)
 
@@ -414,7 +414,7 @@ Auch hier kannst du die Zeit frei wählen. Wir haben uns dafür entschieden, das
 
 Damit es mehr Spaß macht, haben wir beschlossen, dass jedes Blinksignal **in einer anderen Farbe** leuchten soll.
 
-Wiederhole dazu entweder die Schritte, die wir für die ersten beiden Blöcke durchgeführt haben - oder klicke einfach mit der rechten Maustaste und wählen die Option "duplicate" (= "Duplizieren").
+Wiederhole dazu entweder die Schritte, die wir für die ersten beiden Blöcke durchgeführt haben - oder klicke einfach mit der rechten Maustaste und wähle die Option "duplicate" (= "Duplizieren").
 
 ![2. Farbe](images/blink8.jpg)
 
@@ -762,8 +762,8 @@ Außerdem benötigst du zwei dieser Blöcke, damit der Text schön in der Mitte 
 
 ![Ausgabe der Hinweise](images/buzz22.jpg)
 
-Der Text, der auf dem Display erscheint, sobald Sie Ihr CircuitPet einschalten, lautet also: "**Drücken Sie eine der Tasten!**".
-Auf englisch also "Press one of the buttons!". Das Ganze ist auf 2 Zeilen aufgeteilt.
+Der Text, der auf dem Display erscheint, sobald du dein CircuitPet einschaltest, lautet also: "**Drücke eine der Tasten!**".
+Auf englisch also "Press one of the buttons!". Der Text ist auf 2 Zeilen aufgeteilt.
 
 Im Grunde ist das wie eine Anleitung auf dem Bildschirm.
 
