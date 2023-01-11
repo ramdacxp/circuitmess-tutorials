@@ -505,7 +505,128 @@ Klicke auf die große rote Schaltfläche "**Run**" zum Ausführen des Programms 
 
 ### Spiel mit den Tasten
 
-Todo
+Nun, da du schon ein paar Dinge über CircuitBlocks weißt, ist es Zeit für **ein etwas komplexeres Programm**.
+
+Klicke im **Anzeige-Abschnitt** auf den Block zur Einstellung der **Schriftgröße**:
+
+![Schriftgröße](images/input1.jpg)
+
+Ändere die **Größe auf 1**.
+
+![Größe auf 1](images/input2.jpg)
+
+Jetzt ist es an der Zeit, die **Schriftart** festzulegen.
+
+![Schriftart](images/input3.jpg)
+
+![Schriftart auf Font 1](images/input4.jpg)
+
+Ein weiterer Punkt, der geändert werden muss, ist die **Schriftfarbe**.
+
+Wir haben rot ("red") gewählt, aber du kannst jede beliebige Farbe verwenden.
+
+![Schriftfarbe](images/input5.jpg)
+
+![Rot](images/input6.jpg)
+
+Hier ist ein Block, den wir noch nicht verwendet haben - ein "**Anzeige löschen**"-Block.
+
+Du findest ihn auch im Abschnitt der **Anzeigeblöcke**.
+
+![Bildschirm löschen](images/input7.jpg)
+
+Dieser Block wird den gesamten **Bildschirm mit einer bestimmten Farbe ausfüllen**. Damit können wir später den angezeigten Satz (oder das Wort) deutlicher sehen.
+
+![Bildschirm löschen](images/input8.jpg)
+
+Jetzt kannst du auswählen, was du anzeigen willst.
+
+Das funktioniert genauso wie im vorherigen Beispiel.
+
+Suche zunächst diesen Block:
+
+![Ausgabeblock](images/input9.jpg)
+
+Dann schreibe nun den Text.
+
+Da wir dir zeigen wollen, wie du mit den CircuitPet-Tasten coole Sachen machen kannst, fügen wir einen Text ein, der erklärt, was zu tun ist.
+
+Du kannst die Anweisung auch in deutsch ausgeben. Dann würden die beiden Texte "**Drücke eine**" und "**der Tasten!**" lauten.
+
+![Anweisung ausgeben](images/input10.jpg)
+
+Wir haben den Text **in zwei Blöcke aufgeteilt**, damit er auf das Display von CircuitPet passt.
+
+Jetzt kommt der wichtigste Teil - die Entscheidung, welche Taste welche Funktion ausführt.
+
+Wenn du die Tasten von CircuitPet drückst, lösen wir ein bestimmtes Ereignis aus.
+
+Glücklicherweise haben wir dafür einen speziellen Block definiert, der sich im Abschnitt **I/O** befindet.
+
+I/O steht für "Input/Output", auf Deutsch: "**Eingabe/Ausgabe**". Die Knöpfe von CircuitPet sind die sogenannten Eingabegeräte, weil sie einen elektrischen Impuls an den CircuitPet-Computer senden, wenn sie gedrückt werden. Das Display von CircuitPet ist ein Beispiel für ein Ausgabegerät, weil CircuitPet Signale an es sendet, um Informationen anzuzeigen.
+
+Du musst diesen lila Block mit dem Namen "**When button left gets pressed**" ("Wenn die linke Taste gedrückt wird") finden.
+Platziere den Block im Programmierbereich.
+
+![Knöpfe](images/input11.jpg)
+
+Suche nach diesen beiden Blöcken im Abschnitt "**Display**".
+
+![Ausgabe](images/input12.jpg)
+
+Was wir hier programmiert haben, ist, dass wenn die linke Taste am CircuitPet gedrückt wird, das Display schwarz wird und man das Wort "links" darauf sehen kann.
+
+Um diese Befehle auszuführen, müssen wir noch den Block "**draw sprite to display**" einfügen, welcher die Grafik auf den Bildschirm schreibt!
+
+![Code für Taste links](images/input13.jpg)
+
+Jetzt müssen wir denselben Block erstellen, nur für die rechte Taste.
+
+Du kannst entweder die **Schritte wiederholen** oder auf "**Duplizieren**" klicken und ein paar Änderungen vornehmen.
+
+Stelle sicher, dass ein Block für die **linke** und der andere für die **rechte** Taste eingestellt ist.
+
+Es sollte so aussehen:
+
+![Links und rechts](images/input14.jpg)
+
+Dupliziere den Block noch einmal, aber ändere dieses Mal die Bedingung auf das Drücken der Eingabetaste (englisch: "enter").
+
+Ändere den Ausgabetext auf "Enter press" bzw. "**Enter gedrückt**" sowie die Variable **"x" auf 45** und die Variable **"y" auf 90**.
+
+![Enter gedrückt](images/input15.jpg)
+
+Lass uns eine weitere Kopie dieses Blocks erstellen!
+
+Jetzt müssen wir programmieren, was passiert, wenn wir die Eingabetaste wieder loslassen.
+
+In diesem Fall wollen wir den Ausgabetext "Enter release" (bzw. "**Enter losgelassen**") verwenden.
+
+![Enter losgelassen](images/input16.jpg)
+
+Duplizieren wir den Block ein letztes Mal.
+
+Diesmal programmieren wir ihn für die Taste "Zurück" (englisch: "back").
+
+Wie immer müssen wir den richtigen Text einfügen und sicherstellen, dass die Variablen gesetzt sind.
+
+![Zurück](images/input17.jpg)
+
+Wir sind fast fertig!
+
+Zum Schluss ziehe bitte den Block "draw sprite to display" an's Ende des Abschnitts "Arduino run first", um sicherzustellen, dass du alles auf deinem CircuitPet sehen kannst.
+
+Am Ende sollte dein Code wie folgt aussehen:
+
+![Fertiges Programm](images/input18.jpg)
+
+Drücke die Ausführen-Schaltfläche "Run" in der Toolleiste und beobachte, wie der Code kompiliert wird!
+
+**Yaay!**
+
+Du hast gelernt, wie man ein etwas schwierigeres Beispiel programmiert.
+
+Keine Sorge, im nächsten Kapitel gibt es noch mehr coole Beispiele!
 
 ### Piepsen wir los
 
